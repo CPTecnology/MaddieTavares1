@@ -70,7 +70,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-background/20 pt-12 text-center text-sm text-background/80">
-          <p>&copy; 2025 MADDIE TAVARES beauty boutique. Todos os direitos reservados.</p>
+          <p>&copy; 2025 LEIT 4 ano 2025/2026</p>
           <div className="mt-4 flex justify-center gap-6 text-xs">
             <Link href="#" className="hover:text-primary transition">Política de Privacidade</Link>
             <Link href="#" className="hover:text-primary transition">Termos de Serviço</Link>
