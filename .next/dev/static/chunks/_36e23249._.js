@@ -50,7 +50,11 @@ function Navigation() {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                     src: "/images/logo.png",
                                     alt: "Maddie Tavares Logo",
-                                    className: "h-12 w-auto mt-4"
+                                    className: "h-12 w-auto mt-4",
+                                    style: {
+                                        height: '10vh',
+                                        width: '25vh'
+                                    }
                                 }, void 0, false, {
                                     fileName: "[project]/components/navigation.tsx",
                                     lineNumber: 36,
@@ -108,6 +112,10 @@ function Navigation() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/agendar",
                                     className: `luxury-button ${scrolled ? 'bg-primary text-primary-foreground hover:bg-primary/90' : 'bg-white text-foreground hover:bg-white/90'}`,
+                                    style: {
+                                        background: '#e1b01a',
+                                        color: '#fff'
+                                    },
                                     children: "Agendar"
                                 }, void 0, false, {
                                     fileName: "[project]/components/navigation.tsx",
@@ -274,7 +282,15 @@ function Footer() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "text-3xl font-serif font-bold tracking-wide text-background",
-                                            children: "MADDIE TAVARES"
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                src: "/images/logo.png",
+                                                alt: "Maddie Tavares Logo",
+                                                className: "h-12 w-auto mt-4"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/footer.tsx",
+                                                lineNumber: 14,
+                                                columnNumber: 17
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/footer.tsx",
                                             lineNumber: 13,
@@ -630,7 +646,7 @@ function Footer() {
                     className: "border-t border-background/20 pt-12 text-center text-sm text-background/80",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            children: "© 2025 MADDIE TAVARES beauty boutique. Todos os direitos reservados."
+                            children: "© 2025 LEIT UTA 4 ano 2025/2026"
                         }, void 0, false, {
                             fileName: "[project]/components/footer.tsx",
                             lineNumber: 73,

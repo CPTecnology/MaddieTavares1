@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { Navigation } from '@/components/navigation'
 import { Footer } from '@/components/footer'
 import { Mail, Phone, MapPin, Instagram, Facebook, Youtube } from 'lucide-react'
@@ -8,6 +9,29 @@ export default function Contato() {
   return (
     <main className="min-h-screen bg-background">
       <Navigation />
+           {/* Hero Section with Parallax Effect */}
+            <section className="relative h-[70vh] overflow-hidden">
+              <div className="absolute inset-0">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-17%20at%2021.19.38-Q0ic3AXwGqwi7sO917iYnGBMGJwjT0.jpeg"
+                  alt="Maddie Tavares Beauty Boutique"
+                  fill
+                  className="object-cover"
+                  priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background" />
+              </div>
+              <div className="relative h-full flex items-center justify-center text-center px-6">
+                <div className="max-w-4xl">
+                  <h1 className="text-5xl md:text-7xl font-light tracking-tight text-white mb-6">
+                    Contacte - nos
+                  </h1>
+                  <p className="text-xl md:text-2xl text-white/90 font-light">
+                    Uma jornada de transformação e bem-estar em Cabo Verde
+                  </p>
+                </div>
+              </div>
+            </section>
       
       <section className="py-20 px-6 pt-32">
         <div className="max-w-7xl mx-auto">

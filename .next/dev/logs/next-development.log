@@ -1,6 +1,485 @@
-[00:00:05.388] Server  LOG      ✓ Ready in 3.5s
-[00:00:08.695] Server  LOG      ○ Compiling / ...
-[00:00:14.804] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:15.142] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:15.142] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:15.142] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764785079317}
+[00:00:03.746] Server  LOG      ✓ Ready in 2.7s
+[00:00:09.426] Server  LOG      ○ Compiling / ...
+[00:00:26.694] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:34.427] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:34.427] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:34.427] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765410985128}
+[00:07:10.894] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/servicos color: rgb(120, 120, 120) color: inherit {"dp":"/servicos","o":"http://localhost:3000/servicos","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765411382271}
+[00:07:38.158] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contato color: rgb(120, 120, 120) color: inherit {"dp":"/contato","o":"http://localhost:3000/contato","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765411409533}
+[00:09:36.406] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/agendar color: rgb(120, 120, 120) color: inherit {"dp":"/agendar","o":"http://localhost:3000/agendar","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765411527798}
+[00:11:08.424] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765411619811}
+[00:11:25.119] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/servicos color: rgb(120, 120, 120) color: inherit {"dp":"/servicos","o":"http://localhost:3000/servicos","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765411636504}
+[00:11:44.856] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/agendar color: rgb(120, 120, 120) color: inherit {"dp":"/agendar","o":"http://localhost:3000/agendar","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765411656244}
+[00:15:21.253] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contato color: rgb(120, 120, 120) color: inherit {"dp":"/contato","o":"http://localhost:3000/contato","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765411872641}
+[00:16:19.430] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/agendar color: rgb(120, 120, 120) color: inherit {"dp":"/agendar","o":"http://localhost:3000/agendar","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765411930821}
+[00:16:26.282] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765411937673}
+[00:16:31.854] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/servicos color: rgb(120, 120, 120) color: inherit {"dp":"/servicos","o":"http://localhost:3000/servicos","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765411943245}
+[00:16:34.253] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sobre color: rgb(120, 120, 120) color: inherit {"dp":"/sobre","o":"http://localhost:3000/sobre","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765411945642}
+[00:16:40.080] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/servicos color: rgb(120, 120, 120) color: inherit {"dp":"/servicos","o":"http://localhost:3000/servicos","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765411951472}
+[00:17:32.519] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765412003914}
+[00:17:36.107] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sobre color: rgb(120, 120, 120) color: inherit {"dp":"/sobre","o":"http://localhost:3000/sobre","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765412007497}
+[00:17:44.854] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/agendar color: rgb(120, 120, 120) color: inherit {"dp":"/agendar","o":"http://localhost:3000/agendar","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765412016240}
+[00:17:58.009] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sobre color: rgb(120, 120, 120) color: inherit {"dp":"/sobre","o":"http://localhost:3000/sobre","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765412029398}
+[00:18:24.245] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contato color: rgb(120, 120, 120) color: inherit {"dp":"/contato","o":"http://localhost:3000/contato","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765412055635}
+[00:19:05.101] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765412096493}
+[00:36:16.387] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sobre color: rgb(120, 120, 120) color: inherit {"dp":"/sobre","o":"http://localhost:3000/sobre","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765413127775}
+[00:36:21.287] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765413132673}
+[00:39:51.304] Server  LOG      ✓ Compiled in 1182ms
+[00:41:55.410] Server  LOG      ✓ Compiled in 280ms
+[00:45:21.281] Server  LOG      ✓ Compiled in 185ms
+[00:45:37.795] Server  LOG      ✓ Compiled in 169ms
+[00:45:44.275] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:44.554] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:45:44.554] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:45:44.554] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765413695939}
+[00:47:05.800] Server  LOG      ✓ Compiled in 259ms
+[00:47:06.423] Browser ERROR   ./components/navigation.tsx:36:107
+Parsing ecmascript source code failed
+  34 |               </div>
+  35 |                */}
+> 36 |               <img src="/images/logo.png" alt="Maddie Tavares Logo" className="h-12 w-auto mt-4" style={}/>
+     |                                                                                                           ^
+  37 |             </div>
+  38 |           </Link>
+  39 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/navigation.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/navigation.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:47:09.300] Server  LOG      ✓ Compiled in 317ms
+[00:47:10.493] Browser ERROR   uncaughtError: ReferenceError: hei is not defined
+[00:47:11.483] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:47:11.875] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\.next\dev\server\chunks\ssr\_03a403bd._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:47:11.878] Server  ERROR    ⨯ ReferenceError: heigh is not defined
+[00:47:11.898] Server  LOG      ✓ Compiled in 125ms
+[00:47:12.427] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:13.395] Server  LOG      ✓ Compiled in 212ms
+[00:47:14.423] Browser ERROR   uncaughtError: ReferenceError: heigh is not defined
+[00:47:14.423] Browser ERROR   ./components/navigation.tsx:36:110
+Parsing ecmascript source code failed
+  34 |               </div>
+  35 |                */}
+> 36 |               <img src="/images/logo.png" alt="Maddie Tavares Logo" className="h-12 w-auto mt-4" style={heigh:}/>
+     |                                                                                                              ^
+  37 |             </div>
+  38 |           </Link>
+  39 |
+
+Expected '</', got ':'
+
+Import traces:
+  Client Component Browser:
+    ./components/navigation.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/navigation.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:47:22.427] Browser ERROR   ./components/navigation.tsx:36:110
+Parsing ecmascript source code failed
+  34 |               </div>
+  35 |                */}
+> 36 |               <img src="/images/logo.png" alt="Maddie Tavares Logo" className="h-12 w-auto mt-4" style={heigh:5vh; wid}/>
+     |                                                                                                              ^
+  37 |             </div>
+  38 |           </Link>
+  39 |
+
+Expected '</', got ':'
+
+Import traces:
+  Client Component Browser:
+    ./components/navigation.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/navigation.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:47:25.434] Browser ERROR   ./components/navigation.tsx:36:110
+Parsing ecmascript source code failed
+  34 |               </div>
+  35 |                */}
+> 36 |               <img src="/images/logo.png" alt="Maddie Tavares Logo" className="h-12 w-auto mt-4" style={heigh:5vh; width}/>
+     |                                                                                                              ^
+  37 |             </div>
+  38 |           </Link>
+  39 |
+
+Expected '</', got ':'
+
+Import traces:
+  Client Component Browser:
+    ./components/navigation.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/navigation.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:47:30.426] Browser ERROR   ./components/navigation.tsx:36:110
+Parsing ecmascript source code failed
+  34 |               </div>
+  35 |                */}
+> 36 |               <img src="/images/logo.png" alt="Maddie Tavares Logo" className="h-12 w-auto mt-4" style={heigh:5vh; width: 5vh}/>
+     |                                                                                                              ^
+  37 |             </div>
+  38 |           </Link>
+  39 |
+
+Expected '</', got ':'
+
+Import traces:
+  Client Component Browser:
+    ./components/navigation.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/navigation.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:47:42.429] Browser ERROR   ./components/navigation.tsx:36:110
+Parsing ecmascript source code failed
+  34 |               </div>
+  35 |                */}
+> 36 |               <img src="/images/logo.png" alt="Maddie Tavares Logo" className="h-12 w-auto mt-4" style={heigh:5vh; width: 5vh;}/>
+     |                                                                                                              ^
+  37 |             </div>
+  38 |           </Link>
+  39 |
+
+Expected '</', got ':'
+
+Import traces:
+  Client Component Browser:
+    ./components/navigation.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/navigation.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:47:55.237] Server  LOG      ✓ Compiled in 89ms
+[00:47:55.428] Browser ERROR   ./components/navigation.tsx:36:107
+Parsing ecmascript source code failed
+  34 |               </div>
+  35 |                */}
+> 36 |               <img src="/images/logo.png" alt="Maddie Tavares Logo" className="h-12 w-auto mt-4" style={''heigh:5vh; width: 5vh;}/>
+     |                                                                                                           ^^^^^
+  37 |             </div>
+  38 |           </Link>
+  39 |
+
+Expected '</', got 'heigh'
+
+Import traces:
+  Client Component Browser:
+    ./components/navigation.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/navigation.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:48:17.774] Server  LOG      ✓ Compiled in 183ms
+[00:48:18.244] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:48:18.705] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:19.233] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:48:19.233] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:48:19.233] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765413850612}
+[00:48:25.478] Server  LOG      ✓ Compiled in 122ms
+[00:48:27.107] Server  LOG      ✓ Compiled in 190ms
+[00:48:29.122] Server  LOG      ✓ Compiled in 93ms
+[00:48:30.501] Server  LOG      ✓ Compiled in 85ms
+[00:48:39.702] Server  LOG      ✓ Compiled in 152ms
+[00:48:45.128] Server  LOG      ✓ Compiled in 115ms
+[00:48:52.258] Server  LOG      ✓ Compiled in 202ms
+[00:48:54.960] Server  LOG      ✓ Compiled in 87ms
+[00:48:56.211] Server  LOG      ✓ Compiled in 99ms
+[00:49:03.595] Server  LOG      ✓ Compiled in 100ms
+[00:50:06.405] Server  LOG      ✓ Compiled in 114ms
+[00:50:07.430] Browser ERROR   ./components/navigation.tsx:58:25
+Parsing ecmascript source code failed
+  56 |                 ? 'bg-primary text-primary-foreground hover:bg-primary/90' 
+  57 |                 : 'bg-white text-foreground hover:bg-white/90'
+> 58 |             }`} style={}>
+     |                         ^
+  59 |               Agendar
+  60 |             </Link>
+  61 |             <Link href="/login" className={`text-sm transition duration-300 ${
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/navigation.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/navigation.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:50:07.430] Browser ERROR   ./components/navigation.tsx:60:14
+Parsing ecmascript source code failed
+  58 |             }`} style={}>
+  59 |               Agendar
+> 60 |             </Link>
+     |              ^^^^^^
+  61 |             <Link href="/login" className={`text-sm transition duration-300 ${
+  62 |               scrolled ? 'text-foreground hover:text-primary' : 'text-white hover:text-accent'
+  63 |             }`}>Entrar</Link>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./components/navigation.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/navigation.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:50:09.202] Server  LOG      ✓ Compiled in 119ms
+[00:50:10.426] Browser ERROR   uncaughtError: ReferenceError: colo is not defined
+[00:50:10.551] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:50:10.992] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\.next\dev\server\chunks\ssr\_03a403bd._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:50:10.994] Server  ERROR    ⨯ ReferenceError: color is not defined
+[00:50:11.043] Server  LOG      ✓ Compiled in 110ms
+[00:50:11.858] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:12.437] Browser ERROR   uncaughtError: ReferenceError: color is not defined
+[00:50:12.437] Browser ERROR   ./components/navigation.tsx:58:29
+Parsing ecmascript source code failed
+  56 |                 ? 'bg-primary text-primary-foreground hover:bg-primary/90' 
+  57 |                 : 'bg-white text-foreground hover:bg-white/90'
+> 58 |             }`} style={color:}>
+     |                             ^
+  59 |               Agendar
+  60 |             </Link>
+  61 |             <Link href="/login" className={`text-sm transition duration-300 ${
+
+Expected '</', got ':'
+
+Import traces:
+  Client Component Browser:
+    ./components/navigation.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/navigation.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:50:12.437] Browser ERROR   ./components/navigation.tsx:58:29
+Parsing ecmascript source code failed
+  56 |                 ? 'bg-primary text-primary-foreground hover:bg-primary/90' 
+  57 |                 : 'bg-white text-foreground hover:bg-white/90'
+> 58 |             }`} style={color:}>
+     |                             ^
+  59 |               Agendar
+  60 |             </Link>
+  61 |             <Link href="/login" className={`text-sm transition duration-300 ${
+
+Expected '</', got ':'
+
+Import traces:
+  Client Component Browser:
+    ./components/navigation.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/navigation.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:50:29.433] Browser ERROR   ./components/navigation.tsx:58:29
+Parsing ecmascript source code failed
+  56 |                 ? 'bg-primary text-primary-foreground hover:bg-primary/90' 
+  57 |                 : 'bg-white text-foreground hover:bg-white/90'
+> 58 |             }`} style={color: #e1b01a}>
+     |                             ^
+  59 |               Agendar
+  60 |             </Link>
+  61 |             <Link href="/login" className={`text-sm transition duration-300 ${
+
+Expected '</', got ':'
+
+Import traces:
+  Client Component Browser:
+    ./components/navigation.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/navigation.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:50:31.421] Browser ERROR   ./components/navigation.tsx:58:29
+Parsing ecmascript source code failed
+  56 |                 ? 'bg-primary text-primary-foreground hover:bg-primary/90' 
+  57 |                 : 'bg-white text-foreground hover:bg-white/90'
+> 58 |             }`} style={color: #e1b01a;}>
+     |                             ^
+  59 |               Agendar
+  60 |             </Link>
+  61 |             <Link href="/login" className={`text-sm transition duration-300 ${
+
+Expected '</', got ':'
+
+Import traces:
+  Client Component Browser:
+    ./components/navigation.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/navigation.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:50:34.672] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:50:35.709] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:35.965] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:50:35.965] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:50:35.965] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765413987356}
+[00:50:42.618] Server  LOG      ✓ Compiled in 173ms
+[00:50:46.123] Server  LOG      ✓ Compiled in 115ms
+[00:51:09.257] Server  LOG      ✓ Compiled in 238ms
+[00:51:09.423] Browser ERROR   ./components/navigation.tsx:58:47
+Parsing ecmascript source code failed
+  56 |                 ? 'bg-primary text-primary-foreground hover:bg-primary/90' 
+  57 |                 : 'bg-white text-foreground hover:bg-white/90'
+> 58 |             }`} style={{background: '#e1b01a'};}>
+     |                                               ^
+  59 |               Agendar
+  60 |             </Link>
+  61 |             <Link href="/login" className={`text-sm transition duration-300 ${
+
+Expected '</', got ';'
+
+Import traces:
+  Client Component Browser:
+    ./components/navigation.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/navigation.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:51:11.456] Browser ERROR   ./components/navigation.tsx:58:47
+Parsing ecmascript source code failed
+  56 |                 ? 'bg-primary text-primary-foreground hover:bg-primary/90' 
+  57 |                 : 'bg-white text-foreground hover:bg-white/90'
+> 58 |             }`} style={{background: '#e1b01a'}; }>
+     |                                               ^
+  59 |               Agendar
+  60 |             </Link>
+  61 |             <Link href="/login" className={`text-sm transition duration-300 ${
+
+Expected '</', got ';'
+
+Import traces:
+  Client Component Browser:
+    ./components/navigation.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/navigation.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:51:23.724] Server  LOG      ✓ Compiled in 111ms
+[00:51:24.425] Browser ERROR   ./components/navigation.tsx:58:49
+Parsing ecmascript source code failed
+  56 |                 ? 'bg-primary text-primary-foreground hover:bg-primary/90' 
+  57 |                 : 'bg-white text-foreground hover:bg-white/90'
+> 58 |             }`} style={{background: '#e1b01a'}, }>
+     |                                                 ^
+  59 |               Agendar
+  60 |             </Link>
+  61 |             <Link href="/login" className={`text-sm transition duration-300 ${
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./components/navigation.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/navigation.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:51:31.137] Server  LOG      ✓ Compiled in 211ms
+[00:51:36.143] Server  LOG      ✓ Compiled in 179ms
+[00:51:58.069] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sobre color: rgb(120, 120, 120) color: inherit {"dp":"/sobre","o":"http://localhost:3000/sobre","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765414069454}
+[00:52:07.307] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/servicos color: rgb(120, 120, 120) color: inherit {"dp":"/servicos","o":"http://localhost:3000/servicos","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765414078691}
+[00:52:14.210] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765414085599}
+[10:12:03.883] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/agendar color: rgb(120, 120, 120) color: inherit {"dp":"/agendar","o":"http://localhost:3000/agendar","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765447675260}
+[10:13:50.444] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765447781825}
+[10:13:59.714] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/agendar color: rgb(120, 120, 120) color: inherit {"dp":"/agendar","o":"http://localhost:3000/agendar","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765447791099}
+[10:14:07.256] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765447798639}
+[10:14:24.516] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sobre color: rgb(120, 120, 120) color: inherit {"dp":"/sobre","o":"http://localhost:3000/sobre","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765447815895}
+[10:18:42.508] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765448073890}
+[11:36:52.447] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[11:36:52.718] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:36:52.718] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[11:36:52.718] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765452764097}
+[11:52:20.779] Server  LOG      ✓ Compiled in 487ms
+[11:52:32.689] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[11:52:33.200] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:52:33.200] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[11:52:33.201] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765453704335}
+[11:52:45.390] Server  LOG      ✓ Compiled in 297ms
+[11:53:03.910] Server  LOG      ✓ Compiled in 266ms
+[11:53:06.349] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[11:53:06.575] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:53:06.575] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[11:53:06.575] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765453737949}
+[11:56:33.547] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sobre color: rgb(120, 120, 120) color: inherit {"dp":"/sobre","o":"http://localhost:3000/sobre","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765453944926}
+[11:58:01.386] Browser ERROR   uncaughtError: TypeError: Failed to construct 'Image': Please use the 'new' operator, this DOM object constructor cannot be called as a function.
+[12:00:01.066] Server  LOG      ✓ Compiled in 487ms
+[12:00:01.693] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[12:00:03.038] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[12:00:04.424] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[12:00:04.424] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contato","route":"/contato"}
+[12:00:04.424] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contato color: rgb(120, 120, 120) color: inherit {"dp":"/contato","o":"http://localhost:3000/contato","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765454155029}
+[12:01:50.123] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[12:01:50.353] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[12:01:50.353] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contato","route":"/contato"}
+[12:01:50.353] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contato color: rgb(120, 120, 120) color: inherit {"dp":"/contato","o":"http://localhost:3000/contato","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765454261729}
+[12:02:07.142] Server  LOG      ✓ Compiled in 118ms
+[12:02:08.761] Server  LOG      ✓ Compiled in 214ms
+[12:02:11.809] Server  LOG      ✓ Compiled in 325ms
+[12:02:13.184] Server  LOG      ✓ Compiled in 179ms
+[12:02:28.211] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sobre color: rgb(120, 120, 120) color: inherit {"dp":"/sobre","o":"http://localhost:3000/sobre","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765454299587}
+[12:03:07.823] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/agendar color: rgb(120, 120, 120) color: inherit {"dp":"/agendar","o":"http://localhost:3000/agendar","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765454339199}
+[12:03:18.147] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765454349523}
+[12:09:59.038] Server  LOG      ✓ Compiled in 233ms
+[12:10:01.806] Server  LOG      ✓ Compiled in 173ms
+[12:10:06.877] Server  LOG      ✓ Compiled in 137ms
+[12:10:10.210] Server  LOG      ✓ Compiled in 165ms
+[12:10:12.777] Server  LOG      ✓ Compiled in 100ms
+[12:10:17.888] Server  LOG      ✓ Compiled in 90ms
+[12:10:21.213] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[12:10:21.213] Browser ERROR   Image is missing required "src" property: <img>
+[12:11:10.714] Server  LOG      ✓ Compiled in 165ms

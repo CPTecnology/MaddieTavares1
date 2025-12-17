@@ -11,7 +11,7 @@ export function Footer() {
           <div className="md:col-span-2">
             <div className="mb-6">
               <div className="text-3xl font-serif font-bold tracking-wide text-background">
-                MADDIE TAVARES
+                <img src="/images/logo.png" alt="Maddie Tavares Logo" className="h-12 w-auto mt-4" />
               </div>
               <div className="text-base font-light italic text-background/90 tracking-widest">
                 beauty boutique
@@ -70,7 +70,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-background/20 pt-12 text-center text-sm text-background/80">
-          <p>&copy; 2025 LEIT 4 ano 2025/2026</p>
+          <p>&copy; 2025 LEIT UTA 4 ano 2025/2026</p>
           <div className="mt-4 flex justify-center gap-6 text-xs">
             <Link href="#" className="hover:text-primary transition">Política de Privacidade</Link>
             <Link href="#" className="hover:text-primary transition">Termos de Serviço</Link>
