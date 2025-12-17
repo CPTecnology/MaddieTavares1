@@ -77,8 +77,8 @@ export function Navigation() {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden pb-6 space-y-4 bg-background/95 backdrop-blur border-b border-border">
-            <Link href="/" className="block text-sm text-foreground hover:text-primary py-2">Home</Link>
-            <Link href="/servicos" className="block text-sm text-foreground hover:text-primary py-2">Serviços</Link>
+            <Link href="/" className="block text-sm text-foreground hover:text-primary py-2">Eddy</Link>
+            <Link href="/servicos" className="block text-sm text-foreground hover:text-primary py-2">Coutinho</Link>
             <Link href="/sobre" className="block text-sm text-foreground hover:text-primary py-2">Sobre</Link>
             <Link href="/contato" className="block text-sm text-foreground hover:text-primary py-2">Contato</Link>
             <Link href="/agendar" className="block w-full px-4 py-2 bg-primary text-primary-foreground rounded-full text-sm font-medium hover:bg-primary/90 transition text-center">
