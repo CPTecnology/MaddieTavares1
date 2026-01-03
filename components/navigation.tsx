@@ -23,7 +23,7 @@ export function Navigation() {
         : 'bg-transparent'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-24">
+        <div className="flex justify-between items-center h-20 md:h-24">
           <Link href="/" className="flex-shrink-0 group">
             <div className="text-left">
               {/*<div className="text-2xl font-serif font-bold tracking-wide text-primary group-hover:scale-105 transition-transform duration-300">
@@ -33,7 +33,7 @@ export function Navigation() {
                 beauty boutique
               </div>
                */}
-              <img src="/images/logo.png" alt="Maddie Tavares Logo" className="h-12 w-auto mt-4" />
+              <img src="/images/logo.png" alt="Maddie Tavares Logo" className="h-10 md:h-12 w-auto" />
             </div>
           </Link>
 
@@ -64,7 +64,9 @@ export function Navigation() {
           </div>
 
           {/* Mobile Menu Button */}
-          <button 
+          <button
+            aria-label="Alternar menu"
+            aria-expanded={isOpen}
             className={`md:hidden transition duration-300 ${
               scrolled ? 'text-foreground' : 'text-white'
             }`}
@@ -76,7 +78,7 @@ export function Navigation() {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden pb-6 space-y-4 bg-background/95 backdrop-blur border-b border-border">
+          <div className="md:hidden absolute left-0 right-0 top-full z-40 pb-6 space-y-4 bg-background/95 backdrop-blur border-t border-border px-4">
             <Link href="/" className="block text-sm text-foreground hover:text-primary py-2">Home</Link>
             <Link href="/servicos" className="block text-sm text-foreground hover:text-primary py-2">Serviços</Link>
             <Link href="/sobre" className="block text-sm text-foreground hover:text-primary py-2">Sobre</Link>

@@ -14,7 +14,7 @@ export function HeroSection() {
   }, [])
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24">
+    <section className="relative min-h-[80vh] md:min-h-screen flex items-center justify-center overflow-hidden pt-20 md:pt-24">
       {/* Background Image with Parallax */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -31,28 +31,28 @@ export function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center py-24">
+      <div className="relative z-10 max-w-3xl md:max-w-4xl mx-auto px-4 sm:px-6 text-center py-16 md:py-24">
         <div className="fade-in">
-          <p className="text-accent tracking-widest uppercase text-sm mb-6 font-light">Bem-vindo ao Luxo</p>
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-light tracking-tight text-white mb-8 text-balance">
+          <p className="text-accent tracking-widest uppercase text-xs sm:text-sm mb-4 font-light">Bem-vindo ao Luxo</p>
+          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-light tracking-tight text-white mb-6 md:mb-8 text-balance">
             Transformação em Cada Detalhe
           </h1>
         </div>
         
-        <p className="text-lg md:text-xl text-white/90 mb-12 text-balance max-w-2xl mx-auto leading-relaxed font-light">
+        <p className="text-base sm:text-lg md:text-xl text-white/90 mb-8 md:mb-12 text-balance max-w-2xl mx-auto leading-relaxed font-light">
           Descubra um espaço onde o luxo encontra a serenidade. Cada tratamento é cuidadosamente crafted para sua transformação e bem-estar absoluto.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+        <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
           <Link 
             href="/agendar"
-            className="luxury-button px-10 py-4 bg-primary text-primary-foreground text-lg font-medium"
+            className="luxury-button w-full sm:w-auto px-6 sm:px-10 py-3 sm:py-4 bg-primary text-primary-foreground text-base sm:text-lg font-medium text-center"
           >
             Agendar Agora
           </Link>
           <Link 
             href="/servicos"
-            className="luxury-button px-10 py-4 border-2 border-white text-white hover:bg-white/10 text-lg font-medium"
+            className="luxury-button w-full sm:w-auto px-6 sm:px-10 py-3 sm:py-4 border-2 border-white text-white hover:bg-white/10 text-base sm:text-lg font-medium text-center"
           >
             Explorar Serviços
           </Link>

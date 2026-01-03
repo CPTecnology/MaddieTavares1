@@ -5,9 +5,9 @@ import { Mail, Phone, MapPin, Instagram, Facebook } from 'lucide-react'
 
 export function Footer() {
   return (
-    <footer className="bg-foreground text-background py-24 px-6">
+    <footer className="bg-foreground text-background py-12 sm:py-16 px-4 sm:px-6">
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-5 gap-12 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 md:gap-12 mb-12 md:mb-16">
           <div className="md:col-span-2">
             <div className="mb-6">
               <div className="text-3xl font-serif font-bold tracking-wide text-background">
@@ -69,9 +69,9 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-background/20 pt-12 text-center text-sm text-background/80">
+        <div className="border-t border-background/20 pt-8 text-center text-sm text-background/80">
           <p>&copy; 2025 LEIT 4 ano 2025/2026</p>
-          <div className="mt-4 flex justify-center gap-6 text-xs">
+          <div className="mt-4 flex flex-col sm:flex-row justify-center gap-4 sm:gap-6 text-xs">
             <Link href="#" className="hover:text-primary transition">Política de Privacidade</Link>
             <Link href="#" className="hover:text-primary transition">Termos de Serviço</Link>
             <Link href="#" className="hover:text-primary transition">Cookies</Link>

@@ -139,3 +139,20 @@
     }
   }
 }
+
+@layer utilities {
+  /* Garante que imagens sejam responsivas */
+  .responsive-img {
+    @apply max-w-full h-auto;
+  }
+  
+  /* Ajusta o overflow horizontal */
+  .no-horizontal-scroll {
+    @apply overflow-x-hidden;
+  }
+  
+  /* Ajusta o padding lateral em dispositivos móveis */
+  .mobile-padding {
+    @apply px-4 md:px-6;
+  }
+}
