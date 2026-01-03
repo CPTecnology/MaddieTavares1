@@ -37,22 +37,22 @@ export function Atmosphere() {
   ]
 
   return (
-    <section className="py-40 px-6 bg-gradient-to-b from-background via-secondary/30 to-background">
+    <section className="py-16 sm:py-24 md:py-32 lg:py-40 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background via-secondary/30 to-background">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-24">
-          <p className="text-accent tracking-widest uppercase text-sm mb-6 font-light">Ambiente Excepcional</p>
-          <h2 className="text-5xl md:text-6xl font-light tracking-tight mb-8 text-balance">
+        <div className="text-center mb-12 sm:mb-16 md:mb-20 lg:mb-24">
+          <p className="text-accent tracking-widest uppercase text-xs sm:text-sm mb-4 sm:mb-6 font-light">Ambiente Excepcional</p>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light tracking-tight mb-4 md:mb-8 text-balance px-2 sm:px-0">
             Imersão no Luxo
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed px-2 sm:px-0">
             Cada espaço foi cuidadosamente projetado para criar uma atmosfera de serenidade, elegância e bem-estar absoluto. Descubra os ambientes que tornam Maddie Tavares único.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
           {spaces.map((space, idx) => (
-            <div key={idx} className="group">
-              <div className="relative overflow-hidden rounded-2xl h-72 mb-6 glow-effect">
+            <div key={idx} className="group flex flex-col h-full">
+              <div className="relative overflow-hidden rounded-lg sm:rounded-2xl h-40 sm:h-56 md:h-64 mb-4 sm:mb-6 glow-effect">
                 <Image
                   src={space.src || "/placeholder.svg"}
                   alt={space.alt}
@@ -61,8 +61,8 @@ export function Atmosphere() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
               </div>
-              <h3 className="text-xl font-light mb-3 group-hover:text-primary transition">{space.alt}</h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">{space.description}</p>
+              <h3 className="text-base sm:text-lg md:text-xl font-light mb-2 sm:mb-3 group-hover:text-primary transition">{space.alt}</h3>
+              <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed">{space.description}</p>
             </div>
           ))}
         </div>
