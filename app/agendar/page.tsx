@@ -170,7 +170,7 @@ export default function Agendar() {
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-background via-secondary/10 to-background">
-      <Navigation />
+      <Navigation blackText />
 
       <section className="py-20 px-6 pt-40">
         <div className="max-w-7xl mx-auto">

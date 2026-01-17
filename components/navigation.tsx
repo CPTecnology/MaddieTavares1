@@ -4,7 +4,13 @@ import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { Menu, X, ChevronDown } from 'lucide-react'
 
-export function Navigation() {
+interface NavigationProps {
+  blackText?: boolean
+}
+
+
+
+export function Navigation({blackText}:NavigationProps) {
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
 
@@ -16,6 +22,11 @@ export function Navigation() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
+  const linkClass = scrolled || blackText 
+  ? 'text-black hover:text-primary'   // fundo claro ou rolado
+  : 'text-white hover:text-accent'    // fundo escuro, default
+
+  
   return (
     <nav className={`fixed top-0 z-50 w-full transition-all duration-300 ${
       scrolled 
@@ -39,18 +50,10 @@ export function Navigation() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex gap-8 items-center">
-            <Link href="/" className={`text-sm transition duration-300 ${
-              scrolled ? 'text-foreground hover:text-primary' : 'text-white hover:text-accent'
-            }`}>Home</Link>
-            <Link href="/servicos" className={`text-sm transition duration-300 ${
-              scrolled ? 'text-foreground hover:text-primary' : 'text-white hover:text-accent'
-            }`}>Serviços</Link>
-            <Link href="/sobre" className={`text-sm transition duration-300 ${
-              scrolled ? 'text-foreground hover:text-primary' : 'text-white hover:text-accent'
-            }`}>Sobre</Link>
-            <Link href="/contato" className={`text-sm transition duration-300 ${
-              scrolled ? 'text-foreground hover:text-primary' : 'text-white hover:text-accent'
-            }`}>Contato</Link>
+           <Link href="/" className={`text-sm transition duration-300 ${linkClass}`}>Home</Link>
+           <Link href="/servicos" className={`text-sm transition duration-300 ${linkClass}`}>Serviços</Link>
+           <Link href="/sobre" className={`text-sm transition duration-300 ${linkClass}`}>Sobre</Link>
+           <Link href="/contato" className={`text-sm transition duration-300 ${linkClass}`}>Contacto</Link>
             <Link href="/agendar" className={`luxury-button ${
               scrolled 
                 ? 'bg-primary text-primary-foreground hover:bg-primary/90' 
@@ -58,9 +61,7 @@ export function Navigation() {
             }`} style={{background: '#e1b01a', color: '#fff'}}>
               Agendar
             </Link>
-            <Link href="/login" className={`text-sm transition duration-300 ${
-              scrolled ? 'text-foreground hover:text-primary' : 'text-white hover:text-accent'
-            }`}>Entrar</Link>
+           <Link href="/login" className={`text-sm transition duration-300 ${linkClass}`}>Entrar</Link>
           </div>
 
           {/* Mobile Menu Button */}

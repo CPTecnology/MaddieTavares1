@@ -218,7 +218,7 @@ export default function Servicos() {
 
   return (
     <main className="min-h-screen bg-background">
-      <Navigation />
+      <Navigation blackText/>
       
       {/* Hero Section */}
       <section className="relative pt-40 pb-32 px-6 overflow-hidden">

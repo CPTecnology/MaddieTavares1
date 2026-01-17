@@ -7,6 +7,7 @@ import { Mail, Phone, MapPin, Instagram, Facebook, MessageCircle, Clock, Sparkle
 
 export default function Contato() {
   return (
+    
     <main className="min-h-screen bg-background">
       <Navigation />
            {/* Hero Section with Parallax Effect */}
