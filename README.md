@@ -7,7 +7,8 @@
 4. [Fluxo de Navegação](#fluxo-de-navegação)
 5. [Modificações Comuns](#modificações-comuns)
 6. [Stack Tecnológico](#stack-tecnológico)
-7. [Como Executar](#como-executar)
+7. [Frameworks, Ferramentas e Bibliotecas](#frameworks-ferramentas-e-bibliotecas)
+8. [Como Executar](#como-executar)
 
 ---
 
@@ -349,7 +350,177 @@ const handleScroll = () => {
 
 ---
 
-## 🚀 Como Executar
+## �️ Frameworks, Ferramentas e Bibliotecas
+
+### **🔧 Tecnologias Principais**
+
+#### **Runtime & Framework**
+- **Next.js 16.0.10** - Framework React fullstack com SSR/SSG, routing file-based, API Routes
+- **React 19.2.0** - Biblioteca JavaScript para criar interfaces de usuário com componentes reutilizáveis
+- **React-DOM 19.2.0** - Renderização de componentes React no DOM
+
+#### **Linguagem & Tipagem**
+- **TypeScript 5.x** - Linguagem superset de JavaScript com tipagem estática e verificação em tempo de compilação
+- **next-env.d.ts** - Tipos automáticos gerados pelo Next.js
+
+---
+
+### **🎨 Estilo & CSS**
+
+#### **CSS Framework**
+- **Tailwind CSS 4.1.9** - Framework CSS utilitário para criar designs responsivos e customizáveis
+- **@tailwindcss/postcss 4.1.9** - Processador PostCSS para Tailwind CSS
+- **Tailwind Merge 2.5.5** - Utilitário para fazer merge de classes Tailwind evitando conflitos
+- **tailwindcss-animate 1.0.7** - Plugin Tailwind com animações pré-construídas
+- **tw-animate-css 1.3.3** - Animações CSS adicionais para Tailwind
+
+#### **CSS Processing**
+- **PostCSS 8.5.x** - Transformador CSS com suporte a plugins (autoprefixer, Tailwind, etc)
+- **Autoprefixer 10.4.20** - Plugin PostCSS que adiciona prefixos de vendor automaticamente
+
+#### **Temas & Cores**
+- **next-themes 0.4.6** - Gerenciador de temas (light/dark mode) com persistência e SSR
+- **class-variance-authority 0.7.1** - Utilitário para criar variações de componentes TypeScript-safe
+- **clsx 2.1.1** - Utilitário para concatenar classes CSS condicionalmente
+
+---
+
+### **🧩 Componentes & UI (Radix UI - 27+ componentes)**
+
+Biblioteca de componentes headless unstyled com acessibilidade A11y integrada:
+
+- **@radix-ui/react-accordion** - Componente acordeão
+- **@radix-ui/react-alert-dialog** - Dialog de alerta
+- **@radix-ui/react-aspect-ratio** - Proporção de aspecto
+- **@radix-ui/react-avatar** - Avatar com fallback
+- **@radix-ui/react-checkbox** - Checkbox acessível
+- **@radix-ui/react-collapsible** - Conteúdo expansível/colapsável
+- **@radix-ui/react-context-menu** - Menu de contexto (clique direito)
+- **@radix-ui/react-dialog** - Modal/Dialog
+- **@radix-ui/react-dropdown-menu** - Menu dropdown
+- **@radix-ui/react-hover-card** - Card ao passar o mouse
+- **@radix-ui/react-label** - Label de formulário
+- **@radix-ui/react-menubar** - Barra de menu
+- **@radix-ui/react-navigation-menu** - Menu de navegação
+- **@radix-ui/react-popover** - Popover flutuante
+- **@radix-ui/react-progress** - Barra de progresso
+- **@radix-ui/react-radio-group** - Radio button group
+- **@radix-ui/react-scroll-area** - Área com scroll customizável
+- **@radix-ui/react-select** - Select/dropdown customizável
+- **@radix-ui/react-separator** - Separador/linha
+- **@radix-ui/react-slider** - Slider/range input
+- **@radix-ui/react-slot** - Slot para composição de componentes
+- **@radix-ui/react-switch** - Toggle switch
+- **@radix-ui/react-tabs** - Abas/tabs
+- **@radix-ui/react-toast** - Sistema de toast/notificações
+- **@radix-ui/react-toggle** - Botão toggle
+- **@radix-ui/react-toggle-group** - Grupo de toggles
+- **@radix-ui/react-tooltip** - Tooltip com animação
+
+#### **Componentes Especializados**
+- **lucide-react 0.454.0** - Biblioteca de ícones SVG (180+ ícones)
+- **embla-carousel-react 8.5.1** - Carousel/slider sem dependências
+- **react-resizable-panels 2.1.7** - Painéis redimensionáveis com drag-and-drop
+- **sonner 1.7.4** - Sistema moderno de toast notifications com suporte a promises
+- **cmdk 1.0.4** - Menu de comandos estilo Cmd+K (Vercel)
+
+---
+
+### **📝 Formulários & Validação**
+
+#### **Gerenciamento de Formulários**
+- **react-hook-form 7.60.0** - Biblioteca leve para gerenciamento de formulários com performance otimizada
+- **@hookform/resolvers 3.10.0** - Resolvedores para integração com Zod, Yup, Joi, etc
+
+#### **Validação de Dados**
+- **Zod 3.25.76** - Biblioteca TypeScript-first para validação de schemas com inferência automática
+
+#### **Componentes de Formulário**
+- **input-otp 1.4.1** - Input para código OTP/PIN
+- **react-day-picker 9.8.0** - Calendar/date picker headless
+
+---
+
+### **📊 Data & Gráficos**
+
+- **Recharts 2.15.4** - Biblioteca de gráficos React (bar, line, pie, area, etc)
+- **date-fns 4.1.0** - Utilitários para manipulação e formatação de datas
+
+---
+
+### **📈 Analytics & Performance**
+
+- **@vercel/analytics** - Analytics integrado do Vercel para rastreamento de performance e Web Vitals
+
+---
+
+### **🛠️ Ferramentas de Desenvolvimento**
+
+#### **Tipo & Tipos**
+- **@types/node 22.x** - Tipagens TypeScript para Node.js
+- **@types/react 19.x** - Tipagens TypeScript para React
+- **@types/react-dom 19.x** - Tipagens TypeScript para React-DOM
+
+#### **Linting & Formatação**
+- **ESLint** - Linter JavaScript/TypeScript para detectar e corrigir erros de código
+  - Script: `npm run lint`
+
+#### **Build & Deploy**
+- **Next.js Build System** - Compilação otimizada com SWC (Rust-based)
+- **Vercel** - Plataforma de deployment automático (compatível)
+
+---
+
+### **📦 Gerenciador de Pacotes**
+
+- **pnpm** - Package manager rápido e eficiente (alternativa a npm/yarn)
+  - Arquivo: `pnpm-lock.yaml` - Lock file para versionamento exato
+
+---
+
+### **⚙️ Configurações**
+
+#### **Arquivos de Configuração**
+- **next.config.mjs** - Configuração Next.js (ESM)
+- **tailwind.config.ts** - Customização Tailwind CSS
+- **tsconfig.json** - Configuração TypeScript (ES6, módulos, paths)
+- **postcss.config.mjs** - Configuração PostCSS (plugins, Tailwind, Autoprefixer)
+- **components.json** - Configuração para componentes shadcn/ui
+- **package.json** - Definição de projeto, dependências, scripts
+
+#### **Scripts Disponíveis**
+```bash
+npm run dev      # Inicia servidor de desenvolvimento (localhost:3000)
+npm run build    # Build para produção
+npm start        # Inicia servidor produção
+npm run lint     # Executa ESLint
+```
+
+---
+
+### **📐 Estrutura de Arquivos - Hooks & Utilities**
+
+- **hooks/use-mobile.ts** - Hook customizado para detectar viewport mobile
+- **hooks/use-toast.ts** - Hook para gerenciar notificações toast
+- **lib/utils.ts** - Funções utilitárias (cn para merge de classes)
+
+---
+
+### **📊 Resumo de Dependências por Categoria**
+
+| Categoria | Quantidade | Principais |
+|-----------|-----------|-----------|
+| Radix UI Components | 27 componentes | Dialog, Select, Tabs, Accordion |
+| Estilo & CSS | 8 dependências | Tailwind, PostCSS, clsx, CVA |
+| Formulários | 3 dependências | React Hook Form, Zod, input-otp |
+| UI/Componentes | 5 dependências | Lucide, Sonner, Embla, Recharts |
+| Utilitários | 3 dependências | date-fns, clsx, tailwind-merge |
+| Temas | 1 dependência | next-themes |
+| **Total** | **50+ dependências** | - |
+
+---
+
+## �🚀 Como Executar
 
 ### Instalação
 ```bash

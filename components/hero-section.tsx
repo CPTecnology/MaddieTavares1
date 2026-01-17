@@ -26,7 +26,7 @@ export function HeroSection() {
       description: "Procedimentos avançados com produtos de última geração para sua pele impecável."
     },
     {
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-17%20at%2021.19.46-8c8EvOk90Y36Xm8e1sI58i0Fd2RLcI.jpeg",
+      image: "/images/entrada.jpg",
       alt: "Corpo & Spa",
       title: "Corpo & Spa",
       subtitle: "Renovação Total",
@@ -83,25 +83,25 @@ export function HeroSection() {
         {slides.map((slide, index) => (
           <section 
             key={index}
-            className="relative min-h-screen w-full flex-shrink-0 flex items-center justify-center overflow-hidden pt-24"
+            className="relative h-[750px] w-full flex-shrink-0 flex items-center justify-center overflow-hidden pt-16 rounded-2x1"
           >
             {/* Background Image with Parallax */}
-            <div className="absolute inset-0 z-0">
+            <div className="absolute inset-0 z-0 rounded-2x1">
               <Image
                 src={slide.image}
                 alt={slide.alt}
                 fill
-                className="object-cover brightness-40"
+                className="object-cover brightness-40 rounded-2x1"
                 priority={index === 0}
                 style={{
                   transform: `translateY(${scrollY * 0.5}px)`
                 }}
               />
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/20 to-background/40"></div>
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/20 to-background/40 rounded-2x1"></div>
             </div>
 
             {/* Content */}
-            <div className="relative z-10 max-w-4xl mx-auto px-6 text-center py-24">
+            <div className="relative z-10 max-w-4xl mx-auto px-6 text-center py-12">
               <div className="fade-in">
                 <p className="text-accent tracking-widest uppercase text-sm mb-6 font-light">
                   {slide.subtitle}

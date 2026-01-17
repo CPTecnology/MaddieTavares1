@@ -2,6 +2,7 @@
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
   "/admin/agendamentos/page": "/admin/agendamentos",
+  "/admin/page": "/admin",
   "/agendar/page": "/agendar",
   "/contato/page": "/contato",
   "/login/page": "/login",

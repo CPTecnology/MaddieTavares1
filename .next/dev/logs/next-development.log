@@ -1,11 +1,2023 @@
-[00:00:03.474] Server  LOG      ✓ Ready in 2.5s
-[00:00:06.834] Server  LOG      ○ Compiling / ...
-[00:00:13.796] Server  WARN     ⚠ Cross origin request detected from 192.168.137.125 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
-Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:13.852] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:14.183] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:14.183] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:14.183] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.137.125:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.137.125:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765996851363}
-[00:04:43.019] Server  LOG      ✓ Compiled in 152ms
-[00:04:44.144] Server  LOG      ✓ Compiled in 129ms
-[00:04:45.437] Server  LOG      ✓ Compiled in 127ms
+[00:00:02.241] Server  LOG      ✓ Ready in 1376ms
+[00:02:21.103] Server  LOG      ○ Compiling / ...
+[00:02:28.274] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:28.635] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:28.635] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:28.635] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768651004802}
+[00:03:05.365] Server  LOG      ✓ Compiled in 727ms
+[00:03:13.267] Server  LOG      ✓ Compiled in 318ms
+[00:24:06.749] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/agendar color: rgb(120, 120, 120) color: inherit {"dp":"/agendar","o":"http://localhost:3000/agendar","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768652302912}
+[00:25:17.838] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768652373986}
+[00:26:58.851] Server  LOG      ✓ Compiled in 147ms
+[00:27:08.416] Server  LOG      ✓ Compiled in 101ms
+[00:27:36.658] Server  LOG      ✓ Compiled in 305ms
+[00:28:22.618] Server  LOG      ✓ Compiled in 255ms
+[00:30:39.483] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:39.708] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:30:39.708] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:30:39.708] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768652695869}
+[00:31:48.810] Server  LOG      ✓ Compiled in 127ms
+[00:31:52.520] Server  LOG      ✓ Compiled in 95ms
+[00:31:52.852] Browser ERROR   uncaughtError: ReferenceError: Wha is not defined
+[00:31:54.689] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:31:54.705] Server  LOG      ✓ Compiled in 87ms
+[00:31:55.016] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\.next\dev\server\chunks\ssr\_03a403bd._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:31:55.018] Server  ERROR    ⨯ ReferenceError: Whats is not defined
+[00:31:55.863] Browser ERROR   uncaughtError: ReferenceError: Whats is not defined
+[00:32:23.891] Browser ERROR   uncaughtError: ReferenceError: Whats is not defined
+[00:34:06.780] Server  LOG      ✓ Compiled in 15.2s
+[00:34:12.916] Browser ERROR   ./components/footer.tsx:4:1
+Export WhatsApp doesn't exist in target module
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Mail, Phone, MapPin, Instagram, Facebook, WhatsApp } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Footer() {
+  7 |   return (
+
+The export WhatsApp was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import Wheat?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/footer.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/footer.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:34:12.916] Browser ERROR   ./components/footer.tsx:4:1
+Export WhatsApp doesn't exist in target module
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Mail, Phone, MapPin, Instagram, Facebook, WhatsApp } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Footer() {
+  7 |   return (
+
+The export WhatsApp was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import Wheat?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/footer.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/footer.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:34:27.050] Server  LOG      ✓ Compiled in 554ms
+[00:34:27.437] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\.next\dev\server\chunks\ssr\_03a403bd._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:34:27.440] Server  ERROR    ⨯ ReferenceError: WhatsApp is not defined
+[00:34:55.870] Browser ERROR   uncaughtError: ReferenceError: WhatsApp is not defined
+[00:35:31.328] Server  LOG      ✓ Compiled in 815ms
+[00:35:36.909] Browser ERROR   ./components/footer.tsx:4:1
+Export WhatsApp doesn't exist in target module
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Mail, Phone, MapPin, Instagram, Facebook, WhatsApp } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Footer() {
+  7 |   return (
+
+The export WhatsApp was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import Wheat?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/footer.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/footer.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:35:36.910] Browser ERROR   ./components/footer.tsx:4:1
+Export WhatsApp doesn't exist in target module
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Mail, Phone, MapPin, Instagram, Facebook, WhatsApp } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Footer() {
+  7 |   return (
+
+The export WhatsApp was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import Wheat?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/footer.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/footer.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:42:59.572] Server  LOG      ✓ Compiled in 818ms
+[00:43:27.642] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:43:27.642] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:43:27.642] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768653462233}
+[00:45:44.889] Server  LOG      ✓ Compiled in 110ms
+[00:49:28.142] Server  LOG      ✓ Compiled in 86ms
+[00:49:29.674] Server  LOG      ✓ Compiled in 168ms
+[00:49:32.729] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:32.750] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\.next\dev\server\chunks\ssr\node_modules_next_dist_eb4ab406._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:32.755] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:32.764] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:32.768] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:32.769] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:32.771] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:32.776] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:32.778] Server  ERROR    ⨯ Error: The default export is not a React Component in "/login/page"
+[00:49:32.793] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:32.794] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\.next\dev\server\chunks\ssr\node_modules_next_dist_eb4ab406._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:32.797] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:32.800] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:32.802] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:32.802] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:32.803] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:32.804] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:32.804] Server  ERROR    ⨯ Error: The default export is not a React Component in "/login/page"
+[00:49:34.634] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:34.635] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\.next\dev\server\chunks\ssr\node_modules_next_dist_eb4ab406._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:34.636] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:34.637] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:34.638] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:34.646] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:34.647] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:34.648] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:34.649] Server  ERROR    ⨯ Error: The default export is not a React Component in "/login/page"
+[00:49:34.655] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:34.667] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\.next\dev\server\chunks\ssr\node_modules_next_dist_eb4ab406._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:34.668] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:34.670] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:34.671] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:34.681] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:34.682] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:34.683] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:34.684] Server  ERROR    ⨯ Error: The default export is not a React Component in "/login/page"
+[00:49:34.978] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/login/page"
+[00:50:24.842] Server  LOG      ✓ Compiled in 285ms
+[00:50:26.182] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:26.703] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:50:26.703] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:50:26.703] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768653882776}
+[00:53:47.772] Server  LOG      ✓ Compiled in 172ms
+[00:53:50.558] Server  LOG      ✓ Compiled in 205ms
+[00:55:11.302] Server  LOG      ✓ Compiled in 135ms
+[00:57:06.479] Server  LOG      ✓ Compiled in 95ms
+[00:57:09.707] Server  LOG      ✓ Compiled in 80ms
+[00:57:12.725] Server  LOG      ✓ Compiled in 86ms
+[00:57:14.585] Server  LOG      ✓ Compiled in 159ms
+[00:57:16.608] Server  LOG      ✓ Compiled in 116ms
+[00:58:16.859] Server  LOG      ✓ Compiled in 347ms
+[00:58:52.840] Server  LOG      ✓ Compiled in 251ms
+[00:59:44.300] Server  LOG      ✓ Compiled in 120ms
+[00:59:47.558] Server  LOG      ✓ Compiled in 100ms
+[01:10:50.116] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:10:50.142] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:10:50.159] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:10:50.177] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:10:50.191] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:10:50.209] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:10:50.231] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:10:50.247] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:10:50.256] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:10:50.267] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:10:50.280] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:10:50.312] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:10:50.331] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:10:50.343] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:10:50.353] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:10:50.364] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:10:50.381] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:10:50.389] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:10:50.397] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:10:50.410] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:10:50.851] Browser ERROR   ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve './image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:12:03.862] Browser ERROR   ./components/atmosphere.tsx:4:1
+Export ImageLightbox doesn't exist in target module
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+The export ImageLightbox was not found in module [project]/components/image-lightbox.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:12:03.862] Browser ERROR   ./components/atmosphere.tsx:4:1
+Export ImageLightbox doesn't exist in target module
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "./image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+The export ImageLightbox was not found in module [project]/components/image-lightbox.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:12:05.433] Server  LOG      ✓ Compiled in 218ms
+[01:12:17.486] Server  ERROR    ⨯ ./components
+Module not found: Can't resolve './image-lightbox'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.490] Server  ERROR    ⨯ ./components
+Module not found: Can't resolve './image-lightbox'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.495] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.499] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.503] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.511] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.518] Server  ERROR    ⨯ ./components
+Module not found: Can't resolve './image-lightbox'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.519] Server  ERROR    ⨯ ./components
+Module not found: Can't resolve './image-lightbox'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.523] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.531] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.535] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.537] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.539] Server  ERROR    ⨯ ./components
+Module not found: Can't resolve './image-lightbox'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.539] Server  ERROR    ⨯ ./components
+Module not found: Can't resolve './image-lightbox'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.547] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.550] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.554] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.555] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.557] Server  ERROR    ⨯ ./components
+Module not found: Can't resolve './image-lightbox'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.559] Server  ERROR    ⨯ ./components
+Module not found: Can't resolve './image-lightbox'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.564] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.571] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.573] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.579] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.591] Server  ERROR    ⨯ ./components
+Module not found: Can't resolve './image-lightbox'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.597] Server  ERROR    ⨯ ./components
+Module not found: Can't resolve './image-lightbox'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.608] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.616] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.620] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.632] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:17.852] Browser ERROR   ./components
+Module not found: Can't resolve './image-lightbox'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+https://nextjs.org/docs/messages/module-not-found
+[01:12:17.852] Browser ERROR   ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve '/image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "/image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:12:20.988] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:20.992] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:20.995] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:20.998] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:21.016] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:21.021] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:21.024] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:21.027] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:21.030] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:21.032] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:21.034] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:21.036] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:21.038] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:21.043] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:21.045] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:21.047] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:21.049] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:21.051] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:21.053] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:21.054] Server  ERROR    ⨯ ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:21.858] Browser ERROR   ./components/atmosphere.tsx:4:1
+Module not found: Can't resolve 'image-lightbox'
+  2 |
+  3 | import Image from 'next/image'
+> 4 | import { ImageLightbox } from "image-lightbox"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function Atmosphere() {
+  7 |   const spaces = [
+
+Import traces:
+  Client Component Browser:
+    ./components/atmosphere.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/atmosphere.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:12:34.342] Server  LOG      ✓ Compiled in 122ms
+[01:13:21.333] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768655257490}
+[01:14:32.411] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contato color: rgb(120, 120, 120) color: inherit {"dp":"/contato","o":"http://localhost:3000/contato","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768655328569}
+[01:19:36.665] Server  LOG      ✓ Compiled in 283ms
+[01:19:37.859] Browser ERROR   uncaughtError: ReferenceError: MessageCircle is not defined
+[01:20:02.010] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:20:02.031] Server  LOG      ✓ Compiled in 109ms
+[01:20:02.976] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:20:03.410] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:20:03.410] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contato","route":"/contato"}
+[01:20:03.410] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contato color: rgb(120, 120, 120) color: inherit {"dp":"/contato","o":"http://localhost:3000/contato","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768655659474}
+[01:26:22.032] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768656038193}
+[01:32:50.394] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/agendar color: rgb(120, 120, 120) color: inherit {"dp":"/agendar","o":"http://localhost:3000/agendar","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768656426556}
+[01:34:25.015] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768656521179}
+[01:34:27.927] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/agendar color: rgb(120, 120, 120) color: inherit {"dp":"/agendar","o":"http://localhost:3000/agendar","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768656524094}
+[01:35:28.506] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contato color: rgb(120, 120, 120) color: inherit {"dp":"/contato","o":"http://localhost:3000/contato","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768656584671}
+[01:38:55.383] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sobre color: rgb(120, 120, 120) color: inherit {"dp":"/sobre","o":"http://localhost:3000/sobre","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768656791548}
+[01:43:18.845] Server  LOG      ✓ Compiled in 388ms
+[01:43:22.116] Server  LOG      ✓ Compiled in 203ms
+[01:43:27.972] Server  LOG      ✓ Compiled in 125ms
+[01:43:31.112] Server  LOG      ✓ Compiled in 166ms
+[01:43:34.502] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contato color: rgb(120, 120, 120) color: inherit {"dp":"/contato","o":"http://localhost:3000/contato","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768657070666}
+[01:43:50.123] Server  LOG      ✓ Compiled in 170ms
+[01:44:09.455] Server  LOG      ✓ Compiled in 120ms
+[01:45:03.304] Server  LOG      ✓ Compiled in 165ms
+[01:45:41.768] Server  LOG      ✓ Compiled in 286ms
+[01:45:44.974] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sobre color: rgb(120, 120, 120) color: inherit {"dp":"/sobre","o":"http://localhost:3000/sobre","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768657201127}
+[01:45:57.846] Server  LOG      ✓ Compiled in 270ms
+[01:48:33.241] Server  LOG      ✓ Compiled in 360ms
+[01:49:26.709] Server  LOG      ✓ Compiled in 174ms
+[01:49:49.795] Server  LOG      ✓ Compiled in 185ms
+[01:49:56.232] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:49:56.490] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:49:56.490] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/sobre","route":"/sobre"}
+[01:49:56.490] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sobre color: rgb(120, 120, 120) color: inherit {"dp":"/sobre","o":"http://localhost:3000/sobre","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768657452651}
+[01:52:08.813] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:52:09.005] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:52:09.005] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/sobre","route":"/sobre"}
+[01:52:09.005] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sobre color: rgb(120, 120, 120) color: inherit {"dp":"/sobre","o":"http://localhost:3000/sobre","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768657585167}
+[01:52:10.593] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'src')
+[01:52:49.327] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:52:49.329] Server  LOG      ✓ Compiled in 126ms
+[01:52:49.645] Server  ERROR   C:\Users\Gebruiker\Desktop\UTA\4 ano\TECNOLOGIAS WEB\MaddieTavares\.next\dev\server\chunks\ssr\_95bdab11._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:52:49.647] Server  ERROR    ⨯ ReferenceError: spaces is not defined
+[01:52:49.987] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:52:50.856] Browser ERROR   uncaughtError: ReferenceError: spaces is not defined
+[01:52:51.178] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:52:51.223] Server  LOG      ✓ Compiled in 138ms
+[01:52:51.824] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:52:52.872] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:52:52.872] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/sobre","route":"/sobre"}
+[01:52:52.872] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sobre color: rgb(120, 120, 120) color: inherit {"dp":"/sobre","o":"http://localhost:3000/sobre","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768657628283}
+[01:52:55.935] Server  LOG      ✓ Compiled in 103ms
+[01:52:59.639] Server  LOG      ✓ Compiled in 168ms
+[01:53:10.399] Server  LOG      ✓ Compiled in 94ms
+[01:53:42.631] Server  LOG      ✓ Compiled in 180ms
+[01:54:02.287] Browser WARN    Image with src "/images/whatsapp-20image-202025-11-17-20at-2021.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:54:07.112] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:54:07.291] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:54:07.291] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/sobre","route":"/sobre"}
+[01:54:07.291] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sobre color: rgb(120, 120, 120) color: inherit {"dp":"/sobre","o":"http://localhost:3000/sobre","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768657703452}
+[01:54:10.291] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'src')
+[01:54:17.096] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:54:17.115] Server  LOG      ✓ Compiled in 130ms
+[01:54:18.278] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:54:18.862] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:54:18.862] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/sobre","route":"/sobre"}
+[01:54:18.862] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sobre color: rgb(120, 120, 120) color: inherit {"dp":"/sobre","o":"http://localhost:3000/sobre","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768657714856}
+[01:54:20.560] Server  LOG      ✓ Compiled in 112ms
+[01:54:22.306] Browser WARN    Image with src "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-17%20at%2021.19.38-Q0ic3AXwGqwi7sO917iYnGBMGJwjT0.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:54:37.585] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768657733745}

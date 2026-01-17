@@ -60,7 +60,7 @@ function Login() {
                     className: "absolute inset-0 bg-cover bg-center",
                     style: {
                         backgroundImage: "url(/images/whatsapp-20image-202025-11-17-20at-2021.jpeg)",
-                        filter: "blur(8px) brightness(0.7)"
+                        filter: "blur(1px) brightness(0.4)"
                     }
                 }, void 0, false, {
                     fileName: "[project]/app/login/page.tsx",

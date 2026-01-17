@@ -1,31 +1,45 @@
-'use client'
+"use client"
 
-import Link from 'next/link'
-import { Mail, Phone, MapPin, Instagram, Facebook } from 'lucide-react'
+import Link from "next/link"
+import { Mail, Phone, MapPin, Instagram, Facebook, MessageCircle } from "lucide-react"
 
 export function Footer() {
   return (
-    <footer className="bg-foreground text-background py-24 px-6">
+    <footer className="bg-foreground text-background py-12 px-6">
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-5 gap-12 mb-16">
+        <div className="grid md:grid-cols-5 gap-8 mb-8">
           <div className="md:col-span-2">
-            <div className="mb-6">
-              <div className="text-3xl font-serif font-bold tracking-wide text-background">
-                <img src="/images/logo.png" alt="Maddie Tavares Logo" className="h-12 w-auto mt-4" />
-              </div>
-              <div className="text-base font-light italic text-background/90 tracking-widest">
-                beauty boutique
-              </div>
+            <div className="mb-4">
+              <div className="text-2xl font-serif font-bold tracking-wide text-background"><img src="/images/logo.png" alt="Maddie Tavares Logo" className="h-12 w-auto mt-4" style={{height: '10vh', width: '25vh'}}/></div>
+              <div className="text-sm font-light italic text-background/90 tracking-widest">beauty boutique</div>
             </div>
-            <p className="text-sm text-background/80 leading-relaxed mb-6">
+            <p className="text-sm text-background/80 leading-relaxed mb-4">
               Clínica de Estética Avançada. Transformando beleza em arte desde 2010.
             </p>
-            <div className="flex gap-4">
-              <a href="#" className="p-3 bg-background/10 rounded-full hover:bg-background/20 transition">
-                <Instagram size={20} />
+            <div className="flex gap-3">
+              <a
+                href="https://instagram.com/maddietavares"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2.5 bg-background/10 rounded-full hover:bg-background/20 transition"
+              >
+                <Instagram size={18} />
               </a>
-              <a href="#" className="p-3 bg-background/10 rounded-full hover:bg-background/20 transition">
-                <Facebook size={20} />
+              <a
+                href="https://facebook.com/maddietavares"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2.5 bg-background/10 rounded-full hover:bg-background/20 transition"
+              >
+                <Facebook size={18} />
+              </a>
+              <a
+                href="https://wa.me/2383335512"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2.5 bg-background/10 rounded-full hover:bg-background/20 transition"
+              >
+                <MessageCircle size={18} />
               </a>
             </div>
           </div>
@@ -33,20 +47,52 @@ export function Footer() {
           <div>
             <h4 className="font-light text-sm uppercase tracking-widest mb-6">Menu</h4>
             <ul className="space-y-3 text-sm">
-              <li><Link href="/" className="hover:text-primary transition">Home</Link></li>
-              <li><Link href="/servicos" className="hover:text-primary transition">Serviços</Link></li>
-              <li><Link href="/sobre" className="hover:text-primary transition">Sobre</Link></li>
-              <li><Link href="/contato" className="hover:text-primary transition">Contato</Link></li>
+              <li>
+                <Link href="/" className="hover:text-primary transition">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link href="/servicos" className="hover:text-primary transition">
+                  Serviços
+                </Link>
+              </li>
+              <li>
+                <Link href="/sobre" className="hover:text-primary transition">
+                  Sobre
+                </Link>
+              </li>
+              <li>
+                <Link href="/contato" className="hover:text-primary transition">
+                  Contato
+                </Link>
+              </li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-light text-sm uppercase tracking-widest mb-6">Conta</h4>
             <ul className="space-y-3 text-sm">
-              <li><Link href="/login" className="hover:text-primary transition">Login</Link></li>
-              <li><Link href="/registrar" className="hover:text-primary transition">Registrar</Link></li>
-              <li><Link href="/agendar" className="hover:text-primary transition">Agendar</Link></li>
-              <li><Link href="#" className="hover:text-primary transition">Meus Agendamentos</Link></li>
+              <li>
+                <Link href="/login" className="hover:text-primary transition">
+                  Login
+                </Link>
+              </li>
+              <li>
+                <Link href="/registrar" className="hover:text-primary transition">
+                  Registrar
+                </Link>
+              </li>
+              <li>
+                <Link href="/agendar" className="hover:text-primary transition">
+                  Agendar
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-primary transition">
+                  Meus Agendamentos
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -63,18 +109,28 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="mt-1" />
-                <span>Av. Amilcar Cabral<br />Praia, Cabo Verde</span>
+                <span>
+                  Av. Amilcar Cabral
+                  <br />
+                  Praia, Cabo Verde
+                </span>
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="border-t border-background/20 pt-12 text-center text-sm text-background/80">
-          <p>&copy; 2025 LEIT UTA 4 ano 2025/2026</p>
+        <div className="border-t border-background/20 pt-6 text-center text-sm text-background/80">
+          <p>&copy; 2025 MADDIE TAVARES beauty boutique. Todos os direitos reservados.</p>
           <div className="mt-4 flex justify-center gap-6 text-xs">
-            <Link href="#" className="hover:text-primary transition">Política de Privacidade</Link>
-            <Link href="#" className="hover:text-primary transition">Termos de Serviço</Link>
-            <Link href="#" className="hover:text-primary transition">Cookies</Link>
+            <Link href="#" className="hover:text-primary transition">
+              Política de Privacidade
+            </Link>
+            <Link href="#" className="hover:text-primary transition">
+              Termos de Serviço
+            </Link>
+            <Link href="#" className="hover:text-primary transition">
+              Cookies
+            </Link>
           </div>
         </div>
       </div>
