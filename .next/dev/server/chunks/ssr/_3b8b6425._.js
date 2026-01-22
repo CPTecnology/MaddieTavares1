@@ -707,7 +707,7 @@ function Sobre() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$navigation$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Navigation"], {}, void 0, false, {
                 fileName: "[project]/app/sobre/page.tsx",
-                lineNumber: 12,
+                lineNumber: 13,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -724,20 +724,20 @@ function Sobre() {
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/app/sobre/page.tsx",
-                                lineNumber: 17,
+                                lineNumber: 18,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background"
                             }, void 0, false, {
                                 fileName: "[project]/app/sobre/page.tsx",
-                                lineNumber: 24,
+                                lineNumber: 25,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/sobre/page.tsx",
-                        lineNumber: 16,
+                        lineNumber: 17,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -750,7 +750,7 @@ function Sobre() {
                                     children: "Onde a Beleza Encontra a Excelência"
                                 }, void 0, false, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 28,
+                                    lineNumber: 29,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -758,24 +758,24 @@ function Sobre() {
                                     children: "Uma jornada de transformação e bem-estar em Cabo Verde"
                                 }, void 0, false, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 31,
+                                    lineNumber: 32,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/sobre/page.tsx",
-                            lineNumber: 27,
+                            lineNumber: 28,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/sobre/page.tsx",
-                        lineNumber: 26,
+                        lineNumber: 27,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/sobre/page.tsx",
-                lineNumber: 15,
+                lineNumber: 16,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -794,7 +794,7 @@ function Sobre() {
                                             children: "Nossa História"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 43,
+                                            lineNumber: 44,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -802,7 +802,7 @@ function Sobre() {
                                             children: "Um Sonho que se Tornou Realidade"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 46,
+                                            lineNumber: 47,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -810,7 +810,7 @@ function Sobre() {
                                             children: "Maddie Tavares Beauty Boutique nasceu de uma visão clara: criar um santuário de beleza e bem-estar em Cabo Verde, onde cada cliente é tratado como único e especial."
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 49,
+                                            lineNumber: 50,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -818,7 +818,7 @@ function Sobre() {
                                             children: "Com mais de 15 anos de experiência no setor de estética avançada, fundamos este espaço pensado em cada detalhe, desde a arquitetura inspiradora até os tratamentos de última geração."
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 53,
+                                            lineNumber: 54,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -826,13 +826,13 @@ function Sobre() {
                                             children: "Hoje, somos referência em estética de alta qualidade, combinando expertise internacional com o acolhimento e carinho cabo-verdiano que nos torna únicos."
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 57,
+                                            lineNumber: 58,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 42,
+                                    lineNumber: 43,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -847,12 +847,12 @@ function Sobre() {
                                                 className: "object-cover"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                lineNumber: 64,
+                                                lineNumber: 65,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 63,
+                                            lineNumber: 64,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -863,7 +863,7 @@ function Sobre() {
                                                     children: "15+"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/sobre/page.tsx",
-                                                    lineNumber: 72,
+                                                    lineNumber: 73,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -871,25 +871,25 @@ function Sobre() {
                                                     children: "Anos de Experiência"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/sobre/page.tsx",
-                                                    lineNumber: 73,
+                                                    lineNumber: 74,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 71,
+                                            lineNumber: 72,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 62,
+                                    lineNumber: 63,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/sobre/page.tsx",
-                            lineNumber: 41,
+                            lineNumber: 42,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -903,7 +903,7 @@ function Sobre() {
                                             children: "5000+"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 81,
+                                            lineNumber: 82,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -911,13 +911,13 @@ function Sobre() {
                                             children: "Clientes Satisfeitos"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 82,
+                                            lineNumber: 83,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 80,
+                                    lineNumber: 81,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -928,7 +928,7 @@ function Sobre() {
                                             children: "24"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 85,
+                                            lineNumber: 86,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -936,13 +936,13 @@ function Sobre() {
                                             children: "Tratamentos Exclusivos"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 86,
+                                            lineNumber: 87,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 84,
+                                    lineNumber: 85,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -953,7 +953,7 @@ function Sobre() {
                                             children: "98%"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 89,
+                                            lineNumber: 90,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -961,13 +961,13 @@ function Sobre() {
                                             children: "Taxa de Satisfação"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 90,
+                                            lineNumber: 91,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 88,
+                                    lineNumber: 89,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -978,7 +978,7 @@ function Sobre() {
                                             children: "15+"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 93,
+                                            lineNumber: 94,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -986,30 +986,30 @@ function Sobre() {
                                             children: "Anos de Excelência"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 94,
+                                            lineNumber: 95,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 92,
+                                    lineNumber: 93,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/sobre/page.tsx",
-                            lineNumber: 79,
+                            lineNumber: 80,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/sobre/page.tsx",
-                    lineNumber: 40,
+                    lineNumber: 41,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/sobre/page.tsx",
-                lineNumber: 39,
+                lineNumber: 40,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1025,7 +1025,7 @@ function Sobre() {
                                     children: "Nossos Valores"
                                 }, void 0, false, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 104,
+                                    lineNumber: 105,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1033,7 +1033,7 @@ function Sobre() {
                                     children: "O que nos Torna Únicos"
                                 }, void 0, false, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 107,
+                                    lineNumber: 108,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1041,13 +1041,13 @@ function Sobre() {
                                     children: "Princípios que guiam cada tratamento, cada interação, cada momento na Maddie Tavares"
                                 }, void 0, false, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 110,
+                                    lineNumber: 111,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/sobre/page.tsx",
-                            lineNumber: 103,
+                            lineNumber: 104,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1062,12 +1062,12 @@ function Sobre() {
                                                 className: "w-8 h-8 text-primary"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                lineNumber: 118,
+                                                lineNumber: 119,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 117,
+                                            lineNumber: 118,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1075,7 +1075,7 @@ function Sobre() {
                                             children: "Excelência"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 120,
+                                            lineNumber: 121,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1083,13 +1083,13 @@ function Sobre() {
                                             children: "Comprometidos com os mais altos padrões de qualidade em todos os procedimentos, utilizando tecnologia de ponta e produtos premium internacionais."
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 121,
+                                            lineNumber: 122,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 116,
+                                    lineNumber: 117,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1101,12 +1101,12 @@ function Sobre() {
                                                 className: "w-8 h-8 text-primary"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                lineNumber: 129,
+                                                lineNumber: 130,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 128,
+                                            lineNumber: 129,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1114,7 +1114,7 @@ function Sobre() {
                                             children: "Acolhimento"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 131,
+                                            lineNumber: 132,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1122,13 +1122,13 @@ function Sobre() {
                                             children: "Cada cliente é único e merece atenção personalizada. Nosso ambiente foi criado para que você se sinta em casa, relaxado e cuidado."
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 132,
+                                            lineNumber: 133,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 127,
+                                    lineNumber: 128,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1140,12 +1140,12 @@ function Sobre() {
                                                 className: "w-8 h-8 text-primary"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                lineNumber: 140,
+                                                lineNumber: 141,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 139,
+                                            lineNumber: 140,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1153,7 +1153,7 @@ function Sobre() {
                                             children: "Inovação"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 142,
+                                            lineNumber: 143,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1161,30 +1161,30 @@ function Sobre() {
                                             children: "Sempre à frente das tendências, investimos em formação contínua e nas mais recentes tecnologias do mercado de estética avançada."
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 143,
+                                            lineNumber: 144,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 138,
+                                    lineNumber: 139,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/sobre/page.tsx",
-                            lineNumber: 115,
+                            lineNumber: 116,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/sobre/page.tsx",
-                    lineNumber: 102,
+                    lineNumber: 103,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/sobre/page.tsx",
-                lineNumber: 101,
+                lineNumber: 102,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1200,7 +1200,7 @@ function Sobre() {
                                     children: "Nosso Espaço"
                                 }, void 0, false, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 156,
+                                    lineNumber: 157,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1208,7 +1208,7 @@ function Sobre() {
                                     children: "Um Ambiente Pensado para Você"
                                 }, void 0, false, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 159,
+                                    lineNumber: 160,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1216,13 +1216,13 @@ function Sobre() {
                                     children: "Cada detalhe foi cuidadosamente escolhido para criar uma experiência sensorial completa"
                                 }, void 0, false, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 162,
+                                    lineNumber: 163,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/sobre/page.tsx",
-                            lineNumber: 155,
+                            lineNumber: 156,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1235,10 +1235,10 @@ function Sobre() {
                                             src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-17%20at%2021.19.38-Q0ic3AXwGqwi7sO917iYnGBMGJwjT0.jpeg",
                                             alt: "Recepção",
                                             fill: true,
-                                            className: "object-cover group-hover:scale-110 transition-transform duration-500"
+                                            className: "object-cover group-hover:scale-110 transition duration-700"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 169,
+                                            lineNumber: 170,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1248,18 +1248,18 @@ function Sobre() {
                                                 children: "Recepção Elegante"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                lineNumber: 176,
+                                                lineNumber: 177,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 175,
+                                            lineNumber: 176,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 168,
+                                    lineNumber: 169,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1269,10 +1269,10 @@ function Sobre() {
                                             src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-17%20at%2021.19.44%20%281%29-B4BAhak3JcrX4KDUdCJbmS2S8sLOXY.jpeg",
                                             alt: "Sala de espera",
                                             fill: true,
-                                            className: "object-cover group-hover:scale-110 transition-transform duration-500"
+                                            className: "object-cover group-hover:scale-110 transition duration-700"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 181,
+                                            lineNumber: 182,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1282,18 +1282,18 @@ function Sobre() {
                                                 children: "Sala de Espera Aconchegante"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                lineNumber: 188,
+                                                lineNumber: 189,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 187,
+                                            lineNumber: 188,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 180,
+                                    lineNumber: 181,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1303,10 +1303,10 @@ function Sobre() {
                                             src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-17%20at%2021.19.44-32dARCvGwEsIrk9zjFujj50oV2UMCy.jpeg",
                                             alt: "Spa com banheira",
                                             fill: true,
-                                            className: "object-cover group-hover:scale-110 transition-transform duration-500"
+                                            className: "object-cover group-hover:scale-110 transition duration-700"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 193,
+                                            lineNumber: 194,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1316,18 +1316,18 @@ function Sobre() {
                                                 children: "Spa Premium"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                lineNumber: 200,
+                                                lineNumber: 201,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 199,
+                                            lineNumber: 200,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 192,
+                                    lineNumber: 193,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1337,10 +1337,10 @@ function Sobre() {
                                             src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-17%20at%2021.19.43-MwiG8j4zfEaRCFa0Rjbw5vdjWHtUKY.jpeg",
                                             alt: "Sala de tratamento",
                                             fill: true,
-                                            className: "object-cover group-hover:scale-110 transition-transform duration-500"
+                                            className: "object-cover group-hover:scale-110 transition duration-700"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 205,
+                                            lineNumber: 206,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1350,18 +1350,18 @@ function Sobre() {
                                                 children: "Sala de Tratamento"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                lineNumber: 212,
+                                                lineNumber: 213,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 211,
+                                            lineNumber: 212,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 204,
+                                    lineNumber: 205,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1371,10 +1371,10 @@ function Sobre() {
                                             src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-17%20at%2021.19.46-8c8EvOk90Y36Xm8e1sI58i0Fd2RLcI.jpeg",
                                             alt: "Quarto de tratamento",
                                             fill: true,
-                                            className: "object-cover group-hover:scale-110 transition-transform duration-500"
+                                            className: "object-cover group-hover:scale-110 transition duration-700"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 217,
+                                            lineNumber: 218,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1384,18 +1384,18 @@ function Sobre() {
                                                 children: "Ambiente Relaxante"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                lineNumber: 224,
+                                                lineNumber: 225,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 223,
+                                            lineNumber: 224,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 216,
+                                    lineNumber: 217,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1405,10 +1405,10 @@ function Sobre() {
                                             src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-17%20at%2021.19.43%20%281%29-hO089841f2PqEX0Pv2Gyo3gAXoapJN.jpeg",
                                             alt: "Balcão de recepção",
                                             fill: true,
-                                            className: "object-cover group-hover:scale-110 transition-transform duration-500"
+                                            className: "object-cover group-hover:scale-110 transition duration-700"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 229,
+                                            lineNumber: 230,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1418,35 +1418,35 @@ function Sobre() {
                                                 children: "Recepção Premium"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                lineNumber: 236,
+                                                lineNumber: 237,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 235,
+                                            lineNumber: 236,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 228,
+                                    lineNumber: 229,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/sobre/page.tsx",
-                            lineNumber: 167,
+                            lineNumber: 168,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/sobre/page.tsx",
-                    lineNumber: 154,
+                    lineNumber: 155,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/sobre/page.tsx",
-                lineNumber: 153,
+                lineNumber: 154,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1465,12 +1465,12 @@ function Sobre() {
                                     className: "object-cover"
                                 }, void 0, false, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 248,
+                                    lineNumber: 249,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/sobre/page.tsx",
-                                lineNumber: 247,
+                                lineNumber: 248,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1480,7 +1480,7 @@ function Sobre() {
                                         children: "A Experiência Maddie Tavares"
                                     }, void 0, false, {
                                         fileName: "[project]/app/sobre/page.tsx",
-                                        lineNumber: 256,
+                                        lineNumber: 257,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1488,7 +1488,7 @@ function Sobre() {
                                         children: "Mais do que Tratamentos, uma Jornada de Transformação"
                                     }, void 0, false, {
                                         fileName: "[project]/app/sobre/page.tsx",
-                                        lineNumber: 259,
+                                        lineNumber: 260,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1496,7 +1496,7 @@ function Sobre() {
                                         children: "Quando você entra na Maddie Tavares, é transportado para um mundo de tranquilidade e sofisticação. O aroma suave, a iluminação cuidadosamente planejada, o som ambiente relaxante - tudo foi pensado para o seu bem-estar."
                                     }, void 0, false, {
                                         fileName: "[project]/app/sobre/page.tsx",
-                                        lineNumber: 262,
+                                        lineNumber: 263,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1511,12 +1511,12 @@ function Sobre() {
                                                             className: "w-6 h-6 text-primary"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/sobre/page.tsx",
-                                                            lineNumber: 271,
+                                                            lineNumber: 272,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/sobre/page.tsx",
-                                                        lineNumber: 270,
+                                                        lineNumber: 271,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1526,7 +1526,7 @@ function Sobre() {
                                                                 children: "Atendimento Personalizado"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                                lineNumber: 274,
+                                                                lineNumber: 275,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1534,19 +1534,19 @@ function Sobre() {
                                                                 children: "Consulta inicial completa para entender suas necessidades e objetivos"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                                lineNumber: 275,
+                                                                lineNumber: 276,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/sobre/page.tsx",
-                                                        lineNumber: 273,
+                                                        lineNumber: 274,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                lineNumber: 269,
+                                                lineNumber: 270,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1558,12 +1558,12 @@ function Sobre() {
                                                             className: "w-6 h-6 text-primary"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/sobre/page.tsx",
-                                                            lineNumber: 283,
+                                                            lineNumber: 284,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/sobre/page.tsx",
-                                                        lineNumber: 282,
+                                                        lineNumber: 283,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1573,7 +1573,7 @@ function Sobre() {
                                                                 children: "Pontualidade e Respeito"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                                lineNumber: 286,
+                                                                lineNumber: 287,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1581,19 +1581,19 @@ function Sobre() {
                                                                 children: "Seu tempo é precioso. Garantimos horários pontuais e atendimento sem pressa"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                                lineNumber: 287,
+                                                                lineNumber: 288,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/sobre/page.tsx",
-                                                        lineNumber: 285,
+                                                        lineNumber: 286,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                lineNumber: 281,
+                                                lineNumber: 282,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1605,12 +1605,12 @@ function Sobre() {
                                                             className: "w-6 h-6 text-primary"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/sobre/page.tsx",
-                                                            lineNumber: 295,
+                                                            lineNumber: 296,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/sobre/page.tsx",
-                                                        lineNumber: 294,
+                                                        lineNumber: 295,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1620,7 +1620,7 @@ function Sobre() {
                                                                 children: "Localização Privilegiada"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                                lineNumber: 298,
+                                                                lineNumber: 299,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1628,47 +1628,47 @@ function Sobre() {
                                                                 children: "No coração de Cabo Verde, com fácil acesso e estacionamento disponível"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                                lineNumber: 299,
+                                                                lineNumber: 300,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/sobre/page.tsx",
-                                                        lineNumber: 297,
+                                                        lineNumber: 298,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                lineNumber: 293,
+                                                lineNumber: 294,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/sobre/page.tsx",
-                                        lineNumber: 268,
+                                        lineNumber: 269,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/sobre/page.tsx",
-                                lineNumber: 255,
+                                lineNumber: 256,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/sobre/page.tsx",
-                        lineNumber: 246,
+                        lineNumber: 247,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/sobre/page.tsx",
-                    lineNumber: 245,
+                    lineNumber: 246,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/sobre/page.tsx",
-                lineNumber: 244,
+                lineNumber: 245,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1684,7 +1684,7 @@ function Sobre() {
                                     children: "Nossa Equipe"
                                 }, void 0, false, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 314,
+                                    lineNumber: 315,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1692,7 +1692,7 @@ function Sobre() {
                                     children: "Profissionais Especializadas e Apaixonadas"
                                 }, void 0, false, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 317,
+                                    lineNumber: 318,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1700,13 +1700,13 @@ function Sobre() {
                                     children: "Uma equipe dedicada, formada internacionalmente e certificada nas mais avançadas técnicas de estética"
                                 }, void 0, false, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 320,
+                                    lineNumber: 321,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/sobre/page.tsx",
-                            lineNumber: 313,
+                            lineNumber: 314,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1724,12 +1724,12 @@ function Sobre() {
                                                 className: "object-cover group-hover:scale-110 transition-transform duration-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                lineNumber: 328,
+                                                lineNumber: 329,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 327,
+                                            lineNumber: 328,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1737,7 +1737,7 @@ function Sobre() {
                                             children: "Maddie Tavares"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 335,
+                                            lineNumber: 336,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1745,7 +1745,7 @@ function Sobre() {
                                             children: "Fundadora & CEO"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 336,
+                                            lineNumber: 337,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1753,13 +1753,13 @@ function Sobre() {
                                             children: "15+ anos de experiência em estética avançada, com formação internacional em harmonização facial"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 337,
+                                            lineNumber: 338,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 326,
+                                    lineNumber: 327,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1774,12 +1774,12 @@ function Sobre() {
                                                 className: "object-cover group-hover:scale-110 transition-transform duration-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                lineNumber: 344,
+                                                lineNumber: 345,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 343,
+                                            lineNumber: 344,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1787,7 +1787,7 @@ function Sobre() {
                                             children: "Ana Silva"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 351,
+                                            lineNumber: 352,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1795,7 +1795,7 @@ function Sobre() {
                                             children: "Esteticista Sênior"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 352,
+                                            lineNumber: 353,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1803,13 +1803,13 @@ function Sobre() {
                                             children: "Especialista em tratamentos faciais e corporais, certificada em técnicas europeias"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 353,
+                                            lineNumber: 354,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 342,
+                                    lineNumber: 343,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1824,12 +1824,12 @@ function Sobre() {
                                                 className: "object-cover group-hover:scale-110 transition-transform duration-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/sobre/page.tsx",
-                                                lineNumber: 360,
+                                                lineNumber: 361,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 359,
+                                            lineNumber: 360,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1837,7 +1837,7 @@ function Sobre() {
                                             children: "Maria Costa"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 367,
+                                            lineNumber: 368,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1845,7 +1845,7 @@ function Sobre() {
                                             children: "Terapeuta Especializada"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 368,
+                                            lineNumber: 369,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1853,30 +1853,30 @@ function Sobre() {
                                             children: "Expert em massagens terapêuticas e procedimentos de relaxamento profundo"
                                         }, void 0, false, {
                                             fileName: "[project]/app/sobre/page.tsx",
-                                            lineNumber: 369,
+                                            lineNumber: 370,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/sobre/page.tsx",
-                                    lineNumber: 358,
+                                    lineNumber: 359,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/sobre/page.tsx",
-                            lineNumber: 325,
+                            lineNumber: 326,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/sobre/page.tsx",
-                    lineNumber: 312,
+                    lineNumber: 313,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/sobre/page.tsx",
-                lineNumber: 311,
+                lineNumber: 312,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1889,7 +1889,7 @@ function Sobre() {
                             children: "Pronta para Sua Transformação?"
                         }, void 0, false, {
                             fileName: "[project]/app/sobre/page.tsx",
-                            lineNumber: 380,
+                            lineNumber: 381,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1897,7 +1897,7 @@ function Sobre() {
                             children: "Agende sua consulta e descubra como podemos realçar sua beleza natural com tratamentos personalizados e resultados extraordinários"
                         }, void 0, false, {
                             fileName: "[project]/app/sobre/page.tsx",
-                            lineNumber: 383,
+                            lineNumber: 384,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1906,29 +1906,29 @@ function Sobre() {
                             children: "Agendar Consulta"
                         }, void 0, false, {
                             fileName: "[project]/app/sobre/page.tsx",
-                            lineNumber: 387,
+                            lineNumber: 388,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/sobre/page.tsx",
-                    lineNumber: 379,
+                    lineNumber: 380,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/sobre/page.tsx",
-                lineNumber: 378,
+                lineNumber: 379,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$footer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Footer"], {}, void 0, false, {
                 fileName: "[project]/app/sobre/page.tsx",
-                lineNumber: 396,
+                lineNumber: 397,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/sobre/page.tsx",
-        lineNumber: 11,
+        lineNumber: 12,
         columnNumber: 5
     }, this);
 }
