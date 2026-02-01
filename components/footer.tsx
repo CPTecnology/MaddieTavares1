@@ -10,7 +10,7 @@ export function Footer() {
         <div className="grid md:grid-cols-5 gap-8 mb-8">
           <div className="md:col-span-2">
             <div className="mb-4">
-              <div className="text-2xl font-serif font-bold tracking-wide text-background"><img src="/images/logo.png" alt="Maddie Tavares Logo" className="h-12 w-auto mt-4" style={{height: '10vh', width: '25vh'}}/></div>
+              <div className="text-2xl font-serif font-bold tracking-wide text-background"><img src="https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915331/maddie_tavares/w5io81aj7dshw3h0ocfe.png" alt="Maddie Tavares Logo" className="h-12 w-auto mt-4" style={{height: '10vh', width: '25vh'}}/></div>
               <div className="text-sm font-light italic text-background/90 tracking-widest">beauty boutique</div>
             </div>
             <p className="text-sm text-background/80 leading-relaxed mb-4">

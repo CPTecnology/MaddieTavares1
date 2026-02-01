@@ -326,7 +326,7 @@ export default function Sobre() {
             <div className="text-center group">
               <div className="relative w-64 h-64 mx-auto mb-6 rounded-full overflow-hidden shadow-xl group-hover:shadow-2xl transition-all">
                 <Image
-                  src="/professional-beauty-specialist.jpg"
+                  src="https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915342/maddie_tavares/u3e5n6ojut3n3oxqwnkv.jpg"
                   alt="Maddie Tavares"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -342,7 +342,7 @@ export default function Sobre() {
             <div className="text-center group">
               <div className="relative w-64 h-64 mx-auto mb-6 rounded-full overflow-hidden shadow-xl group-hover:shadow-2xl transition-all">
                 <Image
-                  src="/beauty-therapist-professional.jpg"
+                  src="https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915321/maddie_tavares/h2a3ah7gmqtq9606jhav.jpg"
                   alt="Especialista"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -358,7 +358,7 @@ export default function Sobre() {
             <div className="text-center group">
               <div className="relative w-64 h-64 mx-auto mb-6 rounded-full overflow-hidden shadow-xl group-hover:shadow-2xl transition-all">
                 <Image
-                  src="/spa-therapist-professional.jpg"
+                  src="https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915342/maddie_tavares/bsqgifrqtlnxcbppqjlk.jpg"
                   alt="Terapeuta"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"

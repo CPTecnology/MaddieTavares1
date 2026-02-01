@@ -56,10 +56,11 @@ export function Navigation({ blackText }: NavigationProps) {
           {/* LOGO */}
           <Link href="/" className="flex-shrink-0">
             <img 
-              src="/images/logo.png" 
+              src="https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915331/maddie_tavares/w5io81aj7dshw3h0ocfe.png" 
               alt="Maddie Tavares Logo" 
               className="transition-all duration-300"
               style={{ height: scrolled ? '7vh' : '9vh', width: 'auto' }}
+               sizes="(max-width: 768px) 100vw, 50vw"
             />
           </Link>
 

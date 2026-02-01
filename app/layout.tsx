@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -41,11 +40,11 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/icon-light-32x32.png", media: "(prefers-color-scheme: light)" },
-      { url: "/icon-dark-32x32.png", media: "(prefers-color-scheme: dark)" },
-      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915324/maddie_tavares/itbaurocsv8bptshlmbz.png", media: "(prefers-color-scheme: light)" },
+      { url: "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915324/maddie_tavares/cbbpujs0ntldim0xscfj.png", media: "(prefers-color-scheme: dark)" },
+      { url: "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915326/maddie_tavares/o0losgo1x6guips5wvlq.svg", type: "image/svg+xml" },
     ],
-    apple: "/apple-icon.png",
+    apple: "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915320/maddie_tavares/vyal4grafodjpaowbrrg.png",
   },
 };
 
@@ -68,7 +67,6 @@ export default function RootLayout({
         style={{ fontFamily: "'Geist', 'Geist Mono', sans-serif" }}
       >
         {children}
-        <Analytics />
       </body>
     </html>
   );

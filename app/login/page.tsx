@@ -1,13 +1,14 @@
 "use client";
 
 import type React from "react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { Eye, EyeOff, Loader2, Mail, Lock, Phone, User } from "lucide-react";
 import api from "@/lib/api";
+import Image from "next/image";
 
 export default function Login() {
   const router = useRouter();
@@ -34,68 +35,74 @@ export default function Login() {
     setFormData({ ...formData, [name]: value });
   };
 
- const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setError(null)
-    setLoading(true)
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setError(null);
+    setLoading(true);
 
     try {
       if (activeTab === "registro") {
         // ... sua lógica de registro permanece igual ...
-        if (formData.telefone.length !== 7) { setError("O telefone deve ter 7 dígitos."); setLoading(false); return; }
-        if (formData.senha !== formData.confirmarSenha) { setError("As senhas não coincidem."); setLoading(false); return; }
+        if (formData.telefone.length !== 7) {
+          setError("O telefone deve ter 7 dígitos.");
+          setLoading(false);
+          return;
+        }
+        if (formData.senha !== formData.confirmarSenha) {
+          setError("As senhas não coincidem.");
+          setLoading(false);
+          return;
+        }
 
         await api.post("/auth/registrar", {
           nome: formData.nome,
           email: formData.email,
           telefone: formData.telefone,
           senha: formData.senha,
-        })
-        alert("Conta criada com sucesso!")
-        setActiveTab("login")
-      } else {
-        // --- 1. LOGIN ---
-        const response = await api.post("/auth/login", {
-          email: formData.email,
-          password: formData.senha,
-        })
+        });
+        alert("Conta criada com sucesso!");
+        setActiveTab("login");
+     // ... dentro do handleSubmit, na parte do login ...
+} else {
+  // 1. Tente o login
+  const response = await api.post("/auth/login", {
+    email: formData.email,
+    password: formData.senha, 
+  });
 
-        // --- 2. GRAVAR DADOS NA SESSÃO LOCAL ---
-        localStorage.setItem("token", response.data.token)
-        localStorage.setItem("user_role", response.data.role)
-        localStorage.setItem("user_name", response.data.usuario.nome)
+  const { role, token, nome } = response.data; // Pegue o nome se o seu backend retornar
+  
+  // 2. Salva os dados essenciais
+  localStorage.setItem("token", token);
+  localStorage.setItem("user_role", role);
+  if (nome) localStorage.setItem("user_name", nome);
 
-        const role = response.data.role
-        const token = response.data.token
+  // 3. Lógica de Redirecionamento
+  if (role === "cliente") {
+    // Se for cliente, vai para a página de perfil local
+    router.push("/perfil");
+  } else if (["admin", "funcionario", "profissional", "recepcionista"].includes(role)) {
+    // Se for staff/admin, mantém a lógica de ir para o dashboard externo
+    const DASHBOARD_URL =
+      window.location.hostname === "localhost"
+        ? "http://localhost:3001"
+        : "https://admin.maddietavares.cv";
 
-        // --- 3. DECISÃO DE REDIRECIONAMENTO DINÂMICO ---
-        if (role === 'admin' || role === 'funcionario' || role === 'profissional' || role === 'recepcionista') {
-          
-          // Detecta se o site está rodando no PC ou na Internet
-          const isProduction = window.location.hostname !== "localhost";
-          
-          const DASHBOARD_URL = isProduction 
-            ? "https://admin.maddietavares.cv"  // URL Real
-            : "http://localhost:3001";          // URL de Teste
-
-          console.log("Redirecionando para Dashboard em:", DASHBOARD_URL);
-          
-          // Enviamos para a página de bypass que você criou no outro projeto
-          window.location.href = `${DASHBOARD_URL}/login-bypass?token=${token}&role=${role}`;
-          
-        } else {
-          // Cliente normal fica no site principal
-          window.location.href = "/perfil";
-        }
-      }
+    setLoading(false);
+    window.location.href = `${DASHBOARD_URL}/login-bypass?token=${token}&role=${role}`;
+  } else {
+    // Caso padrão (opcional)
+    router.push("/perfil");
+  }
+}
     } catch (err: any) {
-      const msg = err.response?.data?.message || "Erro na autenticação."
-      setError(msg)
+      const msg = err.response?.data?.message || "Erro na autenticação.";
+      setError(msg);
     } finally {
-      setLoading(false)
+      setLoading(false);
     }
   };
-  
+
   return (
     <div className="flex flex-col min-h-screen bg-[#fcfaf8]">
       <Navigation />
@@ -105,7 +112,6 @@ export default function Login() {
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: "url('/bg-spa.jpg')",
               filter: "brightness(0.4) blur(3px)",
             }}
           />
@@ -114,10 +120,15 @@ export default function Login() {
         <div className="relative z-10 w-full max-w-md">
           <div className="bg-white rounded-4xl shadow-2xl p-8 md:p-12 border border-white/20">
             <div className="text-center mb-8">
-              <img
-                src="/images/logo.png"
+              <Image
+                src="https://res.cloudinary.com/dzdyokoiv/image/upload/f_auto,q_auto/v1769915331/maddie_tavares/w5io81aj7dshw3h0ocfe.png"
                 alt="Maddie Tavares"
-                className="h-16 mx-auto mb-2"
+                width={180}
+                height={60}
+                priority
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="mx-auto mb-2"
+                style={{ width: "auto", height: "auto" }} // <--- ADICIONE ISTO para manter a proporção
               />
               <p className="text-[#d4af37] italic text-xs tracking-[0.3em] uppercase font-light">
                 beauty boutique

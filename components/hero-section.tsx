@@ -19,14 +19,14 @@ export function HeroSection() {
       description: "Descubra um espaço onde o luxo encontra a serenidade. Cada tratamento é cuidadosamente crafted para sua transformação e bem-estar absoluto."
     },
     {
-      image: "/images/facial.jpg",
+      image: "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915329/maddie_tavares/fr4awzexcu1sxrrsneaf.jpg",
       alt: "Tratamentos Faciais Premium",
       title: "Facial Premium",
       subtitle: "Beleza & Radiance",
       description: "Procedimentos avançados com produtos de última geração para sua pele impecável."
     },
     {
-      image: "/images/entrada.jpg",
+      image: "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915328/maddie_tavares/bpccyvbbwnkh5sx35res.jpg",
       alt: "Corpo & Spa",
       title: "Corpo & Spa",
       subtitle: "Renovação Total",

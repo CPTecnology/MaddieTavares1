@@ -12,7 +12,7 @@ export default function Servicos() {
       nome: 'Harmonização Facial Completa',
       preco: '35.000 Esc',
       descricao: 'O tratamento mais completo para realçar sua beleza natural. Análise facial 3D, bioestimulação e preenchimentos estratégicos.',
-      imagem: '/luxury-facial-harmonization-treatment.jpg',
+      imagem: 'https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915333/maddie_tavares/ni9dzdtynqe7c2s69977.jpg',
       tag: 'MAIS PROCURADO',
       beneficios: ['Resultado natural', 'Sem cirurgia', 'Efeito imediato'],
       icon: Crown
@@ -21,7 +21,7 @@ export default function Servicos() {
       nome: 'Sessão Spa Completa Premium',
       preco: '25.000 Esc',
       descricao: '3 horas de puro luxo. Hidroterapia, massagem com pedras quentes, aromaterapia e tratamento facial radiante.',
-      imagem: '/luxury-spa-bathtub-with-bamboo.jpg',
+      imagem: 'https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915334/maddie_tavares/lchzyqx5veo1mj2mfhdb.jpg',
       tag: 'EXPERIÊNCIA ÚNICA',
       beneficios: ['Relaxamento total', 'Detox completo', 'Renovação celular'],
       icon: Heart
@@ -30,7 +30,7 @@ export default function Servicos() {
       nome: 'Radiofrequência + Microagulhamento',
       preco: '22.000 Esc',
       descricao: 'A combinação perfeita para rejuvenescimento. Estimula colágeno profundo e renova completamente a textura da pele.',
-      imagem: '/facial-skin-treatment-technology.jpg',
+      imagem: 'https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915323/maddie_tavares/wruyd89vu3syyycabhbz.jpg',
       tag: 'TECNOLOGIA AVANÇADA',
       beneficios: ['Anti-idade', 'Lifting natural', 'Pele firme'],
       icon: Zap
@@ -257,7 +257,7 @@ export default function Servicos() {
                 
                 <div className="relative h-80 overflow-hidden">
                   <Image
-                    src={servico.imagem || "/placeholder.svg"}
+                    src={servico.imagem || "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915340/maddie_tavares/voalh0amrnr4oybu4wyd.svg"}
                     alt={servico.nome}
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -354,7 +354,7 @@ export default function Servicos() {
           <div className="mt-32 relative overflow-hidden rounded-3xl">
             <div className="absolute inset-0">
               <Image
-                src="/luxury-spa-interior-golden-light.jpg"
+                src="https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915335/maddie_tavares/pd6sl2lo1ulvur9x9usi.jpg"
                 alt="Spa interior"
                 fill
                 className="object-cover"

@@ -80,7 +80,7 @@ export function ImageLightbox({ images, currentIndex, isOpen, onClose, onNext, o
       {/* Image container */}
       <div className="relative w-[90vw] h-[80vh] max-w-5xl" onClick={(e) => e.stopPropagation()}>
         <Image
-          src={currentImage.src || "/placeholder.svg"}
+          src={currentImage.src || "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915340/maddie_tavares/voalh0amrnr4oybu4wyd.svg"}
           alt={currentImage.alt}
           fill
           className="object-contain"

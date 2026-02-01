@@ -46,7 +46,7 @@ export function FeaturedServices() {
               <div key={idx} className="group cursor-pointer">
                 <div className="relative overflow-hidden rounded-2xl mb-6 h-64 glow-effect">
                   <Image
-                    src={service.image || "/placeholder.svg"}
+                    src={service.image || "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915340/maddie_tavares/voalh0amrnr4oybu4wyd.svg"}
                     alt={service.title}
                     fill
                     className="object-cover group-hover:scale-110 transition duration-500"

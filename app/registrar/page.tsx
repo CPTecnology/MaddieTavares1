@@ -79,9 +79,7 @@ export default function Registrar() {
       <Navigation />
       
       {/* Background image similar ao seu screenshot */}
-      <div className="absolute inset-0 z-0 opacity-40">
-        <img src="/bg-spa.jpg" alt="" className="w-full h-full object-cover" />
-      </div>
+      
 
       <section className="relative z-10 py-20 px-6 pt-32 flex items-center justify-center">
         <div className="w-full max-w-md bg-white rounded-3xl shadow-2xl overflow-hidden">

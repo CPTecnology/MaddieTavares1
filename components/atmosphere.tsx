@@ -74,7 +74,7 @@ const [lightboxOpen, setLightboxOpen] = useState(false)
             <div key={idx} className="group cursor-pointer" onClick={() => openLightbox(idx)}>
               <div className="relative overflow-hidden rounded-2xl h-72 mb-6 glow-effect">
                 <Image
-                  src={space.src || "/placeholder.svg"}
+                  src={space.src || "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915340/maddie_tavares/voalh0amrnr4oybu4wyd.svg"}
                   alt={space.alt}
                   fill
                   className="object-cover group-hover:scale-110 transition duration-700"
