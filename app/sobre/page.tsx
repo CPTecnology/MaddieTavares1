@@ -15,7 +15,7 @@ export default function Sobre() {
       <section className="relative h-[70vh] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-17%20at%2021.19.38-Q0ic3AXwGqwi7sO917iYnGBMGJwjT0.jpeg"
+            src="images/Maddie.jpeg"
             alt="Maddie Tavares Beauty Boutique"
             fill
             className="object-cover"
@@ -51,7 +51,7 @@ export default function Sobre() {
                 e bem-estar em Cabo Verde, onde cada cliente é tratado como único e especial.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Com mais de 15 anos de experiência no setor de estética avançada, fundamos este espaço 
+                Com mais de 7 anos de experiência no setor de estética avançada, fundamos este espaço 
                 pensado em cada detalhe, desde a arquitetura inspiradora até os tratamentos de última geração.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
@@ -69,7 +69,7 @@ export default function Sobre() {
                 />
               </div>
               <div className="absolute -bottom-8 -left-8 bg-primary text-white p-8 rounded-2xl shadow-xl">
-                <div className="text-5xl font-light mb-2">15+</div>
+                <div className="text-5xl font-light mb-2">7+</div>
                 <div className="text-sm font-semibold uppercase tracking-wide">Anos de Experiência</div>
               </div>
             </div>
@@ -90,7 +90,7 @@ export default function Sobre() {
               <div className="text-sm text-muted-foreground uppercase tracking-wide">Taxa de Satisfação</div>
             </div>
             <div className="text-center p-8 bg-accent/5 rounded-2xl border border-accent/20 hover:border-primary/30 transition-all">
-              <div className="text-4xl font-light text-primary mb-3">15+</div>
+              <div className="text-4xl font-light text-primary mb-3">7+</div>
               <div className="text-sm text-muted-foreground uppercase tracking-wide">Anos de Excelência</div>
             </div>
           </div>
