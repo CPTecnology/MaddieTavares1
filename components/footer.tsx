@@ -18,7 +18,7 @@ export function Footer() {
             </p>
             <div className="flex gap-3">
               <a
-                href="https://instagram.com/maddietavares"
+                href="https://www.instagram.com/bymaddietavares_estetica/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2.5 bg-background/10 rounded-full hover:bg-background/20 transition"
@@ -26,7 +26,7 @@ export function Footer() {
                 <Instagram size={18} />
               </a>
               <a
-                href="https://facebook.com/maddietavares"
+                href="https://www.facebook.com/maddie.tavares.13/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2.5 bg-background/10 rounded-full hover:bg-background/20 transition"
