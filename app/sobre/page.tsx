@@ -15,7 +15,7 @@ export default function Sobre() {
       <section className="relative h-[70vh] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="images/Maddie.jpeg"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-17%20at%2021.19.38-Q0ic3AXwGqwi7sO917iYnGBMGJwjT0.jpeg"
             alt="Maddie Tavares Beauty Boutique"
             fill
             className="object-cover"
@@ -62,8 +62,8 @@ export default function Sobre() {
             <div className="order-1 md:order-2 relative">
               <div className="relative h-[600px] rounded-3xl overflow-hidden shadow-2xl">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-17%20at%2021.19.44%20%281%29-B4BAhak3JcrX4KDUdCJbmS2S8sLOXY.jpeg"
-                  alt="Interior da clínica"
+                  src="images/Maddie.jpeg"
+                  alt="Maddie Tavares"
                   fill
                   className="object-cover"
                 />
