@@ -105,7 +105,7 @@ export default function Login() {
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: "url('/bg-spa.jpg')",
+              backgroundImage: "url(/images/whatsapp-20image-202025-11-17-20at-2021.jpeg)",
               filter: "brightness(0.4) blur(3px)",
             }}
           />
