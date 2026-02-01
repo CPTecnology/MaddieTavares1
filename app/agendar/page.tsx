@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
-import api from "@/lib/api";
+import api from "@/app/lib/api";
 import {
   Calendar,
   Clock,
@@ -56,8 +56,8 @@ export default function Agendar() {
   const handleSelectServico = (servico: any) => {
     const lista = servico.Funcionarios || servico.funcionarios || [];
     const profissional = lista[0];
- setHorariosDisponiveis([]); // Limpa os horários antigos para não mostrar lixo
-  setStep(2);
+    setHorariosDisponiveis([]); // Limpa os horários antigos para não mostrar lixo
+    setStep(2);
     setFormData({
       ...formData,
       servico_id: servico.id,

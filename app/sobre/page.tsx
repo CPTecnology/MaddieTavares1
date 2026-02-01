@@ -62,7 +62,7 @@ export default function Sobre() {
             <div className="order-1 md:order-2 relative">
               <div className="relative h-[600px] rounded-3xl overflow-hidden shadow-2xl">
                 <Image
-                  src="images/Maddie.jpeg"
+                  src="/images/Maddie.jpeg"
                   alt="Maddie Tavares"
                   fill
                   className="object-cover"

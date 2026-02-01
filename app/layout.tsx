@@ -1,3 +1,4 @@
+import React from "react";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "Maddie Tavares Beauty Boutique",
     images: [
       {
-        url: "/og-image.png",
+        url: "/ohttps://res.cloudinary.com/dzdyokoiv/image/upload/v1769915331/maddie_tavares/w5io81aj7dshw3h0ocfe.png",
         width: 1200,
         height: 630,
         alt: "Maddie Tavares Beauty Boutique",
@@ -40,32 +41,24 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/icon-light-32x32.png", media: "(prefers-color-scheme: light)" },
-      { url: "/icon-dark-32x32.png", media: "(prefers-color-scheme: dark)" },
-      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915331/maddie_tavares/w5io81aj7dshw3h0ocfe.png", media: "(prefers-color-scheme: light)" },
+      { url: "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915331/maddie_tavares/w5io81aj7dshw3h0ocfe.png", media: "(prefers-color-scheme: dark)" },
+      { url: "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915331/maddie_tavares/w5io81aj7dshw3h0ocfe.png", type: "image/svg+xml" },
     ],
-    apple: "/apple-icon.png",
+    apple: "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915331/maddie_tavares/w5io81aj7dshw3h0ocfe.png",
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt">
+    <html lang="pt-PT">
       <head>
-        {/* Google Fonts – Geist */}
         <link
           href="https://fonts.googleapis.com/css2?family=Geist&family=Geist+Mono&display=swap"
           rel="stylesheet"
         />
       </head>
-      <body
-        className="antialiased"
-        style={{ fontFamily: "'Geist', 'Geist Mono', sans-serif" }}
-      >
+      <body className="antialiased" style={{ fontFamily: "'Geist', 'Geist Mono', sans-serif" }}>
         {children}
       </body>
     </html>

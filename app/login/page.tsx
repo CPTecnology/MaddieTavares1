@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { Eye, EyeOff, Loader2, Mail, Lock, Phone, User } from "lucide-react";
-import api from "@/lib/api";
+import api from "@/app/lib/api";
 import Image from "next/image";
 
 export default function Login() {
@@ -62,39 +62,43 @@ export default function Login() {
         });
         alert("Conta criada com sucesso!");
         setActiveTab("login");
-     // ... dentro do handleSubmit, na parte do login ...
-} else {
-  // 1. Tente o login
-  const response = await api.post("/auth/login", {
-    email: formData.email,
-    password: formData.senha, 
-  });
+        // ... dentro do handleSubmit, na parte do login ...
+      } else {
+        // 1. Tente o login
+        const response = await api.post("/auth/login", {
+          email: formData.email,
+          password: formData.senha,
+        });
 
-  const { role, token, nome } = response.data; // Pegue o nome se o seu backend retornar
-  
-  // 2. Salva os dados essenciais
-  localStorage.setItem("token", token);
-  localStorage.setItem("user_role", role);
-  if (nome) localStorage.setItem("user_name", nome);
+        const { role, token, nome } = response.data; // Pegue o nome se o seu backend retornar
 
-  // 3. Lógica de Redirecionamento
-  if (role === "cliente") {
-    // Se for cliente, vai para a página de perfil local
-    router.push("/perfil");
-  } else if (["admin", "funcionario", "profissional", "recepcionista"].includes(role)) {
-    // Se for staff/admin, mantém a lógica de ir para o dashboard externo
-    const DASHBOARD_URL =
-      window.location.hostname === "localhost"
-        ? "http://localhost:3001"
-        : "https://admin.maddietavares.cv";
+        // 2. Salva os dados essenciais
+        localStorage.setItem("token", token);
+        localStorage.setItem("user_role", role);
+        if (nome) localStorage.setItem("user_name", nome);
 
-    setLoading(false);
-    window.location.href = `${DASHBOARD_URL}/login-bypass?token=${token}&role=${role}`;
-  } else {
-    // Caso padrão (opcional)
-    router.push("/perfil");
-  }
-}
+        // 3. Lógica de Redirecionamento
+        if (role === "cliente") {
+          // Se for cliente, vai para a página de perfil local
+          router.push("/perfil");
+        } else if (
+          ["admin", "funcionario", "profissional", "recepcionista"].includes(
+            role,
+          )
+        ) {
+          // Se for staff/admin, mantém a lógica de ir para o dashboard externo
+          const DASHBOARD_URL =
+            window.location.hostname === "localhost"
+              ? "http://localhost:3001"
+              : "https://admin.maddietavares.cv";
+
+          setLoading(false);
+          window.location.href = `${DASHBOARD_URL}/login-bypass?token=${token}&role=${role}`;
+        } else {
+          // Caso padrão (opcional)
+          router.push("/perfil");
+        }
+      }
     } catch (err: any) {
       const msg = err.response?.data?.message || "Erro na autenticação.";
       setError(msg);
