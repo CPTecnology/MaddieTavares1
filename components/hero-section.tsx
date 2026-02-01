@@ -23,33 +23,33 @@ export function HeroSection() {
   const highlights: HighlightItem[] = [
     {
       id: 1,
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-17%20at%2021.19.44%20%281%29-B4BAhak3JcrX4KDUdCJbmS2S8sLOXY.jpeg",
-      title: "Harmonização Facial",
-      description: "Realce sua beleza natural com procedimentos personalizados e sutis.",
+      image: "/images/1.jpeg",
+      title: "Maquiagem",
+      description: "Realce sua beleza natural com acabamento profissional",
       icon: Sparkles,
       gradient: "from-black/80 via-black/40 to-transparent"
     },
     {
       id: 2,
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-17%20at%2021.19.44-32dARCvGwEsIrk9zjFujj50oV2UMCy.jpeg",
-      title: "Estética Avançada",
-      description: "Tecnologia de ponta para resultados surpreendentes e duradouros.",
+      image: "/images/SA.jpeg",
+      title: "Design de Sobrancelhas",
+      description: "Realce sua beleza natural com tecnicas exclusivas",
       icon: Gem,
       gradient: "from-black/80 via-black/40 to-transparent"
     },
     {
       id: 3,
-      image: "/images/inicio2.jpeg",
-      title: "Bem-Estar & Relaxamento",
-      description: "Um refúgio de serenidade para renovar suas energias e sua alma.",
+      image: "/images/massagem.jpeg",
+      title: "Massagem Relaxante ",
+      description: "Um refúgio de serenidade para renovar suas energias e sua alma",
       icon: Heart,
       gradient: "from-black/80 via-black/40 to-transparent"
     },
     {
       id: 4,
-      image: "/images/facial.jpg",
-      title: "Tratamentos Premium",
-      description: "Experiência exclusiva com os melhores produtos do mercado mundial.",
+      image: "/luxury-spa-interior-golden-light.jpg",
+      title: "Relaxamento e Lazer",
+      description: "Experiência exclusiva com os melhores produtos do mercado",
       icon: Star,
       gradient: "from-black/80 via-black/40 to-transparent"
     }
@@ -79,9 +79,9 @@ export function HeroSection() {
   }, [highlights.length])
 
   return (
-    <section className="relative flex flex-col overflow-hidden">
+    <section className="relative flex flex-col overflow-hidden ">
       {/* Main Hero - Full Screen Height */}
-      <div className="relative h-screen min-h-150 flex items-center justify-center overflow-hidden pt-20">
+      <div className="relative h-screen min-h-100 flex  overflow-hidden pt-20">
         {/* Background Image with Parallax */}
         <div className="absolute inset-0 z-0">
           <Image
@@ -128,8 +128,8 @@ export function HeroSection() {
       </div>
 
       {/* Highlights Carousel */}
-      <div className="relative h-[25vh] min-h-50 px-2.5 py-4">
-        <div className="relative h-full w-full rounded-[50px] overflow-hidden shadow-2xl">
+      <div className="relative h-[25vh] min-h-100 px-2.5 md:py-10 flex md:items-center md:justify-center">
+        <div className="relative h-full w-full md:max-w-5xl   rounded-[50px] overflow-hidden shadow-2xl">
           {/* Slides */}
           {highlights.map((slide: HighlightItem, index: number) => {
             const Icon = slide.icon

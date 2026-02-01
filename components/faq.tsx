@@ -11,7 +11,7 @@ const faqs = [
   {
     question: 'Quem é Maddie Tavares?',
     answer:
-      'Maddie Tavares é uma profissional renomada na área de estética e bem-estar, com mais de 10 anos de experiência. Especializada em tratamentos faciais e corporais de alta performance, ela é conhecida por sua abordagem personalizada e resultados excepcionais.',
+      'Maddie Tavares é uma profissional renomada na área de estética e bem-estar, com mais de 7 anos de experiência. Especializada em tratamentos faciais e corporais de alta performance, ela é conhecida por sua abordagem personalizada e resultados excepcionais.',
   },
   {
     question: 'Quais são as especializações de Maddie Tavares?',

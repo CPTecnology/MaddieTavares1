@@ -9,32 +9,33 @@ import Image from 'next/image'
 export default function Servicos() {
   const servicosDestaque = [
     {
-      nome: 'Harmonização Facial Completa',
-      preco: '35.000 Esc',
-      descricao: 'O tratamento mais completo para realçar sua beleza natural. Análise facial 3D, bioestimulação e preenchimentos estratégicos.',
-      imagem: 'https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915333/maddie_tavares/ni9dzdtynqe7c2s69977.jpg',
+      nome: 'Sobrancelha',
+      preco: '500 Esc',
+      descricao: 'Design personalizado que valoriza o formato do rosto, corrige falhas e realça a expressão com naturalidade.',
+      imagem: '/images/WhatsApp Image 2026-02-01 at 21.03.26 (2).jpeg',
       tag: 'MAIS PROCURADO',
-      beneficios: ['Resultado natural', 'Sem cirurgia', 'Efeito imediato'],
+      beneficios: ['Valoriza e harmoniza o formatodo rosto ', 'Corrige falhas e assimetrias', 'Aumenta a autoestima e a confiança'],
       icon: Crown
     },
     {
-      nome: 'Sessão Spa Completa Premium',
-      preco: '25.000 Esc',
-      descricao: '3 horas de puro luxo. Hidroterapia, massagem com pedras quentes, aromaterapia e tratamento facial radiante.',
-      imagem: 'https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915334/maddie_tavares/lchzyqx5veo1mj2mfhdb.jpg',
+      nome: 'BRINDAL CONCEPT - Express Bridal',
+      preco: '10.500 Esc',
+      descricao: ' Mais do que maquiagem, um momento exclusivo de cuidado e tranquilidade no dia mais especial da sua vida.',
+      imagem: '/images/WhatsApp Image 2026-02-01 at 21.26.34.jpeg',
       tag: 'EXPERIÊNCIA ÚNICA',
-      beneficios: ['Relaxamento total', 'Detox completo', 'Renovação celular'],
+      beneficios: ['Atendimento personalizado e exclusivo', 'Preparação completa da pele para maior durabilidade', 'Acabamento sofisticado e fotogênico'],
       icon: Heart
     },
     {
-      nome: 'Radiofrequência + Microagulhamento',
-      preco: '22.000 Esc',
-      descricao: 'A combinação perfeita para rejuvenescimento. Estimula colágeno profundo e renova completamente a textura da pele.',
-      imagem: 'https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915323/maddie_tavares/wruyd89vu3syyycabhbz.jpg',
+      nome: 'Depilação a Lazer - Perna e Virilha',
+      preco: '10.000 Esc',
+      descricao: 'Tratamento moderno e eficaz que reduz progressivamente os pelos, deixando a pele mais lisa, uniforme e confortável.',
+      imagem: '/images/WhatsApp Image 2026-02-01 at 21.38.25.jpeg',
       tag: 'TECNOLOGIA AVANÇADA',
-      beneficios: ['Anti-idade', 'Lifting natural', 'Pele firme'],
+      beneficios: ['Redução gradual e duradoura dos pelos', 'Diminui pelos encravados e irritações', 'Procedimento rápido e seguro'],
       icon: Zap
     }
+
   ]
 
   const categorias = [

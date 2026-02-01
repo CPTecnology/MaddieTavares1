@@ -39,7 +39,7 @@ export default function Contato() {
           {/* Contact Information Cards */}
           <div className="grid md:grid-cols-3 gap-8">
             {/* Contact Info Card */}
-            <div className="bg-gradient-to-br from-primary/5 to-amber-500/5 rounded-3xl p-8 border border-primary/20">
+            <div className=" from-primary/5 to-amber-500/5 rounded-3xl p-8 border border-primary/20">
               <h3 className="text-2xl font-light mb-6 flex items-center gap-2">
                 <Phone className="text-primary" size={24} />
                 Contatos Diretos
@@ -50,7 +50,7 @@ export default function Contato() {
                   <Phone className="text-primary" size={20} />
                   <div>
                     <p className="text-xs text-muted-foreground">Telefone</p>
-                    <p className="font-medium">(XX) XXXX-XXXX</p>
+                    <p className="font-medium">(+238) 5875124</p>
                   </div>
                 </div>
 
@@ -58,7 +58,7 @@ export default function Contato() {
                   <Mail className="text-primary" size={20} />
                   <div>
                     <p className="text-xs text-muted-foreground">E-mail</p>
-                    <p className="font-medium">contato@maddietavares.com</p>
+                    <p className="font-medium">maddietavares.bb@gmail.com</p>
                   </div>
                 </div>
 
@@ -66,7 +66,7 @@ export default function Contato() {
                   <MapPin className="text-primary" size={20} />
                   <div>
                     <p className="text-xs text-muted-foreground">Endereço</p>
-                    <p className="font-medium">Rua da Estética, 123 - Centro</p>
+                    <p className="font-medium">Rua Corsino António Fortes - Madeiralzinho</p>
                   </div>
                 </div>
               </div>
@@ -81,7 +81,7 @@ export default function Contato() {
 
               <div className="grid grid-cols-3 gap-4">
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/bymaddietavares_estetica/?e=2a484431-1ca8-4c99-85cd-2b00513db3dd&g=5"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="aspect-square flex flex-col items-center justify-center gap-2 bg-background rounded-xl hover:bg-primary/10 transition border border-border hover:border-primary group"
@@ -91,7 +91,7 @@ export default function Contato() {
                 </a>
 
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/maddie.tavares.13"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="aspect-square flex flex-col items-center justify-center gap-2 bg-background rounded-xl hover:bg-primary/10 transition border border-border hover:border-primary group"
@@ -101,7 +101,7 @@ export default function Contato() {
                 </a>
 
                 <a
-                  href="https://wa.me/238XXXXXXXX"
+                  href="https://wa.me/2385875124"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="aspect-square flex flex-col items-center justify-center gap-2 bg-background rounded-xl hover:bg-primary/10 transition border border-border hover:border-primary group"
@@ -126,7 +126,7 @@ export default function Contato() {
                 </div>
                 <div className="flex justify-between items-center p-3 bg-background/50 rounded-lg">
                   <span className="font-medium">Sábado</span>
-                  <span className="text-primary font-semibold">9:00 - 18:00</span>
+                  <span className="text-primary font-semibold">9:00 - 14:00</span>
                 </div>
                 <div className="flex justify-between items-center p-3 bg-background/50 rounded-lg">
                   <span className="font-medium">Domingo</span>
@@ -141,7 +141,7 @@ export default function Contato() {
       <section className="relative h-[600px] overflow-hidden">
         <div className="absolute inset-0">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086394292857!2d-23.561684!3d14.916682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTTCsDU0JzU4LjEiTiAyM8KwMzMnNDIuMSJX!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.7868432947953!2d-24.98938292538344!3d16.892520916873725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f1fcd75a4a949%3A0x175c53d93c5f63eb!2sMaddie%20Tavares%20Beauty%20Boutique!5e1!3m2!1spt-PT!2scv!4v1769986417250!5m2!1spt-PT!2scv"
             width="100%"
             height="100%"
             style={{ border: 0 }}
@@ -151,12 +151,12 @@ export default function Contato() {
           />
         </div>
 
+
         <div className="absolute top-8 left-1/2 -translate-x-1/2 z-10">
           <div className="bg-white/95 backdrop-blur-lg rounded-2xl px-8 py-6 shadow-2xl border border-primary/20">
             <h3 className="text-3xl font-light text-center mb-2">
               Venha nos <span className="text-primary font-serif italic">Visitar</span>
             </h3>
-            <p className="text-muted-foreground text-center">Estacionamento disponível nas proximidades</p>
           </div>
         </div>
       </section>
