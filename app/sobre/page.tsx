@@ -348,11 +348,10 @@ export default function Sobre() {
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
-              <h3 className="text-2xl font-light mb-2">Ana Silva</h3>
+              <h3 className="text-2xl font-light mb-2">Carla Graça</h3>
               <p className="text-primary text-sm font-semibold uppercase tracking-wide mb-3">Esteticista Sênior</p>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Especialista em tratamentos faciais e corporais, certificada em técnicas europeias
-              </p>
+                Expert em massagens terapêuticas e procedimentos corporais
             </div>
 
             <div className="text-center group">
@@ -364,10 +363,10 @@ export default function Sobre() {
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
-              <h3 className="text-2xl font-light mb-2">Maria Costa</h3>
+              <h3 className="text-2xl font-light mb-2">Edilene Fortes</h3>
               <p className="text-primary text-sm font-semibold uppercase tracking-wide mb-3">Terapeuta Especializada</p>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Expert em massagens terapêuticas e procedimentos de relaxamento profundo
+                Expert em manicure e pedicure
               </p>
             </div>
           </div>
