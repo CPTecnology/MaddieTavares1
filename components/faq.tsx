@@ -26,7 +26,7 @@ const faqs = [
   {
     question: 'Os tratamentos são seguros?',
     answer:
-      'Sim, todos os tratamentos realizados pela Maddie Tavares seguem rigorosos protocolos de segurança e higiene. Utilizamos apenas produtos de alta qualidade, aprovados pela ANVISA, e equipamentos de última geração certificados.',
+      'Sim, todos os tratamentos realizados pela Maddie Tavares seguem rigorosos protocolos de segurança e higiene. Utilizamos apenas produtos de alta qualidade e equipamentos de última geração certificados.',
   },
   {
     question: 'Quanto tempo dura cada sessão?',
@@ -41,7 +41,7 @@ const faqs = [
   {
     question: 'Quais formas de pagamento são aceitas?',
     answer:
-      'Aceitamos pagamento em dinheiro, PIX, cartões de débito e crédito (com opção de parcelamento em até 12x). Também oferecemos pacotes promocionais com condições especiais de pagamento.',
+      'Aceitamos pagamento em dinheiro,  em rede 24 e via transferências. Também oferecemos pacotes promocionais com condições especiais de pagamento.',
   },
   {
     question: 'Como posso agendar uma consulta?',
@@ -87,3 +87,4 @@ export function FaqSection() {
     </section>
   )
 }
+
