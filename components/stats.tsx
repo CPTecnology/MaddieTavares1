@@ -6,7 +6,7 @@ export function StatsSection() {
   const stats = [
     {
       icon: Award,
-      number: '15+',
+      number: '7+',
       label: 'Anos de Excelência',
       description: 'Referência em beleza premium'
     },

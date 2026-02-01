@@ -1,4 +1,4 @@
-'use client'
+lene'use client'
 
 import { Navigation } from '@/components/navigation'
 import { Footer } from '@/components/footer'
@@ -51,7 +51,7 @@ export default function Sobre() {
                 e bem-estar em Cabo Verde, onde cada cliente é tratado como único e especial.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Com mais de 15 anos de experiência no setor de estética avançada, fundamos este espaço 
+                Com mais de 7 anos de experiência no setor de estética avançada, fundamos este espaço 
                 pensado em cada detalhe, desde a arquitetura inspiradora até os tratamentos de última geração.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
@@ -62,14 +62,14 @@ export default function Sobre() {
             <div className="order-1 md:order-2 relative">
               <div className="relative h-[600px] rounded-3xl overflow-hidden shadow-2xl">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-17%20at%2021.19.44%20%281%29-B4BAhak3JcrX4KDUdCJbmS2S8sLOXY.jpeg"
-                  alt="Interior da clínica"
+                  src="images/Maddie.jpeg"
+                  alt="Maddie Tavares"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="absolute -bottom-8 -left-8 bg-primary text-white p-8 rounded-2xl shadow-xl">
-                <div className="text-5xl font-light mb-2">15+</div>
+                <div className="text-5xl font-light mb-2">7+</div>
                 <div className="text-sm font-semibold uppercase tracking-wide">Anos de Experiência</div>
               </div>
             </div>
@@ -90,7 +90,7 @@ export default function Sobre() {
               <div className="text-sm text-muted-foreground uppercase tracking-wide">Taxa de Satisfação</div>
             </div>
             <div className="text-center p-8 bg-accent/5 rounded-2xl border border-accent/20 hover:border-primary/30 transition-all">
-              <div className="text-4xl font-light text-primary mb-3">15+</div>
+              <div className="text-4xl font-light text-primary mb-3">7+</div>
               <div className="text-sm text-muted-foreground uppercase tracking-wide">Anos de Excelência</div>
             </div>
           </div>
@@ -326,7 +326,7 @@ export default function Sobre() {
             <div className="text-center group">
               <div className="relative w-64 h-64 mx-auto mb-6 rounded-full overflow-hidden shadow-xl group-hover:shadow-2xl transition-all">
                 <Image
-                  src="https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915342/maddie_tavares/u3e5n6ojut3n3oxqwnkv.jpg"
+                  src="/professional-beauty-specialist.jpg"
                   alt="Maddie Tavares"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -335,39 +335,38 @@ export default function Sobre() {
               <h3 className="text-2xl font-light mb-2">Maddie Tavares</h3>
               <p className="text-primary text-sm font-semibold uppercase tracking-wide mb-3">Fundadora & CEO</p>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                15+ anos de experiência em estética avançada, com formação internacional em harmonização facial
+                7+ anos de experiência em estética avançada, com formação internacional em harmonização facial
               </p>
             </div>
 
             <div className="text-center group">
               <div className="relative w-64 h-64 mx-auto mb-6 rounded-full overflow-hidden shadow-xl group-hover:shadow-2xl transition-all">
                 <Image
-                  src="https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915321/maddie_tavares/h2a3ah7gmqtq9606jhav.jpg"
+                  src="/beauty-therapist-professional.jpg"
                   alt="Especialista"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
-              <h3 className="text-2xl font-light mb-2">Ana Silva</h3>
-              <p className="text-primary text-sm font-semibold uppercase tracking-wide mb-3">Esteticista Sênior</p>
+              <h3 className="text-2xl font-light mb-2">Carla Graça</h3>
+              <p className="text-primary text-sm font-semibold uppercase tracking-wide mb-3">Especialista Sênior</p>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Especialista em tratamentos faciais e corporais, certificada em técnicas europeias
-              </p>
+                Expert em massagens terapêuticas e procedimentos corporais
             </div>
 
             <div className="text-center group">
               <div className="relative w-64 h-64 mx-auto mb-6 rounded-full overflow-hidden shadow-xl group-hover:shadow-2xl transition-all">
                 <Image
-                  src="https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915342/maddie_tavares/bsqgifrqtlnxcbppqjlk.jpg"
+                  src="/spa-therapist-professional.jpg"
                   alt="Terapeuta"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
-              <h3 className="text-2xl font-light mb-2">Maria Costa</h3>
-              <p className="text-primary text-sm font-semibold uppercase tracking-wide mb-3">Terapeuta Especializada</p>
+              <h3 className="text-2xl font-light mb-2">Edilene Fortes</h3>
+              <p className="text-primary text-sm font-semibold uppercase tracking-wide mb-3">Especialista Sênior</p>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Expert em massagens terapêuticas e procedimentos de relaxamento profundo
+                Expert em manicure e pedicure
               </p>
             </div>
           </div>

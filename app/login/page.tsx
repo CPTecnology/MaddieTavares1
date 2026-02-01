@@ -112,6 +112,7 @@ export default function Login() {
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
+              backgroundImage: "url('/bg-spa.jpg')",
               filter: "brightness(0.4) blur(3px)",
             }}
           />

@@ -7,6 +7,7 @@ import { Atmosphere } from '@/components/atmosphere'
 import { TestimonialsSection } from '@/components/testimonials'
 import { StatsSection } from '@/components/stats'
 import { ProcessSection } from '@/components/process'
+import { FaqSection } from '@/components/faq'
 import { CtaSection } from '@/components/cta'
 import { Footer } from '@/components/footer'
 
@@ -20,6 +21,7 @@ export default function Home() {
       <ProcessSection />
       <Atmosphere />
       <TestimonialsSection />
+      <FaqSection />
       <CtaSection />
       <Footer />
     </main>
