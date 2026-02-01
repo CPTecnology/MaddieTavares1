@@ -326,7 +326,7 @@ export default function Sobre() {
             <div className="text-center group">
               <div className="relative w-64 h-64 mx-auto mb-6 rounded-full overflow-hidden shadow-xl group-hover:shadow-2xl transition-all">
                 <Image
-                  src="images/MaddieTavares.jpeg"
+                  src="images/MT.jpeg"
                   alt="Maddie Tavares"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -335,7 +335,7 @@ export default function Sobre() {
               <h3 className="text-2xl font-light mb-2">Maddie Tavares</h3>
               <p className="text-primary text-sm font-semibold uppercase tracking-wide mb-3">Fundadora & CEO</p>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                15+ anos de experiência em estética avançada, com formação internacional em harmonização facial
+                7+ anos de experiência em estética avançada, com formação internacional em harmonização facial
               </p>
             </div>
 
