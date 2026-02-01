@@ -67,43 +67,73 @@ export default function Agendar() {
     { data: "2025-01-27", hora: "19:30" },
   ]
 
+  // Categorias e serviços do catálogo, organizados por tipo
   const categorias = [
     {
-      nome: "Facial",
-      icon: "✨",
-      cor: "from-amber-400/20 to-yellow-400/20",
-      border: "border-amber-300/50",
+      nome: 'Facial Premium',
+      icon: '✨',
+      cor: 'from-amber-500/20 to-yellow-500/20',
+      border: 'border-amber-400/50',
       servicos: [
-        { nome: "Limpeza de Pele Profunda", duracao: "60 min", preco: "8.500 Esc" },
-        { nome: "Peeling Químico", duracao: "45 min", preco: "12.000 Esc" },
-        { nome: "Microdermabrasão", duracao: "50 min", preco: "10.500 Esc" },
-        { nome: "Harmonização Facial", duracao: "90 min", preco: "25.000 Esc" },
-      ],
+        { nome: 'Limpeza de Pele Profunda', duracao: '90 min', preco: '12.500 Esc' },
+        { nome: 'Peeling Químico Avançado', duracao: '60 min', preco: '15.000 Esc' },
+        { nome: 'Radiofrequência Facial', duracao: '50 min', preco: '18.500 Esc' },
+        { nome: 'Facial Anti-Idade Luxo', duracao: '120 min', preco: '20.000 Esc' },
+        { nome: 'Hidratação Profunda Premium', duracao: '75 min', preco: '16.000 Esc' },
+        { nome: 'Microdermabrasão Diamante', duracao: '60 min', preco: '14.000 Esc' },
+        // Serviços extras do catálogo (exemplo)
+        { nome: 'Peeling de Diamante', duracao: '50 min', preco: '13.000 Esc' },
+        { nome: 'Máscara de Ouro', duracao: '40 min', preco: '10.000 Esc' }
+      ]
     },
     {
-      nome: "Corporal",
-      icon: "💆",
-      cor: "from-amber-500/20 to-yellow-500/20",
-      border: "border-amber-400/50",
+      nome: 'Corpo Esculpido',
+      icon: '💎',
+      cor: 'from-amber-500/20 to-yellow-500/20',
+      border: 'border-amber-400/50',
       servicos: [
-        { nome: "Massagem Relaxante", duracao: "60 min", preco: "7.500 Esc" },
-        { nome: "Drenagem Linfática", duracao: "75 min", preco: "9.000 Esc" },
-        { nome: "Hidroterapia", duracao: "60 min", preco: "11.000 Esc" },
-        { nome: "Sessão Spa Completa", duracao: "120 min", preco: "18.000 Esc" },
-      ],
+        { nome: 'Redução de Medidas 3D', duracao: '90 min', preco: '15.000 Esc' },
+        { nome: 'Massagem Terapêutica Premium', duracao: '60 min', preco: '10.000 Esc' },
+        { nome: 'Depilação Laser Completa', duracao: '45 min', preco: '8.500 Esc' },
+        { nome: 'Drenagem Linfática Deluxe', duracao: '60 min', preco: '9.000 Esc' },
+        { nome: 'Harmonização Corporal', duracao: '120 min', preco: '17.500 Esc' },
+        { nome: 'Criofrequência Localizada', duracao: '50 min', preco: '12.000 Esc' },
+        // Serviços extras do catálogo (exemplo)
+        { nome: 'Massagem Modeladora', duracao: '60 min', preco: '11.000 Esc' }
+      ]
     },
     {
-      nome: "Estética Avançada",
-      icon: "🔬",
-      cor: "from-amber-600/20 to-yellow-600/20",
-      border: "border-amber-500/50",
+      nome: 'Estética Avançada',
+      icon: '👑',
+      cor: 'from-amber-600/20 to-yellow-600/20',
+      border: 'border-amber-500/50',
       servicos: [
-        { nome: "Radiofrequência Facial", duracao: "50 min", preco: "15.000 Esc" },
-        { nome: "Depilação a Laser", duracao: "30 min", preco: "6.500 Esc" },
-        { nome: "Microagulhamento com PRP", duracao: "90 min", preco: "22.000 Esc" },
-        { nome: "Bioestimulação 3D", duracao: "60 min", preco: "18.500 Esc" },
-      ],
+        { nome: 'Bioestimulação Facial 3D', duracao: '40 min', preco: '19.000 Esc' },
+        { nome: 'Toxina Botulínica Premium', duracao: '30 min', preco: '18.000 Esc' },
+        { nome: 'Sculptra & Radiesse', duracao: '50 min', preco: '24.000 Esc' },
+        { nome: 'Fios de Sustentação PDO', duracao: '60 min', preco: '28.000 Esc' },
+        { nome: 'Tratamento de Cicatrizes', duracao: '45 min', preco: '16.000 Esc' },
+        { nome: 'Lipopapada sem Cirurgia', duracao: '40 min', preco: '21.000 Esc' },
+        // Serviços extras do catálogo (exemplo)
+        { nome: 'Preenchimento Labial', duracao: '40 min', preco: '20.000 Esc' }
+      ]
     },
+    {
+      nome: 'Bem-Estar & Spa',
+      icon: '🌿',
+      cor: 'from-amber-500/20 to-yellow-500/20',
+      border: 'border-amber-400/50',
+      servicos: [
+        { nome: 'Hidroterapia Exclusiva', duracao: '45 min', preco: '13.000 Esc' },
+        { nome: 'Aromaterapia Personalizada', duracao: '50 min', preco: '8.500 Esc' },
+        { nome: 'Reflexologia Podal Premium', duracao: '60 min', preco: '10.000 Esc' },
+        { nome: 'Pedras Quentes + Massagem', duracao: '75 min', preco: '14.000 Esc' },
+        { nome: 'Crioterapia Corporal', duracao: '30 min', preco: '11.000 Esc' },
+        { nome: 'Meditação + Reiki', duracao: '60 min', preco: '12.500 Esc' },
+        // Serviços extras do catálogo (exemplo)
+        { nome: 'Banho de Lua', duracao: '40 min', preco: '9.000 Esc' }
+      ]
+    }
   ]
 
   const todosHorarios = [
@@ -732,7 +762,7 @@ export default function Agendar() {
                         </div>
                         <div className="bg-amber-400/10 border-2 border-amber-400/30 rounded-xl p-4 mt-4">
                           <p className="text-sm text-amber-600 dark:text-amber-400">
-                            Após realizar a transferência, envie o comprovante via WhatsApp (238) 333-5512
+                            Após realizar a transferência, envie o comprovante via WhatsApp (238) 5875124
                           </p>
                         </div>
                       </div>
@@ -766,15 +796,17 @@ export default function Agendar() {
                 <Clock className="text-primary" />
               </div>
               <p className="text-accent tracking-widest uppercase text-sm font-light mb-3">Atendimento</p>
-              <p className="text-2xl font-light">Segunda a Sábado</p>
-              <p className="text-muted-foreground mt-2">9h00 - 20h00</p>
+              <p className="text-2xl font-light">Segunda a Sexta</p>
+              <p className="text-muted-foreground mt-2">9h00 - 19h00</p>
+              <p className="text-2xl font-light">Sábado</p>
+              <p className="text-muted-foreground mt-2">9h00 - 14h00</p>
             </div>
             <div className="p-8 bg-gradient-to-br from-amber-500/10 to-yellow-500/10 rounded-2xl text-center border-2 border-amber-400/20">
               <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Phone className="text-primary" />
               </div>
               <p className="text-accent tracking-widest uppercase text-sm font-light mb-3">Telefone</p>
-              <p className="text-2xl font-light">(238) 333-5512</p>
+              <p className="text-2xl font-light">(238) 5875124</p>
               <p className="text-muted-foreground mt-2">Chat via WhatsApp</p>
             </div>
             <div className="p-8 bg-gradient-to-br from-amber-600/10 to-yellow-600/10 rounded-2xl text-center border-2 border-amber-500/20">
@@ -782,7 +814,7 @@ export default function Agendar() {
                 <Mail className="text-primary" />
               </div>
               <p className="text-accent tracking-widest uppercase text-sm font-light mb-3">Email</p>
-              <p className="text-2xl font-light">maddie@tavares.cv</p>
+              <p className="text-2xl font-light">maddietavares.bb@gmail.com</p>
               <p className="text-muted-foreground mt-2">Resposta em 24h</p>
             </div>
           </div>

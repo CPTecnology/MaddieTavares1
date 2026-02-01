@@ -50,7 +50,7 @@ export default function Contato() {
                   <Phone className="text-primary" size={20} />
                   <div>
                     <p className="text-xs text-muted-foreground">Telefone</p>
-                    <p className="font-medium">(XX) XXXX-XXXX</p>
+                    <p className="font-medium">(238) 5875124</p>
                   </div>
                 </div>
 
@@ -58,7 +58,7 @@ export default function Contato() {
                   <Mail className="text-primary" size={20} />
                   <div>
                     <p className="text-xs text-muted-foreground">E-mail</p>
-                    <p className="font-medium">contato@maddietavares.com</p>
+                    <p className="font-medium">maddietavares.bb@gmail.com</p>
                   </div>
                 </div>
 
@@ -66,7 +66,7 @@ export default function Contato() {
                   <MapPin className="text-primary" size={20} />
                   <div>
                     <p className="text-xs text-muted-foreground">Endereço</p>
-                    <p className="font-medium">Rua da Estética, 123 - Centro</p>
+                    <p className="font-medium">Rua Corsino António Fortes - São Vicente, Cabo Verde</p>
                   </div>
                 </div>
               </div>
@@ -81,7 +81,7 @@ export default function Contato() {
 
               <div className="grid grid-cols-3 gap-4">
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/bymaddietavares_estetica/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="aspect-square flex flex-col items-center justify-center gap-2 bg-background rounded-xl hover:bg-primary/10 transition border border-border hover:border-primary group"
@@ -91,7 +91,7 @@ export default function Contato() {
                 </a>
 
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/maddie.tavares.13/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="aspect-square flex flex-col items-center justify-center gap-2 bg-background rounded-xl hover:bg-primary/10 transition border border-border hover:border-primary group"
@@ -101,7 +101,7 @@ export default function Contato() {
                 </a>
 
                 <a
-                  href="https://wa.me/238XXXXXXXX"
+                  href="https://wa.me/2385875124"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="aspect-square flex flex-col items-center justify-center gap-2 bg-background rounded-xl hover:bg-primary/10 transition border border-border hover:border-primary group"
@@ -126,7 +126,7 @@ export default function Contato() {
                 </div>
                 <div className="flex justify-between items-center p-3 bg-background/50 rounded-lg">
                   <span className="font-medium">Sábado</span>
-                  <span className="text-primary font-semibold">9:00 - 18:00</span>
+                  <span className="text-primary font-semibold">9:00 - 14:00</span>
                 </div>
                 <div className="flex justify-between items-center p-3 bg-background/50 rounded-lg">
                   <span className="font-medium">Domingo</span>

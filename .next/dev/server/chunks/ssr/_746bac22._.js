@@ -305,7 +305,7 @@ function Footer() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm text-background/80 leading-relaxed mb-4",
-                                    children: "Clínica de Estética Avançada. Transformando beleza em arte desde 2010."
+                                    children: "Clínica de Estética Avançada. Transformando beleza em arte desde 2019."
                                 }, void 0, false, {
                                     fileName: "[project]/components/footer.tsx",
                                     lineNumber: 16,
@@ -315,7 +315,7 @@ function Footer() {
                                     className: "flex gap-3",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "https://instagram.com/maddietavares",
+                                            href: "https://www.instagram.com/bymaddietavares_estetica/",
                                             target: "_blank",
                                             rel: "noopener noreferrer",
                                             className: "p-2.5 bg-background/10 rounded-full hover:bg-background/20 transition",
@@ -332,7 +332,7 @@ function Footer() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "https://facebook.com/maddietavares",
+                                            href: "https://www.facebook.com/maddie.tavares.13/",
                                             target: "_blank",
                                             rel: "noopener noreferrer",
                                             className: "p-2.5 bg-background/10 rounded-full hover:bg-background/20 transition",
@@ -349,7 +349,7 @@ function Footer() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "https://wa.me/2383335512",
+                                            href: "https://wa.me/2385875124",
                                             target: "_blank",
                                             rel: "noopener noreferrer",
                                             className: "p-2.5 bg-background/10 rounded-full hover:bg-background/20 transition",
@@ -594,7 +594,7 @@ function Footer() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    children: "maddie@tavares.cv"
+                                                    children: "maddietavares.bb@gmail.com"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/footer.tsx",
                                                     lineNumber: 108,
@@ -619,13 +619,13 @@ function Footer() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: [
-                                                        "Av. Amilcar Cabral",
+                                                        "Rua Corsino António Fortes",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                             fileName: "[project]/components/footer.tsx",
                                                             lineNumber: 114,
                                                             columnNumber: 19
                                                         }, this),
-                                                        "Praia, Cabo Verde"
+                                                        "São Vicente, Cabo Verde"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/footer.tsx",
@@ -660,7 +660,7 @@ function Footer() {
                     className: "border-t border-background/20 pt-6 text-center text-sm text-background/80",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            children: "© 2025 MADDIE TAVARES beauty boutique. Todos os direitos reservados."
+                            children: "© 2025 Maddie Tavares. Todos os direitos reservados."
                         }, void 0, false, {
                             fileName: "[project]/components/footer.tsx",
                             lineNumber: 123,
@@ -879,7 +879,7 @@ function Contato() {
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 className: "jsx-2be6e54e93ede9a9" + " " + "font-medium",
-                                                                children: "(XX) XXXX-XXXX"
+                                                                children: "(238) 5875124"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/contato/page.tsx",
                                                                 lineNumber: 53,
@@ -921,7 +921,7 @@ function Contato() {
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 className: "jsx-2be6e54e93ede9a9" + " " + "font-medium",
-                                                                children: "contato@maddietavares.com"
+                                                                children: "maddietavares.bb@gmail.com"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/contato/page.tsx",
                                                                 lineNumber: 61,
@@ -963,7 +963,7 @@ function Contato() {
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 className: "jsx-2be6e54e93ede9a9" + " " + "font-medium",
-                                                                children: "Rua da Estética, 123 - Centro"
+                                                                children: "Rua Corsino António Fortes - São Vicente, Cabo Verde"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/contato/page.tsx",
                                                                 lineNumber: 69,
@@ -1016,7 +1016,7 @@ function Contato() {
                                         className: "jsx-2be6e54e93ede9a9" + " " + "grid grid-cols-3 gap-4",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "https://instagram.com",
+                                                href: "https://www.instagram.com/bymaddietavares_estetica/",
                                                 target: "_blank",
                                                 rel: "noopener noreferrer",
                                                 className: "jsx-2be6e54e93ede9a9" + " " + "aspect-square flex flex-col items-center justify-center gap-2 bg-background rounded-xl hover:bg-primary/10 transition border border-border hover:border-primary group",
@@ -1044,7 +1044,7 @@ function Contato() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "https://facebook.com",
+                                                href: "https://www.facebook.com/maddie.tavares.13/",
                                                 target: "_blank",
                                                 rel: "noopener noreferrer",
                                                 className: "jsx-2be6e54e93ede9a9" + " " + "aspect-square flex flex-col items-center justify-center gap-2 bg-background rounded-xl hover:bg-primary/10 transition border border-border hover:border-primary group",
@@ -1072,7 +1072,7 @@ function Contato() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "https://wa.me/238XXXXXXXX",
+                                                href: "https://wa.me/2385875124",
                                                 target: "_blank",
                                                 rel: "noopener noreferrer",
                                                 className: "jsx-2be6e54e93ede9a9" + " " + "aspect-square flex flex-col items-center justify-center gap-2 bg-background rounded-xl hover:bg-primary/10 transition border border-border hover:border-primary group",
@@ -1173,7 +1173,7 @@ function Contato() {
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "jsx-2be6e54e93ede9a9" + " " + "text-primary font-semibold",
-                                                        children: "9:00 - 18:00"
+                                                        children: "9:00 - 14:00"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/contato/page.tsx",
                                                         lineNumber: 129,

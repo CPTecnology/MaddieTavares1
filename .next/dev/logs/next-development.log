@@ -1,9 +1,11 @@
-[00:00:02.202] Server  LOG      ✓ Ready in 1446ms
-[00:00:09.056] Server  LOG      ○ Compiling / ...
-[00:00:13.315] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:13.640] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:13.640] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:13.640] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768921355158}
-[00:00:23.975] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/servicos color: rgb(120, 120, 120) color: inherit {"dp":"/servicos","o":"http://localhost:3000/servicos","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768921365488}
-[00:00:37.476] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contato color: rgb(120, 120, 120) color: inherit {"dp":"/contato","o":"http://localhost:3000/contato","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768921378985}
-[00:00:45.907] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sobre color: rgb(120, 120, 120) color: inherit {"dp":"/sobre","o":"http://localhost:3000/sobre","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768921387421}
+[00:00:04.654] Server  LOG      ✓ Ready in 2.7s
+[00:00:38.649] Server  LOG      ○ Compiling / ...
+[00:00:47.784] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:48.020] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:48.020] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:48.021] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1769955411509}
+[00:00:49.914] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/servicos color: rgb(120, 120, 120) color: inherit {"dp":"/servicos","o":"http://localhost:3000/servicos","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1769955413395}
+[00:00:56.672] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/agendar color: rgb(120, 120, 120) color: inherit {"dp":"/agendar","o":"http://localhost:3000/agendar","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1769955420161}
+[00:01:27.322] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/servicos color: rgb(120, 120, 120) color: inherit {"dp":"/servicos","o":"http://localhost:3000/servicos","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1769955450800}
+[00:09:05.264] Server  LOG      ✓ Compiled in 185ms
+[00:10:08.612] Server  LOG      ✓ Compiled in 264ms

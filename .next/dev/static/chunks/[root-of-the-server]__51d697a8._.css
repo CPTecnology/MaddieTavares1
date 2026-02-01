@@ -1083,8 +1083,8 @@
     margin-top: calc(var(--spacing) * 6);
   }
 
-  .mt-20 {
-    margin-top: calc(var(--spacing) * 20);
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
   }
 
   .mt-24 {
@@ -1141,10 +1141,6 @@
 
   .mb-24 {
     margin-bottom: calc(var(--spacing) * 24);
-  }
-
-  .mb-32 {
-    margin-bottom: calc(var(--spacing) * 32);
   }
 
   .-ml-4 {
@@ -2187,16 +2183,6 @@
     }
   }
 
-  .border-amber-300\/50 {
-    border-color: #ffd23680;
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .border-amber-300\/50 {
-      border-color: color-mix(in oklab, var(--color-amber-300) 50%, transparent);
-    }
-  }
-
   .border-amber-400\/20 {
     border-color: #fcbb0033;
   }
@@ -2683,20 +2669,6 @@
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
-  .from-amber-400\/20 {
-    --tw-gradient-from: #fcbb0033;
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .from-amber-400\/20 {
-      --tw-gradient-from: color-mix(in oklab, var(--color-amber-400) 20%, transparent);
-    }
-  }
-
-  .from-amber-400\/20 {
-    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
-  }
-
   .from-amber-500\/10 {
     --tw-gradient-from: #f99c001a;
   }
@@ -3081,20 +3053,6 @@
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
-  .to-yellow-400\/20 {
-    --tw-gradient-to: #fac80033;
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .to-yellow-400\/20 {
-      --tw-gradient-to: color-mix(in oklab, var(--color-yellow-400) 20%, transparent);
-    }
-  }
-
-  .to-yellow-400\/20 {
-    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
-  }
-
   .to-yellow-500\/10 {
     --tw-gradient-to: #edb2001a;
   }
@@ -3213,10 +3171,6 @@
 
   .p-10 {
     padding: calc(var(--spacing) * 10);
-  }
-
-  .p-16 {
-    padding: calc(var(--spacing) * 16);
   }
 
   .p-\[3px\] {
@@ -6297,6 +6251,12 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:mb-8 {
+      margin-bottom: calc(var(--spacing) * 8);
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:block {
       display: block;
     }
@@ -6369,6 +6329,18 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:gap-6 {
+      gap: calc(var(--spacing) * 6);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:gap-8 {
+      gap: calc(var(--spacing) * 8);
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:gap-12 {
       gap: calc(var(--spacing) * 12);
     }
@@ -6381,8 +6353,8 @@
   }
 
   @media (min-width: 48rem) {
-    .md\:p-20 {
-      padding: calc(var(--spacing) * 20);
+    .md\:p-16 {
+      padding: calc(var(--spacing) * 16);
     }
   }
 
@@ -6417,13 +6389,6 @@
     .md\:text-7xl {
       font-size: var(--text-7xl);
       line-height: var(--tw-leading, var(--text-7xl--line-height));
-    }
-  }
-
-  @media (min-width: 48rem) {
-    .md\:text-8xl {
-      font-size: var(--text-8xl);
-      line-height: var(--tw-leading, var(--text-8xl--line-height));
     }
   }
 
@@ -6493,6 +6458,18 @@
   }
 
   @media (min-width: 64rem) {
+    .lg\:mt-20 {
+      margin-top: calc(var(--spacing) * 20);
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .lg\:h-80 {
+      height: calc(var(--spacing) * 80);
+    }
+  }
+
+  @media (min-width: 64rem) {
     .lg\:grid-cols-3 {
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
@@ -6525,6 +6502,18 @@
   @media (min-width: 64rem) {
     .lg\:justify-between {
       justify-content: space-between;
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .lg\:p-8 {
+      padding: calc(var(--spacing) * 8);
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .lg\:p-20 {
+      padding: calc(var(--spacing) * 20);
     }
   }
 
