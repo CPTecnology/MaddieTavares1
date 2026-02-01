@@ -352,7 +352,6 @@ export default function Sobre() {
               <p className="text-primary text-sm font-semibold uppercase tracking-wide mb-3">Especialista Sênior</p>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Expert em massagens terapêuticas e procedimentos corporais
-                </p>
             </div>
 
             <div className="text-center group">
@@ -367,7 +366,7 @@ export default function Sobre() {
               <h3 className="text-2xl font-light mb-2">Edilene Fortes</h3>
               <p className="text-primary text-sm font-semibold uppercase tracking-wide mb-3">Especialista Sênior</p>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Expert em manicure e pedicure
+                Expert em manicure e pedicure.
               </p>
             </div>
           </div>
