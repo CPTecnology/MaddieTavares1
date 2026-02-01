@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "Maddie Tavares Beauty Boutique",
     images: [
       {
-        url: "/ohttps://res.cloudinary.com/dzdyokoiv/image/upload/v1769915331/maddie_tavares/w5io81aj7dshw3h0ocfe.png",
+        url: "images/logo.png",
         width: 1200,
         height: 630,
         alt: "Maddie Tavares Beauty Boutique",
@@ -41,11 +41,11 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915331/maddie_tavares/w5io81aj7dshw3h0ocfe.png", media: "(prefers-color-scheme: light)" },
-      { url: "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915331/maddie_tavares/w5io81aj7dshw3h0ocfe.png", media: "(prefers-color-scheme: dark)" },
-      { url: "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915331/maddie_tavares/w5io81aj7dshw3h0ocfe.png", type: "image/svg+xml" },
+      { url: "images/logo.png", media: "(prefers-color-scheme: light)" },
+      { url: "images/logo.png", media: "(prefers-color-scheme: dark)" },
+      { url: "images/logo.png"},
     ],
-    apple: "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915331/maddie_tavares/w5io81aj7dshw3h0ocfe.png",
+    apple: "images/logo.png",
   },
 };
 
