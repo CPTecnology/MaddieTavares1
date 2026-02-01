@@ -1370,6 +1370,10 @@
     max-height: 300px;
   }
 
+  .max-h-\[500px\] {
+    max-height: 500px;
+  }
+
   .max-h-screen {
     max-height: 100vh;
   }

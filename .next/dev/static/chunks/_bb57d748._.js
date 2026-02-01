@@ -770,219 +770,219 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 function Servicos() {
     const servicosDestaque = [
         {
-            nome: 'Harmonização Facial Completa',
-            preco: '35.000 Esc',
-            descricao: 'O tratamento mais completo para realçar sua beleza natural. Análise facial 3D, bioestimulação e preenchimentos estratégicos.',
+            nome: 'Pacote Noiva Queen',
+            preco: '15.000 CVE',
+            descricao: 'Bridal Make Up + Make Up Madrinha + Make Up Mãe, Penteado, Design e Henna, Esfoliação Corporal, Banho Terapêutico (15mn), Massagem Relaxante (45mn), Revitalização Facial, Manicure com Gel e Pedicure com Gelinho, Depilação Axila e Virilha. Bônus: 1 Sessão Detox Corporal Pós Casamento',
             imagem: '/luxury-facial-harmonization-treatment.jpg',
-            tag: 'MAIS PROCURADO',
+            tag: 'EXCLUSIVO NOIVA',
             beneficios: [
-                'Resultado natural',
-                'Sem cirurgia',
-                'Efeito imediato'
+                'Pacote completo',
+                'Bônus incluído',
+                'Experiência premium'
             ],
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$crown$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Crown$3e$__["Crown"]
         },
         {
-            nome: 'Sessão Spa Completa Premium',
-            preco: '25.000 Esc',
-            descricao: '3 horas de puro luxo. Hidroterapia, massagem com pedras quentes, aromaterapia e tratamento facial radiante.',
+            nome: 'Depilação Laser Corpo Inteiro',
+            preco: '18.000 CVE',
+            descricao: 'Tecnologia avançada para depilação definitiva em todas as áreas do corpo. Resultados duradouros e precisos.',
             imagem: '/luxury-spa-bathtub-with-bamboo.jpg',
-            tag: 'EXPERIÊNCIA ÚNICA',
-            beneficios: [
-                'Relaxamento total',
-                'Detox completo',
-                'Renovação celular'
-            ],
-            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"]
-        },
-        {
-            nome: 'Radiofrequência + Microagulhamento',
-            preco: '22.000 Esc',
-            descricao: 'A combinação perfeita para rejuvenescimento. Estimula colágeno profundo e renova completamente a textura da pele.',
-            imagem: '/facial-skin-treatment-technology.jpg',
             tag: 'TECNOLOGIA AVANÇADA',
             beneficios: [
-                'Anti-idade',
-                'Lifting natural',
-                'Pele firme'
+                'Resultado duradouro',
+                'Tecnologia precisa',
+                'Conforto'
             ],
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$zap$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Zap$3e$__["Zap"]
+        },
+        {
+            nome: 'Limpeza de Pele + Microagulhamento',
+            preco: '8.000 CVE',
+            descricao: 'Combinação perfeita para renovação celular profunda. Tratamento completo para rejuvenescimento e tratamento de manchas.',
+            imagem: '/facial-skin-treatment-technology.jpg',
+            tag: 'TRATAMENTO COMPLETO',
+            beneficios: [
+                'Rejuvenescimento',
+                'Renovação celular',
+                'Resultado visível'
+            ],
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"]
         }
     ];
     const categorias = [
         {
-            titulo: 'Facial Premium',
-            subtitulo: 'Brilhe com confiança',
+            titulo: 'Maquiagem & Sobrancelhas',
+            subtitulo: 'Realce sua beleza natural',
             cor: 'from-amber-500/20 to-yellow-500/20',
             icone: '✨',
             servicos: [
                 {
-                    nome: 'Limpeza de Pele Profunda',
-                    preco: '12.500 Esc',
-                    descricao: 'Remoção profunda + extração + máscara luminosa',
+                    nome: 'Maquiagem Simples',
+                    preco: '2.000 CVE',
+                    descricao: 'Preparação de pele completa, uma sombra ou sem sombra nos olhos, lábios batom ou gloss',
+                    duracao: '60 min'
+                },
+                {
+                    nome: 'Maquiagem Sofisticada',
+                    preco: '2.500 CVE',
+                    descricao: 'Preparação de pele completa, combinação de sombra, lábios batom ou gloss',
                     duracao: '90 min'
                 },
                 {
-                    nome: 'Peeling Químico Avançado',
-                    preco: '15.000 Esc',
-                    descricao: 'Renovação celular com ácidos de alta performance',
-                    duracao: '60 min'
-                },
-                {
-                    nome: 'Radiofrequência Facial',
-                    preco: '18.500 Esc',
-                    descricao: 'Lifting não invasivo com resultados visíveis',
-                    duracao: '50 min'
-                },
-                {
-                    nome: 'Facial Anti-Idade Luxo',
-                    preco: '20.000 Esc',
-                    descricao: 'Redução de rugas + firmeza + luminosidade',
+                    nome: 'Maquiagem Noiva',
+                    preco: '4.000 CVE',
+                    descricao: 'Higienização, Hidratação e Preparação de pele completa, combinação de sombra glam, lábios batom ou gloss',
                     duracao: '120 min'
                 },
                 {
-                    nome: 'Hidratação Profunda Premium',
-                    preco: '16.000 Esc',
-                    descricao: 'Séruns concentrados + máscaras de ouro',
-                    duracao: '75 min'
+                    nome: 'Photoshoot Glow',
+                    preco: '3.000 CVE',
+                    descricao: 'Maquiagem mais elaborada ideal para fotos profissionais',
+                    duracao: '90 min'
                 },
                 {
-                    nome: 'Microdermabrasão Diamante',
-                    preco: '14.000 Esc',
-                    descricao: 'Esfoliação profunda para pele de porcelana',
+                    nome: 'Brow Lamination + Tintura',
+                    preco: '1.500 CVE',
+                    descricao: 'Procedimento químico com efeito lifting que estica os fios, tornando a sobrancelha visualmente mais grossa, com coloração',
                     duracao: '60 min'
+                },
+                {
+                    nome: 'Micropigmentação Microblading',
+                    preco: '15.000 CVE',
+                    descricao: 'Desenho de sobrancelhas efeito fio a fio natural (inclui retoque 1 mês)',
+                    duracao: '120 min'
                 }
             ]
         },
         {
-            titulo: 'Corpo Esculpido',
-            subtitulo: 'Seu corpo dos sonhos',
+            titulo: 'Tratamentos Faciais',
+            subtitulo: 'Pele radiante e rejuvenescida',
             cor: 'from-amber-500/20 to-yellow-500/20',
             icone: '💎',
             servicos: [
                 {
-                    nome: 'Redução de Medidas 3D',
-                    preco: '15.000 Esc',
-                    descricao: 'Cavitação + radiofrequência + drenagem',
+                    nome: 'Limpeza de Pele Clássica',
+                    preco: '3.500 CVE',
+                    descricao: 'Aplicação de dermocosméticos específicos inclui esfoliação, emoliência, extração manual e ultrassônica, alta frequência, LEDterapia e finalização',
+                    duracao: '60 min'
+                },
+                {
+                    nome: 'Limpeza Profunda Facial',
+                    preco: '4.200 CVE',
+                    descricao: 'Protocolo completo de limpeza profunda com 1 hora de duração',
+                    duracao: '60 min'
+                },
+                {
+                    nome: 'Hidrafacial',
+                    preco: '5.000 CVE',
+                    descricao: 'Protocolo de limpeza e hidratação profunda com peeling de água para peles desvitalizadas e sem brilho',
+                    duracao: '75 min'
+                },
+                {
+                    nome: 'Rejuvenescadora / Antiaging',
+                    preco: '4.700 CVE',
+                    descricao: 'Limpeza de pele específica para peles desvitalizadas, ação firmadora, antiflacidez, antirrugas, remodeladora',
                     duracao: '90 min'
                 },
                 {
-                    nome: 'Massagem Terapêutica Premium',
-                    preco: '10.000 Esc',
-                    descricao: '60 minutos de relaxamento profundo',
-                    duracao: '60 min'
-                },
-                {
-                    nome: 'Depilação Laser Completa',
-                    preco: '8.500 Esc',
-                    descricao: 'Tecnologia indolor de última geração',
-                    duracao: '45 min'
-                },
-                {
-                    nome: 'Drenagem Linfática Deluxe',
-                    preco: '9.000 Esc',
-                    descricao: 'Elimine toxinas e desinche imediatamente',
-                    duracao: '60 min'
-                },
-                {
-                    nome: 'Harmonização Corporal',
-                    preco: '17.500 Esc',
-                    descricao: 'Protocolo personalizado para seu corpo',
-                    duracao: '120 min'
-                },
-                {
-                    nome: 'Criofrequência Localizada',
-                    preco: '12.000 Esc',
-                    descricao: 'Congela gordura + firma + modela',
+                    nome: 'Radiofrequência Facial',
+                    preco: '2.500 CVE',
+                    descricao: 'Protocolo para estímulo de colágeno, antiflacidez e prevenção de rugas, rejuvenescimento e efeito lifting facial',
                     duracao: '50 min'
+                },
+                {
+                    nome: 'Dermaplaning',
+                    preco: '3.500 CVE',
+                    descricao: 'Peeling físico da camada mais superficial da pele',
+                    duracao: '45 min'
                 }
             ]
         },
         {
-            titulo: 'Estética Avançada',
-            subtitulo: 'Transformação real',
+            titulo: 'Estética Corporal',
+            subtitulo: 'Transformação e bem-estar',
             cor: 'from-amber-600/20 to-yellow-600/20',
             icone: '👑',
             servicos: [
                 {
-                    nome: 'Bioestimulação Facial 3D',
-                    preco: '19.000 Esc',
-                    descricao: 'Preenchimento natural com ácido hialurônico',
-                    duracao: '40 min'
-                },
-                {
-                    nome: 'Toxina Botulínica Premium',
-                    preco: '18.000 Esc',
-                    descricao: 'Suavização de rugas e linhas de expressão',
-                    duracao: '30 min'
-                },
-                {
-                    nome: 'Sculptra & Radiesse',
-                    preco: '24.000 Esc',
-                    descricao: 'Volume e restauração facial duradoura',
-                    duracao: '50 min'
-                },
-                {
-                    nome: 'Fios de Sustentação PDO',
-                    preco: '28.000 Esc',
-                    descricao: 'Lifting imediato sem cirurgia',
+                    nome: 'Microagulhamento Corporal',
+                    preco: '8.000 CVE',
+                    descricao: 'Tratamento para estrias, cicatrizes e flacidez tissular (por zona)',
                     duracao: '60 min'
                 },
                 {
-                    nome: 'Tratamento de Cicatrizes',
-                    preco: '16.000 Esc',
-                    descricao: 'Redução de 70% das marcas',
-                    duracao: '45 min'
+                    nome: 'Esfoliação Corporal + Banho Terapêutico + Massagem',
+                    preco: '6.000 CVE',
+                    descricao: 'Ritual relaxante de 1h30 que visa esfoliar, limpar e hidratar a pele',
+                    duracao: '90 min'
                 },
                 {
-                    nome: 'Lipopapada sem Cirurgia',
-                    preco: '21.000 Esc',
-                    descricao: 'Elimine papada com enzimas naturais',
-                    duracao: '40 min'
+                    nome: 'Massagem Relaxante - Corpo Inteiro',
+                    preco: '3.500 CVE',
+                    descricao: 'Técnica de movimentos suaves e contínuos para diminuir tensão muscular, aliviar dores e relaxar a mente',
+                    duracao: '60 min'
+                },
+                {
+                    nome: 'Massagem com Pedras Quentes',
+                    preco: '4.000 CVE',
+                    descricao: 'Massagem relaxante com pedras quentes para relaxamento profundo',
+                    duracao: '60 min'
+                },
+                {
+                    nome: 'Drenagem Linfática - Corpo Inteiro',
+                    preco: '2.800 CVE',
+                    descricao: 'Técnica especializada para eliminação de toxinas e redução de inchaço',
+                    duracao: '60 min'
+                },
+                {
+                    nome: 'Lipo Cavitação',
+                    preco: '3.000 CVE',
+                    descricao: 'Ultrassom estético que causa a quebra de células lipolíticas reduzindo a gordura localizada',
+                    duracao: '50 min'
                 }
             ]
         },
         {
-            titulo: 'Bem-Estar & Spa',
-            subtitulo: 'Renove sua energia',
+            titulo: 'Depilação & Cuidados',
+            subtitulo: 'Suavidade e precisão',
             cor: 'from-amber-500/20 to-yellow-500/20',
             icone: '🌿',
             servicos: [
                 {
-                    nome: 'Hidroterapia Exclusiva',
-                    preco: '13.000 Esc',
-                    descricao: '45 minutos em banheira terapêutica',
+                    nome: 'Depilação Laser - Virilha + Axilas',
+                    preco: '6.000 CVE',
+                    descricao: 'Tecnologia avançada para depilação definitiva nas áreas íntimas',
                     duracao: '45 min'
                 },
                 {
-                    nome: 'Aromaterapia Personalizada',
-                    preco: '8.500 Esc',
-                    descricao: 'Óleos essenciais selecionados para você',
-                    duracao: '50 min'
-                },
-                {
-                    nome: 'Reflexologia Podal Premium',
-                    preco: '10.000 Esc',
-                    descricao: 'Equilíbrio energético total',
+                    nome: 'Depilação Laser - Meia Perna + Virilha',
+                    preco: '7.000 CVE',
+                    descricao: 'Protocolo combinado para resultados eficientes',
                     duracao: '60 min'
                 },
                 {
-                    nome: 'Pedras Quentes + Massagem',
-                    preco: '14.000 Esc',
-                    descricao: 'Calor terapêutico que relaxa profundamente',
-                    duracao: '75 min'
+                    nome: 'Depilação a Cera - Perna Inteira (Mulher)',
+                    preco: '1.200 CVE',
+                    descricao: 'Técnica tradicional com cera de alta qualidade',
+                    duracao: '45 min'
                 },
                 {
-                    nome: 'Crioterapia Corporal',
-                    preco: '11.000 Esc',
-                    descricao: 'Recuperação muscular e rejuvenescimento',
-                    duracao: '30 min'
+                    nome: 'Extensão de Pestanas',
+                    preco: '4.500 CVE',
+                    descricao: 'Colocação fio a fio clássico e fios tecnológicos',
+                    duracao: '120 min'
                 },
                 {
-                    nome: 'Meditação + Reiki',
-                    preco: '12.500 Esc',
-                    descricao: 'Experiência holística completa',
+                    nome: 'Lash Lifting com Tintura',
+                    preco: '1.800 CVE',
+                    descricao: 'Procedimento químico com efeito lifting que estica os fios das pestanas, tornando-as visualmente mais compridas',
                     duracao: '60 min'
+                },
+                {
+                    nome: 'Manicure & Pedicure Terapêutico',
+                    preco: '2.000 CVE',
+                    descricao: 'Combo Spa das Mãos + Spa dos Pés com cutilagem, esfoliação, máscara de hidratação, massagem terapêutica',
+                    duracao: '90 min'
                 }
             ]
         }

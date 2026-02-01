@@ -863,186 +863,287 @@ function Agendar() {
             hora: "19:30"
         }
     ];
-    // Categorias e serviços do catálogo, organizados por tipo
+    // Categorias e serviços do catálogo PDF, organizados por tipo
     const categorias = [
         {
-            nome: 'Facial Premium',
+            nome: 'Maquiagem & Sobrancelhas',
             icon: '✨',
             cor: 'from-amber-500/20 to-yellow-500/20',
             border: 'border-amber-400/50',
             servicos: [
                 {
-                    nome: 'Limpeza de Pele Profunda',
+                    nome: 'Maquiagem Simples',
+                    duracao: '60 min',
+                    preco: '2.000 CVE'
+                },
+                {
+                    nome: 'Maquiagem Sofisticada',
                     duracao: '90 min',
-                    preco: '12.500 Esc'
+                    preco: '2.500 CVE'
                 },
                 {
-                    nome: 'Peeling Químico Avançado',
-                    duracao: '60 min',
-                    preco: '15.000 Esc'
-                },
-                {
-                    nome: 'Radiofrequência Facial',
-                    duracao: '50 min',
-                    preco: '18.500 Esc'
-                },
-                {
-                    nome: 'Facial Anti-Idade Luxo',
+                    nome: 'Maquiagem Artística',
                     duracao: '120 min',
-                    preco: '20.000 Esc'
+                    preco: '3.500 CVE'
                 },
                 {
-                    nome: 'Hidratação Profunda Premium',
-                    duracao: '75 min',
-                    preco: '16.000 Esc'
+                    nome: 'Maquiagem Noiva',
+                    duracao: '120 min',
+                    preco: '4.000 CVE'
                 },
                 {
-                    nome: 'Microdermabrasão Diamante',
+                    nome: 'Photoshoot Glow',
+                    duracao: '90 min',
+                    preco: '3.000 CVE'
+                },
+                {
+                    nome: 'Pacote Noiva + Prova',
+                    duracao: '180 min',
+                    preco: '6.500 CVE'
+                },
+                {
+                    nome: 'Design Sobrancelhas',
+                    duracao: '30 min',
+                    preco: '500 CVE'
+                },
+                {
+                    nome: 'Brow Lamination',
                     duracao: '60 min',
-                    preco: '14.000 Esc'
-                },
-                // Serviços extras do catálogo (exemplo)
-                {
-                    nome: 'Peeling de Diamante',
-                    duracao: '50 min',
-                    preco: '13.000 Esc'
+                    preco: '1.300 CVE'
                 },
                 {
-                    nome: 'Máscara de Ouro',
-                    duracao: '40 min',
-                    preco: '10.000 Esc'
+                    nome: 'Brow Lamination + Tintura',
+                    duracao: '75 min',
+                    preco: '1.500 CVE'
+                },
+                {
+                    nome: 'Micropigmentação Microblading',
+                    duracao: '120 min',
+                    preco: '15.000 CVE'
+                },
+                {
+                    nome: 'Micropigmentação Microshading',
+                    duracao: '120 min',
+                    preco: '18.000 CVE'
                 }
             ]
         },
         {
-            nome: 'Corpo Esculpido',
+            nome: 'Tratamentos Faciais',
             icon: '💎',
             cor: 'from-amber-500/20 to-yellow-500/20',
             border: 'border-amber-400/50',
             servicos: [
                 {
-                    nome: 'Redução de Medidas 3D',
+                    nome: 'Limpeza de Pele Clássica',
+                    duracao: '60 min',
+                    preco: '3.500 CVE'
+                },
+                {
+                    nome: 'Limpeza Profunda Facial 1H',
+                    duracao: '60 min',
+                    preco: '4.200 CVE'
+                },
+                {
+                    nome: 'Limpeza Facial, Pescoço e Colo',
                     duracao: '90 min',
-                    preco: '15.000 Esc'
+                    preco: '5.200 CVE'
                 },
                 {
-                    nome: 'Massagem Terapêutica Premium',
-                    duracao: '60 min',
-                    preco: '10.000 Esc'
+                    nome: 'Limpeza Anti-Acne',
+                    duracao: '75 min',
+                    preco: '4.700 CVE'
                 },
                 {
-                    nome: 'Depilação Laser Completa',
+                    nome: 'Limpeza Clareadora',
+                    duracao: '75 min',
+                    preco: '4.700 CVE'
+                },
+                {
+                    nome: 'Limpeza Rejuvenescadora',
+                    duracao: '75 min',
+                    preco: '4.700 CVE'
+                },
+                {
+                    nome: 'Hidrafacial',
+                    duracao: '75 min',
+                    preco: '5.000 CVE'
+                },
+                {
+                    nome: 'Dermaplaning',
                     duracao: '45 min',
-                    preco: '8.500 Esc'
+                    preco: '3.500 CVE'
                 },
                 {
-                    nome: 'Drenagem Linfática Deluxe',
-                    duracao: '60 min',
-                    preco: '9.000 Esc'
+                    nome: 'Revitalização Facial',
+                    duracao: '90 min',
+                    preco: '5.000 CVE'
                 },
                 {
-                    nome: 'Harmonização Corporal',
-                    duracao: '120 min',
-                    preco: '17.500 Esc'
+                    nome: 'Detox Facial',
+                    duracao: '45 min',
+                    preco: '2.700 CVE'
                 },
                 {
-                    nome: 'Criofrequência Localizada',
+                    nome: 'Radiofrequência Facial',
                     duracao: '50 min',
-                    preco: '12.000 Esc'
+                    preco: '2.500 CVE'
                 },
-                // Serviços extras do catálogo (exemplo)
                 {
-                    nome: 'Massagem Modeladora',
-                    duracao: '60 min',
-                    preco: '11.000 Esc'
+                    nome: 'Limpeza de Pele + Microagulhamento',
+                    duracao: '120 min',
+                    preco: '8.000 CVE'
                 }
             ]
         },
         {
-            nome: 'Estética Avançada',
+            nome: 'Estética Corporal & Massagens',
             icon: '👑',
             cor: 'from-amber-600/20 to-yellow-600/20',
             border: 'border-amber-500/50',
             servicos: [
                 {
-                    nome: 'Bioestimulação Facial 3D',
-                    duracao: '40 min',
-                    preco: '19.000 Esc'
+                    nome: 'Esfoliação Corporal + Banho + Massagem',
+                    duracao: '90 min',
+                    preco: '6.000 CVE'
                 },
                 {
-                    nome: 'Toxina Botulínica Premium',
-                    duracao: '30 min',
-                    preco: '18.000 Esc'
-                },
-                {
-                    nome: 'Sculptra & Radiesse',
-                    duracao: '50 min',
-                    preco: '24.000 Esc'
-                },
-                {
-                    nome: 'Fios de Sustentação PDO',
+                    nome: 'Massagem Relaxante - Corpo Inteiro',
                     duracao: '60 min',
-                    preco: '28.000 Esc'
+                    preco: '3.500 CVE'
                 },
                 {
-                    nome: 'Tratamento de Cicatrizes',
+                    nome: 'Massagem Relaxante - Zonas Específicas',
+                    duracao: '30 min',
+                    preco: '2.000 CVE'
+                },
+                {
+                    nome: 'Massagem com Pedras Quentes',
+                    duracao: '60 min',
+                    preco: '4.000 CVE'
+                },
+                {
+                    nome: 'Massagem Muscular / Desportiva',
+                    duracao: '60 min',
+                    preco: '4.000 CVE'
+                },
+                {
+                    nome: 'Massagem Modeladora + Madeiraterapia',
+                    duracao: '60 min',
+                    preco: '3.000 CVE'
+                },
+                {
+                    nome: 'Drenagem Linfática - Corpo Inteiro',
+                    duracao: '60 min',
+                    preco: '2.800 CVE'
+                },
+                {
+                    nome: 'Detox Corporal - Termoterapia',
+                    duracao: '60 min',
+                    preco: '3.000 CVE'
+                },
+                {
+                    nome: 'Esfoliação e Hidratação Corporal',
+                    duracao: '60 min',
+                    preco: '3.000 CVE'
+                },
+                {
+                    nome: 'Banho de Lua - Corpo Inteiro',
+                    duracao: '60 min',
+                    preco: '3.000 CVE'
+                },
+                {
+                    nome: 'Banho de Lua - Braços e Pernas',
                     duracao: '45 min',
-                    preco: '16.000 Esc'
+                    preco: '2.200 CVE'
                 },
                 {
-                    nome: 'Lipopapada sem Cirurgia',
-                    duracao: '40 min',
-                    preco: '21.000 Esc'
+                    nome: 'Vagacial',
+                    duracao: '60 min',
+                    preco: '3.500 CVE'
                 },
-                // Serviços extras do catálogo (exemplo)
                 {
-                    nome: 'Preenchimento Labial',
-                    duracao: '40 min',
-                    preco: '20.000 Esc'
+                    nome: 'Backfacial',
+                    duracao: '60 min',
+                    preco: '3.500 CVE'
+                },
+                {
+                    nome: 'Buttfacial',
+                    duracao: '60 min',
+                    preco: '3.500 CVE'
                 }
             ]
         },
         {
-            nome: 'Bem-Estar & Spa',
+            nome: 'Depilação & Cuidados',
             icon: '🌿',
             cor: 'from-amber-500/20 to-yellow-500/20',
             border: 'border-amber-400/50',
             servicos: [
                 {
-                    nome: 'Hidroterapia Exclusiva',
+                    nome: 'Depilação Laser - Virilhas + Axilas',
                     duracao: '45 min',
-                    preco: '13.000 Esc'
+                    preco: '6.000 CVE'
                 },
                 {
-                    nome: 'Aromaterapia Personalizada',
-                    duracao: '50 min',
-                    preco: '8.500 Esc'
-                },
-                {
-                    nome: 'Reflexologia Podal Premium',
+                    nome: 'Depilação Laser - Meia Perna + Virilha',
                     duracao: '60 min',
-                    preco: '10.000 Esc'
+                    preco: '7.000 CVE'
                 },
                 {
-                    nome: 'Pedras Quentes + Massagem',
-                    duracao: '75 min',
-                    preco: '14.000 Esc'
+                    nome: 'Depilação Laser - Perna Completa + Virilha',
+                    duracao: '90 min',
+                    preco: '10.000 CVE'
                 },
                 {
-                    nome: 'Crioterapia Corporal',
+                    nome: 'Depilação Laser - Corpo Inteiro',
+                    duracao: '180 min',
+                    preco: '18.000 CVE'
+                },
+                {
+                    nome: 'Depilação Cera - Perna Inteira (Mulher)',
+                    duracao: '45 min',
+                    preco: '1.200 CVE'
+                },
+                {
+                    nome: 'Depilação Cera - Virilha Completa (Mulher)',
                     duracao: '30 min',
-                    preco: '11.000 Esc'
+                    preco: '1.500 CVE'
                 },
                 {
-                    nome: 'Meditação + Reiki',
+                    nome: 'Depilação Cera - Axilas (Mulher)',
+                    duracao: '15 min',
+                    preco: '600 CVE'
+                },
+                {
+                    nome: 'Extensão de Pestanas',
+                    duracao: '120 min',
+                    preco: '4.500 CVE'
+                },
+                {
+                    nome: 'Lash Lifting com Tintura',
                     duracao: '60 min',
-                    preco: '12.500 Esc'
+                    preco: '1.800 CVE'
                 },
-                // Serviços extras do catálogo (exemplo)
                 {
-                    nome: 'Banho de Lua',
-                    duracao: '40 min',
-                    preco: '9.000 Esc'
+                    nome: 'Combo Natural Beauty',
+                    duracao: '90 min',
+                    preco: '3.200 CVE'
+                },
+                {
+                    nome: 'Manicure com Gel',
+                    duracao: '60 min',
+                    preco: '2.500 CVE'
+                },
+                {
+                    nome: 'Spa das Mãos + Spa dos Pés',
+                    duracao: '90 min',
+                    preco: '2.000 CVE'
+                },
+                {
+                    nome: 'Pedicure Terapêutico',
+                    duracao: '60 min',
+                    preco: '1.200 CVE'
                 }
             ]
         }
@@ -1144,7 +1245,7 @@ function Agendar() {
                 blackText: true
             }, void 0, false, {
                 fileName: "[project]/app/agendar/page.tsx",
-                lineNumber: 203,
+                lineNumber: 220,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1163,7 +1264,7 @@ function Agendar() {
                                             className: "text-accent"
                                         }, void 0, false, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 209,
+                                            lineNumber: 226,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1171,13 +1272,13 @@ function Agendar() {
                                             children: "Agendamento Online"
                                         }, void 0, false, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 210,
+                                            lineNumber: 227,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/agendar/page.tsx",
-                                    lineNumber: 208,
+                                    lineNumber: 225,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -1185,7 +1286,7 @@ function Agendar() {
                                     children: "Reserve Sua Transformação"
                                 }, void 0, false, {
                                     fileName: "[project]/app/agendar/page.tsx",
-                                    lineNumber: 212,
+                                    lineNumber: 229,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1193,13 +1294,13 @@ function Agendar() {
                                     children: "Em apenas 4 passos, garanta seu momento de cuidado e bem-estar"
                                 }, void 0, false, {
                                     fileName: "[project]/app/agendar/page.tsx",
-                                    lineNumber: 215,
+                                    lineNumber: 232,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/agendar/page.tsx",
-                            lineNumber: 207,
+                            lineNumber: 224,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1218,30 +1319,30 @@ function Agendar() {
                                                 size: 20
                                             }, void 0, false, {
                                                 fileName: "[project]/app/agendar/page.tsx",
-                                                lineNumber: 230,
+                                                lineNumber: 247,
                                                 columnNumber: 31
                                             }, this) : s
                                         }, void 0, false, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 223,
+                                            lineNumber: 240,
                                             columnNumber: 17
                                         }, this),
                                         s < 4 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: `w-20 h-0.5 mx-2 ${step > s ? "bg-primary" : "bg-border"}`
                                         }, void 0, false, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 232,
+                                            lineNumber: 249,
                                             columnNumber: 27
                                         }, this)
                                     ]
                                 }, s, true, {
                                     fileName: "[project]/app/agendar/page.tsx",
-                                    lineNumber: 222,
+                                    lineNumber: 239,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/agendar/page.tsx",
-                            lineNumber: 220,
+                            lineNumber: 237,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1258,7 +1359,7 @@ function Agendar() {
                                                     children: "Escolha Seu Tratamento"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 241,
+                                                    lineNumber: 258,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1266,13 +1367,13 @@ function Agendar() {
                                                     children: "Selecione a categoria e o serviço desejado"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 242,
+                                                    lineNumber: 259,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 240,
+                                            lineNumber: 257,
                                             columnNumber: 17
                                         }, this),
                                         categorias.map((cat, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1286,7 +1387,7 @@ function Agendar() {
                                                                 children: cat.icon
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/agendar/page.tsx",
-                                                                lineNumber: 248,
+                                                                lineNumber: 265,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1294,17 +1395,17 @@ function Agendar() {
                                                                 children: cat.nome
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/agendar/page.tsx",
-                                                                lineNumber: 249,
+                                                                lineNumber: 266,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/agendar/page.tsx",
-                                                        lineNumber: 247,
+                                                        lineNumber: 264,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "grid md:grid-cols-2 lg:grid-cols-4 gap-6",
+                                                        className: "grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-h-[500px] overflow-y-auto pr-4",
                                                         children: cat.servicos.map((servico)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                 onClick: ()=>{
                                                                     setFormData({
@@ -1324,7 +1425,7 @@ function Agendar() {
                                                                                 size: 20
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/agendar/page.tsx",
-                                                                                lineNumber: 264,
+                                                                                lineNumber: 281,
                                                                                 columnNumber: 29
                                                                             }, this),
                                                                             formData.servico === servico.nome && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1334,18 +1435,18 @@ function Agendar() {
                                                                                     className: "text-primary-foreground"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                                    lineNumber: 267,
+                                                                                    lineNumber: 284,
                                                                                     columnNumber: 33
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/agendar/page.tsx",
-                                                                                lineNumber: 266,
+                                                                                lineNumber: 283,
                                                                                 columnNumber: 31
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/agendar/page.tsx",
-                                                                        lineNumber: 263,
+                                                                        lineNumber: 280,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1353,7 +1454,7 @@ function Agendar() {
                                                                         children: servico.nome
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/agendar/page.tsx",
-                                                                        lineNumber: 271,
+                                                                        lineNumber: 288,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1365,19 +1466,19 @@ function Agendar() {
                                                                                     size: 14
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                                    lineNumber: 274,
+                                                                                    lineNumber: 291,
                                                                                     columnNumber: 31
                                                                                 }, this),
                                                                                 servico.duracao
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                                            lineNumber: 273,
+                                                                            lineNumber: 290,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/agendar/page.tsx",
-                                                                        lineNumber: 272,
+                                                                        lineNumber: 289,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1385,7 +1486,7 @@ function Agendar() {
                                                                         children: servico.preco
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/agendar/page.tsx",
-                                                                        lineNumber: 278,
+                                                                        lineNumber: 295,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1396,36 +1497,36 @@ function Agendar() {
                                                                                 size: 16
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/agendar/page.tsx",
-                                                                                lineNumber: 280,
+                                                                                lineNumber: 297,
                                                                                 columnNumber: 40
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/agendar/page.tsx",
-                                                                        lineNumber: 279,
+                                                                        lineNumber: 296,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, servico.nome, true, {
                                                                 fileName: "[project]/app/agendar/page.tsx",
-                                                                lineNumber: 253,
+                                                                lineNumber: 270,
                                                                 columnNumber: 25
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/agendar/page.tsx",
-                                                        lineNumber: 251,
+                                                        lineNumber: 268,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, cat.nome, true, {
                                                 fileName: "[project]/app/agendar/page.tsx",
-                                                lineNumber: 246,
+                                                lineNumber: 263,
                                                 columnNumber: 19
                                             }, this))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/agendar/page.tsx",
-                                    lineNumber: 239,
+                                    lineNumber: 256,
                                     columnNumber: 15
                                 }, this),
                                 step === 2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1439,7 +1540,7 @@ function Agendar() {
                                                     children: "Escolha Data e Horário"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 293,
+                                                    lineNumber: 310,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1447,7 +1548,7 @@ function Agendar() {
                                                     children: "Selecione o melhor momento para você"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 294,
+                                                    lineNumber: 311,
                                                     columnNumber: 19
                                                 }, this),
                                                 servicoSelecionado && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1458,7 +1559,7 @@ function Agendar() {
                                                             className: "text-primary"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 297,
+                                                            lineNumber: 314,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1466,7 +1567,7 @@ function Agendar() {
                                                             children: servicoSelecionado.nome
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 298,
+                                                            lineNumber: 315,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1474,7 +1575,7 @@ function Agendar() {
                                                             children: "•"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 299,
+                                                            lineNumber: 316,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1482,19 +1583,19 @@ function Agendar() {
                                                             children: servicoSelecionado.preco
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 300,
+                                                            lineNumber: 317,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 296,
+                                                    lineNumber: 313,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 292,
+                                            lineNumber: 309,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1510,14 +1611,14 @@ function Agendar() {
                                                                     className: "text-primary"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 308,
+                                                                    lineNumber: 325,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "Data Desejada"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 307,
+                                                            lineNumber: 324,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1534,7 +1635,7 @@ function Agendar() {
                                                             className: "w-full px-6 py-4 border-2 border-border rounded-2xl focus:outline-none focus:border-primary transition bg-background text-lg"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 311,
+                                                            lineNumber: 328,
                                                             columnNumber: 21
                                                         }, this),
                                                         formData.data && statusData && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1547,14 +1648,14 @@ function Agendar() {
                                                                         size: 20
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/agendar/page.tsx",
-                                                                        lineNumber: 335,
+                                                                        lineNumber: 352,
                                                                         columnNumber: 29
                                                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2d$big$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle$3e$__["CheckCircle"], {
                                                                         className: "text-green-500",
                                                                         size: 20
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/agendar/page.tsx",
-                                                                        lineNumber: 337,
+                                                                        lineNumber: 354,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1564,7 +1665,7 @@ function Agendar() {
                                                                                 children: statusData.texto
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/agendar/page.tsx",
-                                                                                lineNumber: 340,
+                                                                                lineNumber: 357,
                                                                                 columnNumber: 29
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1577,30 +1678,30 @@ function Agendar() {
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/app/agendar/page.tsx",
-                                                                                lineNumber: 341,
+                                                                                lineNumber: 358,
                                                                                 columnNumber: 29
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/agendar/page.tsx",
-                                                                        lineNumber: 339,
+                                                                        lineNumber: 356,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/agendar/page.tsx",
-                                                                lineNumber: 333,
+                                                                lineNumber: 350,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 322,
+                                                            lineNumber: 339,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 306,
+                                                    lineNumber: 323,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1613,7 +1714,7 @@ function Agendar() {
                                                                     className: "text-primary"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 352,
+                                                                    lineNumber: 369,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "Horário Disponível",
@@ -1626,13 +1727,13 @@ function Agendar() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 355,
+                                                                    lineNumber: 372,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 351,
+                                                            lineNumber: 368,
                                                             columnNumber: 21
                                                         }, this),
                                                         !formData.data ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1643,20 +1744,20 @@ function Agendar() {
                                                                     className: "mx-auto mb-4 opacity-20"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 363,
+                                                                    lineNumber: 380,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                     children: "Selecione uma data para ver os horários disponíveis"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 364,
+                                                                    lineNumber: 381,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 362,
+                                                            lineNumber: 379,
                                                             columnNumber: 23
                                                         }, this) : isDiaLotado(formData.data) ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "text-center py-12",
@@ -1666,7 +1767,7 @@ function Agendar() {
                                                                     className: "mx-auto mb-4 text-red-500"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 368,
+                                                                    lineNumber: 385,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1674,7 +1775,7 @@ function Agendar() {
                                                                     children: "Dia Lotado"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 369,
+                                                                    lineNumber: 386,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1682,13 +1783,13 @@ function Agendar() {
                                                                     children: "Todos os horários estão ocupados. Por favor, escolha outra data."
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 370,
+                                                                    lineNumber: 387,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 367,
+                                                            lineNumber: 384,
                                                             columnNumber: 23
                                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "grid grid-cols-3 gap-3 max-h-96 overflow-y-auto pr-2",
@@ -1709,7 +1810,7 @@ function Agendar() {
                                                                                 children: hora
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/agendar/page.tsx",
-                                                                                lineNumber: 392,
+                                                                                lineNumber: 409,
                                                                                 columnNumber: 33
                                                                             }, this),
                                                                             ocupado && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1717,36 +1818,36 @@ function Agendar() {
                                                                                 children: "Ocupado"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/agendar/page.tsx",
-                                                                                lineNumber: 393,
+                                                                                lineNumber: 410,
                                                                                 columnNumber: 45
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/agendar/page.tsx",
-                                                                        lineNumber: 391,
+                                                                        lineNumber: 408,
                                                                         columnNumber: 31
                                                                     }, this)
                                                                 }, hora, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 379,
+                                                                    lineNumber: 396,
                                                                     columnNumber: 29
                                                                 }, this);
                                                             })
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 375,
+                                                            lineNumber: 392,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 350,
+                                                    lineNumber: 367,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 305,
+                                            lineNumber: 322,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1758,7 +1859,7 @@ function Agendar() {
                                                     children: "Voltar"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 404,
+                                                    lineNumber: 421,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1771,25 +1872,25 @@ function Agendar() {
                                                             size: 18
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 415,
+                                                            lineNumber: 432,
                                                             columnNumber: 31
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 410,
+                                                    lineNumber: 427,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 403,
+                                            lineNumber: 420,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/agendar/page.tsx",
-                                    lineNumber: 291,
+                                    lineNumber: 308,
                                     columnNumber: 15
                                 }, this),
                                 step === 3 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1803,7 +1904,7 @@ function Agendar() {
                                                     children: "Seus Dados"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 424,
+                                                    lineNumber: 441,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1811,13 +1912,13 @@ function Agendar() {
                                                     children: "Preencha suas informações para confirmar"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 425,
+                                                    lineNumber: 442,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 423,
+                                            lineNumber: 440,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1830,14 +1931,14 @@ function Agendar() {
                                                             className: "text-primary"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 430,
+                                                            lineNumber: 447,
                                                             columnNumber: 21
                                                         }, this),
                                                         "Resumo do Agendamento"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 429,
+                                                    lineNumber: 446,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1850,7 +1951,7 @@ function Agendar() {
                                                                     children: "Serviço:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 435,
+                                                                    lineNumber: 452,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 " ",
@@ -1858,7 +1959,7 @@ function Agendar() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 434,
+                                                            lineNumber: 451,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1868,7 +1969,7 @@ function Agendar() {
                                                                     children: "Data:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 438,
+                                                                    lineNumber: 455,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 " ",
@@ -1881,7 +1982,7 @@ function Agendar() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 437,
+                                                            lineNumber: 454,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1891,7 +1992,7 @@ function Agendar() {
                                                                     children: "Horário:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 447,
+                                                                    lineNumber: 464,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 " ",
@@ -1899,7 +2000,7 @@ function Agendar() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 446,
+                                                            lineNumber: 463,
                                                             columnNumber: 21
                                                         }, this),
                                                         servicoSelecionado && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -1911,7 +2012,7 @@ function Agendar() {
                                                                             children: "Duração:"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                                            lineNumber: 452,
+                                                                            lineNumber: 469,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         " ",
@@ -1919,7 +2020,7 @@ function Agendar() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 451,
+                                                                    lineNumber: 468,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1927,7 +2028,7 @@ function Agendar() {
                                                                     children: servicoSelecionado.preco
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 454,
+                                                                    lineNumber: 471,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
@@ -1935,13 +2036,13 @@ function Agendar() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 433,
+                                                    lineNumber: 450,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 428,
+                                            lineNumber: 445,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -1964,14 +2065,14 @@ function Agendar() {
                                                                             className: "text-primary"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                                            lineNumber: 470,
+                                                                            lineNumber: 487,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         "Nome Completo"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 469,
+                                                                    lineNumber: 486,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1987,13 +2088,13 @@ function Agendar() {
                                                                     placeholder: "Seu nome completo"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 473,
+                                                                    lineNumber: 490,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 468,
+                                                            lineNumber: 485,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2006,14 +2107,14 @@ function Agendar() {
                                                                             className: "text-primary"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                                            lineNumber: 485,
+                                                                            lineNumber: 502,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         "Email"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 484,
+                                                                    lineNumber: 501,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2029,19 +2130,19 @@ function Agendar() {
                                                                     placeholder: "seu@email.com"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 488,
+                                                                    lineNumber: 505,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 483,
+                                                            lineNumber: 500,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 467,
+                                                    lineNumber: 484,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2054,14 +2155,14 @@ function Agendar() {
                                                                     className: "text-primary"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 502,
+                                                                    lineNumber: 519,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "Telefone / WhatsApp"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 501,
+                                                            lineNumber: 518,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2077,13 +2178,13 @@ function Agendar() {
                                                             placeholder: "(238) 98765-4321"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 505,
+                                                            lineNumber: 522,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 500,
+                                                    lineNumber: 517,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2096,14 +2197,14 @@ function Agendar() {
                                                                     className: "text-primary"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 518,
+                                                                    lineNumber: 535,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "Observações (Opcional)"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 517,
+                                                            lineNumber: 534,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -2118,13 +2219,13 @@ function Agendar() {
                                                             placeholder: "Alguma observação especial sobre seu tratamento..."
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 521,
+                                                            lineNumber: 538,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 516,
+                                                    lineNumber: 533,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2137,7 +2238,7 @@ function Agendar() {
                                                             children: "Voltar"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 532,
+                                                            lineNumber: 549,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2149,31 +2250,31 @@ function Agendar() {
                                                                     size: 20
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 543,
+                                                                    lineNumber: 560,
                                                                     columnNumber: 48
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 539,
+                                                            lineNumber: 556,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 531,
+                                                    lineNumber: 548,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 460,
+                                            lineNumber: 477,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/agendar/page.tsx",
-                                    lineNumber: 422,
+                                    lineNumber: 439,
                                     columnNumber: 15
                                 }, this),
                                 step === 4 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2187,7 +2288,7 @@ function Agendar() {
                                                     children: "Pagamento Online"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 553,
+                                                    lineNumber: 570,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2195,13 +2296,13 @@ function Agendar() {
                                                     children: "Escolha sua forma de pagamento"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 554,
+                                                    lineNumber: 571,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 552,
+                                            lineNumber: 569,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2214,14 +2315,14 @@ function Agendar() {
                                                             className: "text-primary"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 559,
+                                                            lineNumber: 576,
                                                             columnNumber: 21
                                                         }, this),
                                                         "Resumo do Pedido"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 558,
+                                                    lineNumber: 575,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2234,7 +2335,7 @@ function Agendar() {
                                                                     children: "Serviço:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 564,
+                                                                    lineNumber: 581,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 " ",
@@ -2242,7 +2343,7 @@ function Agendar() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 563,
+                                                            lineNumber: 580,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2252,7 +2353,7 @@ function Agendar() {
                                                                     children: "Data:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 567,
+                                                                    lineNumber: 584,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 " ",
@@ -2265,7 +2366,7 @@ function Agendar() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 566,
+                                                            lineNumber: 583,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2275,7 +2376,7 @@ function Agendar() {
                                                                     children: "Horário:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 576,
+                                                                    lineNumber: 593,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 " ",
@@ -2283,7 +2384,7 @@ function Agendar() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 575,
+                                                            lineNumber: 592,
                                                             columnNumber: 21
                                                         }, this),
                                                         servicoSelecionado && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -2295,7 +2396,7 @@ function Agendar() {
                                                                             children: "Cliente:"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                                            lineNumber: 581,
+                                                                            lineNumber: 598,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         " ",
@@ -2303,7 +2404,7 @@ function Agendar() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 580,
+                                                                    lineNumber: 597,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2316,12 +2417,12 @@ function Agendar() {
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/agendar/page.tsx",
-                                                                        lineNumber: 584,
+                                                                        lineNumber: 601,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 583,
+                                                                    lineNumber: 600,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
@@ -2329,13 +2430,13 @@ function Agendar() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 562,
+                                                    lineNumber: 579,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 557,
+                                            lineNumber: 574,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2346,7 +2447,7 @@ function Agendar() {
                                                     children: "Método de Pagamento"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 592,
+                                                    lineNumber: 609,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2362,7 +2463,7 @@ function Agendar() {
                                                                     className: "mx-auto mb-3"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 604,
+                                                                    lineNumber: 621,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2370,7 +2471,7 @@ function Agendar() {
                                                                     children: "Cartão de Crédito"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 605,
+                                                                    lineNumber: 622,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2378,13 +2479,13 @@ function Agendar() {
                                                                     children: "Em até 3x sem juros"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 606,
+                                                                    lineNumber: 623,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 595,
+                                                            lineNumber: 612,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2397,7 +2498,7 @@ function Agendar() {
                                                                     className: "mx-auto mb-3"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 618,
+                                                                    lineNumber: 635,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2405,7 +2506,7 @@ function Agendar() {
                                                                     children: "Cartão de Débito"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 619,
+                                                                    lineNumber: 636,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2413,13 +2514,13 @@ function Agendar() {
                                                                     children: "Pagamento à vista"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 620,
+                                                                    lineNumber: 637,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 609,
+                                                            lineNumber: 626,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2432,7 +2533,7 @@ function Agendar() {
                                                                     className: "mx-auto mb-3"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 632,
+                                                                    lineNumber: 649,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2440,7 +2541,7 @@ function Agendar() {
                                                                     children: "Transferência"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 633,
+                                                                    lineNumber: 650,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2448,19 +2549,19 @@ function Agendar() {
                                                                     children: "Bancária ou Mobile"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 634,
+                                                                    lineNumber: 651,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 623,
+                                                            lineNumber: 640,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 594,
+                                                    lineNumber: 611,
                                                     columnNumber: 19
                                                 }, this),
                                                 (paymentMethod === "credit" || paymentMethod === "debit") && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -2477,7 +2578,7 @@ function Agendar() {
                                                                             children: "Número do Cartão"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                                            lineNumber: 645,
+                                                                            lineNumber: 662,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2493,13 +2594,13 @@ function Agendar() {
                                                                             className: "w-full px-5 py-4 border-2 border-border rounded-xl focus:outline-none focus:border-primary transition bg-background"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                                            lineNumber: 646,
+                                                                            lineNumber: 663,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 644,
+                                                                    lineNumber: 661,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2509,7 +2610,7 @@ function Agendar() {
                                                                             children: "Nome no Cartão"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                                            lineNumber: 658,
+                                                                            lineNumber: 675,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2524,13 +2625,13 @@ function Agendar() {
                                                                             className: "w-full px-5 py-4 border-2 border-border rounded-xl focus:outline-none focus:border-primary transition bg-background"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                                            lineNumber: 659,
+                                                                            lineNumber: 676,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 657,
+                                                                    lineNumber: 674,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2543,7 +2644,7 @@ function Agendar() {
                                                                                     children: "Validade"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                                    lineNumber: 671,
+                                                                                    lineNumber: 688,
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2559,13 +2660,13 @@ function Agendar() {
                                                                                     className: "w-full px-5 py-4 border-2 border-border rounded-xl focus:outline-none focus:border-primary transition bg-background"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                                    lineNumber: 672,
+                                                                                    lineNumber: 689,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                                            lineNumber: 670,
+                                                                            lineNumber: 687,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2575,7 +2676,7 @@ function Agendar() {
                                                                                     children: "CVV"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                                    lineNumber: 684,
+                                                                                    lineNumber: 701,
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2591,19 +2692,19 @@ function Agendar() {
                                                                                     className: "w-full px-5 py-4 border-2 border-border rounded-xl focus:outline-none focus:border-primary transition bg-background"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                                    lineNumber: 685,
+                                                                                    lineNumber: 702,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                                            lineNumber: 683,
+                                                                            lineNumber: 700,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 669,
+                                                                    lineNumber: 686,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 paymentMethod === "credit" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2613,7 +2714,7 @@ function Agendar() {
                                                                             children: "Parcelas"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                                            lineNumber: 699,
+                                                                            lineNumber: 716,
                                                                             columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -2633,7 +2734,7 @@ function Agendar() {
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                                    lineNumber: 705,
+                                                                                    lineNumber: 722,
                                                                                     columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2643,11 +2744,11 @@ function Agendar() {
                                                                                         " ",
                                                                                         servicoSelecionado && Math.round(Number.parseInt(servicoSelecionado.preco.replace(/[^0-9]/g, "")) / 2),
                                                                                         " ",
-                                                                                        "Esc sem juros"
+                                                                                        "CVE sem juros"
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                                    lineNumber: 706,
+                                                                                    lineNumber: 723,
                                                                                     columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2657,29 +2758,29 @@ function Agendar() {
                                                                                         " ",
                                                                                         servicoSelecionado && Math.round(Number.parseInt(servicoSelecionado.preco.replace(/[^0-9]/g, "")) / 3),
                                                                                         " ",
-                                                                                        "Esc sem juros"
+                                                                                        "CVE sem juros"
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                                    lineNumber: 712,
+                                                                                    lineNumber: 729,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                                            lineNumber: 700,
+                                                                            lineNumber: 717,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 698,
+                                                                    lineNumber: 715,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 643,
+                                                            lineNumber: 660,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2692,7 +2793,7 @@ function Agendar() {
                                                                     children: "Voltar"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 724,
+                                                                    lineNumber: 741,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2703,26 +2804,26 @@ function Agendar() {
                                                                             size: 20
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                                            lineNumber: 735,
+                                                                            lineNumber: 752,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         "Confirmar Pagamento"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 731,
+                                                                    lineNumber: 748,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 723,
+                                                            lineNumber: 740,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 639,
+                                                    lineNumber: 656,
                                                     columnNumber: 21
                                                 }, this),
                                                 paymentMethod === "transfer" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2736,7 +2837,7 @@ function Agendar() {
                                                                     children: "Dados para Transferência"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 745,
+                                                                    lineNumber: 762,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2749,14 +2850,14 @@ function Agendar() {
                                                                                     children: "Banco:"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                                    lineNumber: 748,
+                                                                                    lineNumber: 765,
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 " BCA - Banco Comercial do Atlântico"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                                            lineNumber: 747,
+                                                                            lineNumber: 764,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2766,14 +2867,14 @@ function Agendar() {
                                                                                     children: "Titular:"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                                    lineNumber: 751,
+                                                                                    lineNumber: 768,
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 " Maddie Tavares Beauty Boutique"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                                            lineNumber: 750,
+                                                                            lineNumber: 767,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2783,14 +2884,14 @@ function Agendar() {
                                                                                     children: "NIB:"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                                    lineNumber: 754,
+                                                                                    lineNumber: 771,
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 " 0000 0000 0000 0000 0000 0000"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                                            lineNumber: 753,
+                                                                            lineNumber: 770,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2800,20 +2901,20 @@ function Agendar() {
                                                                                     children: "Referência:"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                                    lineNumber: 757,
+                                                                                    lineNumber: 774,
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 " Usar seu nome como referência"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                                            lineNumber: 756,
+                                                                            lineNumber: 773,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 746,
+                                                                    lineNumber: 763,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2826,12 +2927,12 @@ function Agendar() {
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/agendar/page.tsx",
-                                                                        lineNumber: 761,
+                                                                        lineNumber: 778,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 760,
+                                                                    lineNumber: 777,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2841,18 +2942,18 @@ function Agendar() {
                                                                         children: "Após realizar a transferência, envie o comprovante via WhatsApp (238) 5875124"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/agendar/page.tsx",
-                                                                        lineNumber: 764,
+                                                                        lineNumber: 781,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 763,
+                                                                    lineNumber: 780,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 744,
+                                                            lineNumber: 761,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2865,7 +2966,7 @@ function Agendar() {
                                                                     children: "Voltar"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 771,
+                                                                    lineNumber: 788,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2876,44 +2977,44 @@ function Agendar() {
                                                                             size: 20
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                                            lineNumber: 782,
+                                                                            lineNumber: 799,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         "Confirmar Agendamento"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                                    lineNumber: 778,
+                                                                    lineNumber: 795,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/agendar/page.tsx",
-                                                            lineNumber: 770,
+                                                            lineNumber: 787,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/agendar/page.tsx",
-                                                    lineNumber: 743,
+                                                    lineNumber: 760,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 591,
+                                            lineNumber: 608,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/agendar/page.tsx",
-                                    lineNumber: 551,
+                                    lineNumber: 568,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/agendar/page.tsx",
-                            lineNumber: 237,
+                            lineNumber: 254,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2928,12 +3029,12 @@ function Agendar() {
                                                 className: "text-primary"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/agendar/page.tsx",
-                                                lineNumber: 796,
+                                                lineNumber: 813,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 795,
+                                            lineNumber: 812,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2941,7 +3042,7 @@ function Agendar() {
                                             children: "Atendimento"
                                         }, void 0, false, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 798,
+                                            lineNumber: 815,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2949,7 +3050,7 @@ function Agendar() {
                                             children: "Segunda a Sexta"
                                         }, void 0, false, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 799,
+                                            lineNumber: 816,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2957,7 +3058,7 @@ function Agendar() {
                                             children: "9h00 - 19h00"
                                         }, void 0, false, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 800,
+                                            lineNumber: 817,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2965,7 +3066,7 @@ function Agendar() {
                                             children: "Sábado"
                                         }, void 0, false, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 801,
+                                            lineNumber: 818,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2973,13 +3074,13 @@ function Agendar() {
                                             children: "9h00 - 14h00"
                                         }, void 0, false, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 802,
+                                            lineNumber: 819,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/agendar/page.tsx",
-                                    lineNumber: 794,
+                                    lineNumber: 811,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2991,12 +3092,12 @@ function Agendar() {
                                                 className: "text-primary"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/agendar/page.tsx",
-                                                lineNumber: 806,
+                                                lineNumber: 823,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 805,
+                                            lineNumber: 822,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3004,7 +3105,7 @@ function Agendar() {
                                             children: "Telefone"
                                         }, void 0, false, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 808,
+                                            lineNumber: 825,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3012,7 +3113,7 @@ function Agendar() {
                                             children: "(238) 5875124"
                                         }, void 0, false, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 809,
+                                            lineNumber: 826,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3020,13 +3121,13 @@ function Agendar() {
                                             children: "Chat via WhatsApp"
                                         }, void 0, false, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 810,
+                                            lineNumber: 827,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/agendar/page.tsx",
-                                    lineNumber: 804,
+                                    lineNumber: 821,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3038,70 +3139,70 @@ function Agendar() {
                                                 className: "text-primary"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/agendar/page.tsx",
-                                                lineNumber: 814,
-                                                columnNumber: 17
+                                                lineNumber: 831,
+                                                columnNumber: 15
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 813,
-                                            columnNumber: 15
+                                            lineNumber: 830,
+                                            columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-accent tracking-widest uppercase text-sm font-light mb-3",
                                             children: "Email"
                                         }, void 0, false, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 816,
-                                            columnNumber: 15
+                                            lineNumber: 833,
+                                            columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-2xl font-light",
+                                            className: "text-xl font-light break-words px-2",
                                             children: "maddietavares.bb@gmail.com"
                                         }, void 0, false, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 817,
-                                            columnNumber: 15
+                                            lineNumber: 834,
+                                            columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-muted-foreground mt-2",
                                             children: "Resposta em 24h"
                                         }, void 0, false, {
                                             fileName: "[project]/app/agendar/page.tsx",
-                                            lineNumber: 818,
-                                            columnNumber: 15
+                                            lineNumber: 835,
+                                            columnNumber: 13
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/agendar/page.tsx",
-                                    lineNumber: 812,
+                                    lineNumber: 829,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/agendar/page.tsx",
-                            lineNumber: 793,
+                            lineNumber: 810,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/agendar/page.tsx",
-                    lineNumber: 206,
+                    lineNumber: 223,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/agendar/page.tsx",
-                lineNumber: 205,
+                lineNumber: 222,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$footer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Footer"], {}, void 0, false, {
                 fileName: "[project]/app/agendar/page.tsx",
-                lineNumber: 824,
+                lineNumber: 841,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/agendar/page.tsx",
-        lineNumber: 202,
+        lineNumber: 219,
         columnNumber: 5
     }, this);
 }

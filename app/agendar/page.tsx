@@ -67,71 +67,88 @@ export default function Agendar() {
     { data: "2025-01-27", hora: "19:30" },
   ]
 
-  // Categorias e serviços do catálogo, organizados por tipo
+  // Categorias e serviços do catálogo PDF, organizados por tipo
   const categorias = [
     {
-      nome: 'Facial Premium',
+      nome: 'Maquiagem & Sobrancelhas',
       icon: '✨',
       cor: 'from-amber-500/20 to-yellow-500/20',
       border: 'border-amber-400/50',
       servicos: [
-        { nome: 'Limpeza de Pele Profunda', duracao: '90 min', preco: '12.500 Esc' },
-        { nome: 'Peeling Químico Avançado', duracao: '60 min', preco: '15.000 Esc' },
-        { nome: 'Radiofrequência Facial', duracao: '50 min', preco: '18.500 Esc' },
-        { nome: 'Facial Anti-Idade Luxo', duracao: '120 min', preco: '20.000 Esc' },
-        { nome: 'Hidratação Profunda Premium', duracao: '75 min', preco: '16.000 Esc' },
-        { nome: 'Microdermabrasão Diamante', duracao: '60 min', preco: '14.000 Esc' },
-        // Serviços extras do catálogo (exemplo)
-        { nome: 'Peeling de Diamante', duracao: '50 min', preco: '13.000 Esc' },
-        { nome: 'Máscara de Ouro', duracao: '40 min', preco: '10.000 Esc' }
+        { nome: 'Maquiagem Simples', duracao: '60 min', preco: '2.000 CVE' },
+        { nome: 'Maquiagem Sofisticada', duracao: '90 min', preco: '2.500 CVE' },
+        { nome: 'Maquiagem Artística', duracao: '120 min', preco: '3.500 CVE' },
+        { nome: 'Maquiagem Noiva', duracao: '120 min', preco: '4.000 CVE' },
+        { nome: 'Photoshoot Glow', duracao: '90 min', preco: '3.000 CVE' },
+        { nome: 'Pacote Noiva + Prova', duracao: '180 min', preco: '6.500 CVE' },
+        { nome: 'Design Sobrancelhas', duracao: '30 min', preco: '500 CVE' },
+        { nome: 'Brow Lamination', duracao: '60 min', preco: '1.300 CVE' },
+        { nome: 'Brow Lamination + Tintura', duracao: '75 min', preco: '1.500 CVE' },
+        { nome: 'Micropigmentação Microblading', duracao: '120 min', preco: '15.000 CVE' },
+        { nome: 'Micropigmentação Microshading', duracao: '120 min', preco: '18.000 CVE' }
       ]
     },
     {
-      nome: 'Corpo Esculpido',
+      nome: 'Tratamentos Faciais',
       icon: '💎',
       cor: 'from-amber-500/20 to-yellow-500/20',
       border: 'border-amber-400/50',
       servicos: [
-        { nome: 'Redução de Medidas 3D', duracao: '90 min', preco: '15.000 Esc' },
-        { nome: 'Massagem Terapêutica Premium', duracao: '60 min', preco: '10.000 Esc' },
-        { nome: 'Depilação Laser Completa', duracao: '45 min', preco: '8.500 Esc' },
-        { nome: 'Drenagem Linfática Deluxe', duracao: '60 min', preco: '9.000 Esc' },
-        { nome: 'Harmonização Corporal', duracao: '120 min', preco: '17.500 Esc' },
-        { nome: 'Criofrequência Localizada', duracao: '50 min', preco: '12.000 Esc' },
-        // Serviços extras do catálogo (exemplo)
-        { nome: 'Massagem Modeladora', duracao: '60 min', preco: '11.000 Esc' }
+        { nome: 'Limpeza de Pele Clássica', duracao: '60 min', preco: '3.500 CVE' },
+        { nome: 'Limpeza Profunda Facial 1H', duracao: '60 min', preco: '4.200 CVE' },
+        { nome: 'Limpeza Facial, Pescoço e Colo', duracao: '90 min', preco: '5.200 CVE' },
+        { nome: 'Limpeza Anti-Acne', duracao: '75 min', preco: '4.700 CVE' },
+        { nome: 'Limpeza Clareadora', duracao: '75 min', preco: '4.700 CVE' },
+        { nome: 'Limpeza Rejuvenescadora', duracao: '75 min', preco: '4.700 CVE' },
+        { nome: 'Hidrafacial', duracao: '75 min', preco: '5.000 CVE' },
+        { nome: 'Dermaplaning', duracao: '45 min', preco: '3.500 CVE' },
+        { nome: 'Revitalização Facial', duracao: '90 min', preco: '5.000 CVE' },
+        { nome: 'Detox Facial', duracao: '45 min', preco: '2.700 CVE' },
+        { nome: 'Radiofrequência Facial', duracao: '50 min', preco: '2.500 CVE' },
+        { nome: 'Limpeza de Pele + Microagulhamento', duracao: '120 min', preco: '8.000 CVE' }
       ]
     },
     {
-      nome: 'Estética Avançada',
+      nome: 'Estética Corporal & Massagens',
       icon: '👑',
       cor: 'from-amber-600/20 to-yellow-600/20',
       border: 'border-amber-500/50',
       servicos: [
-        { nome: 'Bioestimulação Facial 3D', duracao: '40 min', preco: '19.000 Esc' },
-        { nome: 'Toxina Botulínica Premium', duracao: '30 min', preco: '18.000 Esc' },
-        { nome: 'Sculptra & Radiesse', duracao: '50 min', preco: '24.000 Esc' },
-        { nome: 'Fios de Sustentação PDO', duracao: '60 min', preco: '28.000 Esc' },
-        { nome: 'Tratamento de Cicatrizes', duracao: '45 min', preco: '16.000 Esc' },
-        { nome: 'Lipopapada sem Cirurgia', duracao: '40 min', preco: '21.000 Esc' },
-        // Serviços extras do catálogo (exemplo)
-        { nome: 'Preenchimento Labial', duracao: '40 min', preco: '20.000 Esc' }
+        { nome: 'Esfoliação Corporal + Banho + Massagem', duracao: '90 min', preco: '6.000 CVE' },
+        { nome: 'Massagem Relaxante - Corpo Inteiro', duracao: '60 min', preco: '3.500 CVE' },
+        { nome: 'Massagem Relaxante - Zonas Específicas', duracao: '30 min', preco: '2.000 CVE' },
+        { nome: 'Massagem com Pedras Quentes', duracao: '60 min', preco: '4.000 CVE' },
+        { nome: 'Massagem Muscular / Desportiva', duracao: '60 min', preco: '4.000 CVE' },
+        { nome: 'Massagem Modeladora + Madeiraterapia', duracao: '60 min', preco: '3.000 CVE' },
+        { nome: 'Drenagem Linfática - Corpo Inteiro', duracao: '60 min', preco: '2.800 CVE' },
+        { nome: 'Detox Corporal - Termoterapia', duracao: '60 min', preco: '3.000 CVE' },
+        { nome: 'Esfoliação e Hidratação Corporal', duracao: '60 min', preco: '3.000 CVE' },
+        { nome: 'Banho de Lua - Corpo Inteiro', duracao: '60 min', preco: '3.000 CVE' },
+        { nome: 'Banho de Lua - Braços e Pernas', duracao: '45 min', preco: '2.200 CVE' },
+        { nome: 'Vagacial', duracao: '60 min', preco: '3.500 CVE' },
+        { nome: 'Backfacial', duracao: '60 min', preco: '3.500 CVE' },
+        { nome: 'Buttfacial', duracao: '60 min', preco: '3.500 CVE' }
       ]
     },
     {
-      nome: 'Bem-Estar & Spa',
+      nome: 'Depilação & Cuidados',
       icon: '🌿',
       cor: 'from-amber-500/20 to-yellow-500/20',
       border: 'border-amber-400/50',
       servicos: [
-        { nome: 'Hidroterapia Exclusiva', duracao: '45 min', preco: '13.000 Esc' },
-        { nome: 'Aromaterapia Personalizada', duracao: '50 min', preco: '8.500 Esc' },
-        { nome: 'Reflexologia Podal Premium', duracao: '60 min', preco: '10.000 Esc' },
-        { nome: 'Pedras Quentes + Massagem', duracao: '75 min', preco: '14.000 Esc' },
-        { nome: 'Crioterapia Corporal', duracao: '30 min', preco: '11.000 Esc' },
-        { nome: 'Meditação + Reiki', duracao: '60 min', preco: '12.500 Esc' },
-        // Serviços extras do catálogo (exemplo)
-        { nome: 'Banho de Lua', duracao: '40 min', preco: '9.000 Esc' }
+        { nome: 'Depilação Laser - Virilhas + Axilas', duracao: '45 min', preco: '6.000 CVE' },
+        { nome: 'Depilação Laser - Meia Perna + Virilha', duracao: '60 min', preco: '7.000 CVE' },
+        { nome: 'Depilação Laser - Perna Completa + Virilha', duracao: '90 min', preco: '10.000 CVE' },
+        { nome: 'Depilação Laser - Corpo Inteiro', duracao: '180 min', preco: '18.000 CVE' },
+        { nome: 'Depilação Cera - Perna Inteira (Mulher)', duracao: '45 min', preco: '1.200 CVE' },
+        { nome: 'Depilação Cera - Virilha Completa (Mulher)', duracao: '30 min', preco: '1.500 CVE' },
+        { nome: 'Depilação Cera - Axilas (Mulher)', duracao: '15 min', preco: '600 CVE' },
+        { nome: 'Extensão de Pestanas', duracao: '120 min', preco: '4.500 CVE' },
+        { nome: 'Lash Lifting com Tintura', duracao: '60 min', preco: '1.800 CVE' },
+        { nome: 'Combo Natural Beauty', duracao: '90 min', preco: '3.200 CVE' },
+        { nome: 'Manicure com Gel', duracao: '60 min', preco: '2.500 CVE' },
+        { nome: 'Spa das Mãos + Spa dos Pés', duracao: '90 min', preco: '2.000 CVE' },
+        { nome: 'Pedicure Terapêutico', duracao: '60 min', preco: '1.200 CVE' }
       ]
     }
   ]
@@ -248,7 +265,7 @@ export default function Agendar() {
                       <span className="text-4xl">{cat.icon}</span>
                       <h3 className="text-2xl font-light">{cat.nome}</h3>
                     </div>
-                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-h-[500px] overflow-y-auto pr-4">
                       {cat.servicos.map((servico) => (
                         <button
                           key={servico.nome}
@@ -707,13 +724,13 @@ export default function Agendar() {
                                 2x de{" "}
                                 {servicoSelecionado &&
                                   Math.round(Number.parseInt(servicoSelecionado.preco.replace(/[^0-9]/g, "")) / 2)}{" "}
-                                Esc sem juros
+                                CVE sem juros
                               </option>
                               <option value="3">
                                 3x de{" "}
                                 {servicoSelecionado &&
                                   Math.round(Number.parseInt(servicoSelecionado.preco.replace(/[^0-9]/g, "")) / 3)}{" "}
-                                Esc sem juros
+                                CVE sem juros
                               </option>
                             </select>
                           </div>
@@ -810,13 +827,13 @@ export default function Agendar() {
               <p className="text-muted-foreground mt-2">Chat via WhatsApp</p>
             </div>
             <div className="p-8 bg-gradient-to-br from-amber-600/10 to-yellow-600/10 rounded-2xl text-center border-2 border-amber-500/20">
-              <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Mail className="text-primary" />
-              </div>
-              <p className="text-accent tracking-widest uppercase text-sm font-light mb-3">Email</p>
-              <p className="text-2xl font-light">maddietavares.bb@gmail.com</p>
-              <p className="text-muted-foreground mt-2">Resposta em 24h</p>
+            <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Mail className="text-primary" />
             </div>
+            <p className="text-accent tracking-widest uppercase text-sm font-light mb-3">Email</p>
+            <p className="text-xl font-light break-words px-2">maddietavares.bb@gmail.com</p>
+            <p className="text-muted-foreground mt-2">Resposta em 24h</p>
+          </div>
           </div>
         </div>
       </section>
