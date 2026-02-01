@@ -28,7 +28,7 @@ const highlights = [
     description: "Realce sua beleza natural com técnicas exclusivas",
     icon: Star,
     gradient: "from-primary/85 to-accent/75",
-    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1200&q=80"
+    image: "images/SA.jpeg"
   },
   {
     id: 4,
