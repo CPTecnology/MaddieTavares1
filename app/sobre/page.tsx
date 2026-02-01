@@ -349,7 +349,7 @@ export default function Sobre() {
                 />
               </div>
               <h3 className="text-2xl font-light mb-2">Carla Graça</h3>
-              <p className="text-primary text-sm font-semibold uppercase tracking-wide mb-3">Esteticista Sênior</p>
+              <p className="text-primary text-sm font-semibold uppercase tracking-wide mb-3">Especialista Sênior</p>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Expert em massagens terapêuticas e procedimentos corporais
             </div>
@@ -357,14 +357,14 @@ export default function Sobre() {
             <div className="text-center group">
               <div className="relative w-64 h-64 mx-auto mb-6 rounded-full overflow-hidden shadow-xl group-hover:shadow-2xl transition-all">
                 <Image
-                  src="/spa-therapist-professional.jpg"
+                  src="images/edi.png"
                   alt="Terapeuta"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
               <h3 className="text-2xl font-light mb-2">Edilene Fortes</h3>
-              <p className="text-primary text-sm font-semibold uppercase tracking-wide mb-3">Terapeuta Especializada</p>
+              <p className="text-primary text-sm font-semibold uppercase tracking-wide mb-3">Especialista Sênior</p>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Expert em manicure e pedicure
               </p>
