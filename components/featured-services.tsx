@@ -10,7 +10,7 @@ export function FeaturedServices() {
       icon: Sparkles,
       title: 'Facial Premium',
       description: 'Tratamentos faciais avançados com produtos de última geração',
-      image: 'facial.jpg',
+      image: 'images/facial.jpg',
     },
     {
       icon: Waves,
