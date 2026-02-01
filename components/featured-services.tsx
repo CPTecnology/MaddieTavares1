@@ -10,7 +10,7 @@ export function FeaturedServices() {
       icon: Sparkles,
       title: 'Facial Premium',
       description: 'Tratamentos faciais avançados com produtos de última geração',
-      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-17%20at%2021.19.47-TPhdfW2Xzq6Z89THPpUkr2n6Ec1qlB.jpeg',
+      image: 'facial.jpg',
     },
     {
       icon: Waves,
