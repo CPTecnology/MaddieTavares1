@@ -120,7 +120,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-background/20 pt-6 text-center text-sm text-background/80">
-          <p>&copy; 2025 Maddie Tavares. Todos os direitos reservados.</p>
+          <p>&copy; Turma Engenharia Informatica 25/26. Todos os direitos reservados.</p>
           <div className="mt-4 flex justify-center gap-6 text-xs">
             <Link href="#" className="hover:text-primary transition">
               Política de Privacidade
