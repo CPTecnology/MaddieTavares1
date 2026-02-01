@@ -72,7 +72,7 @@ export function HeroSection() {
         {/* Background Image with Parallax */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/whatsapp-20image-202025-11-17-20at-2021.jpeg"
+            src="/images/inicio2.jpeg"
             alt="Recepção Maddie Tavares"
             fill
             className="object-cover brightness-40"
