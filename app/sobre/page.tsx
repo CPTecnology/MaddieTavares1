@@ -326,7 +326,7 @@ export default function Sobre() {
             <div className="text-center group">
               <div className="relative w-64 h-64 mx-auto mb-6 rounded-full overflow-hidden shadow-xl group-hover:shadow-2xl transition-all">
                 <Image
-                  src="/professional-beauty-specialist.jpg"
+                  src="images/MaddieTavares.jpeg"
                   alt="Maddie Tavares"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
