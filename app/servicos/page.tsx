@@ -229,11 +229,11 @@ export default function Servicos() {
               <Sparkles className="text-primary" size={20} />
               <span className="text-primary font-light tracking-widest uppercase text-sm">Nossos Tratamentos</span>
             </div>
-            <h1 className="text-6xl md:text-8xl font-light tracking-tight mb-8 text-balance">
+            <h1 className="text-4xl md:text-6xl lg:text-8xl font-light tracking-tight mb-6 md:mb-8 text-balance">
               Desperte Sua
               <span className="block text-primary mt-2">Beleza Natural</span>
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed font-light">
+            <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed font-light px-4">
               Tratamentos exclusivos que transformam, realçam e celebram sua essência única
             </p>
           </div>
@@ -243,7 +243,7 @@ export default function Servicos() {
       {/* Featured Services - Hero Cards */}
       <section className="py-20 px-6 bg-gradient-to-b from-background to-secondary/30">
         <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8 mb-32">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             {servicosDestaque.map((servico, idx) => (
               <div 
                 key={idx}
@@ -255,7 +255,7 @@ export default function Servicos() {
                   </div>
                 </div>
                 
-                <div className="relative h-80 overflow-hidden">
+                <div className="relative h-64 lg:h-80 overflow-hidden">
                   <Image
                     src={servico.imagem || "/placeholder.svg"}
                     alt={servico.nome}
@@ -265,7 +265,7 @@ export default function Servicos() {
                   <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent"></div>
                 </div>
 
-                <div className="p-8 -mt-32 relative z-10">
+                <div className="p-6 lg:p-8 -mt-32 relative z-10">
                   <servico.icon className="text-primary mb-4" size={32} />
                   <h3 className="text-3xl font-light mb-4 group-hover:text-primary transition text-balance">
                     {servico.nome}
@@ -362,7 +362,7 @@ export default function Servicos() {
               <div className="absolute inset-0 bg-gradient-to-r from-background via-background/95 to-background/80"></div>
             </div>
             
-            <div className="relative z-10 p-16 md:p-20">
+            <div className="relative z-10 p-8 md:p-16 lg:p-20">
               <div className="max-w-2xl">
                 <h3 className="text-5xl font-light mb-6 text-balance">
                   Pacotes Exclusivos com Até 30% de Desconto
@@ -390,7 +390,7 @@ export default function Servicos() {
           </div>
 
           {/* Trust Indicators */}
-          <div className="mt-20 grid md:grid-cols-4 gap-8 text-center">
+          <div className="mt-10 lg:mt-20 grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 text-center">
             <div>
               <p className="text-5xl font-light text-primary mb-3">2.500+</p>
               <p className="text-muted-foreground">Clientes Satisfeitas</p>
@@ -400,7 +400,7 @@ export default function Servicos() {
               <p className="text-muted-foreground">Aprovação</p>
             </div>
             <div>
-              <p className="text-5xl font-light text-primary mb-3">15+</p>
+              <p className="text-5xl font-light text-primary mb-3">7+</p>
               <p className="text-muted-foreground">Anos de Experiência</p>
             </div>
             <div>
