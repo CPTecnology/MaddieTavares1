@@ -1,4 +1,4 @@
-lene'use client'
+'use client'
 
 import { Navigation } from '@/components/navigation'
 import { Footer } from '@/components/footer'
@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 export default function Sobre() {
   return (
-    <main className="min-h-screen bg-background">
+    <section className="min-h-screen bg-background">
       <Navigation />
       
       {/* Hero Section with Parallax Effect */}
@@ -352,6 +352,7 @@ export default function Sobre() {
               <p className="text-primary text-sm font-semibold uppercase tracking-wide mb-3">Especialista Sênior</p>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Expert em massagens terapêuticas e procedimentos corporais
+                </p>
             </div>
 
             <div className="text-center group">
@@ -393,6 +394,6 @@ export default function Sobre() {
       </section>
 
       <Footer />
-    </main>
+    </section>
   )
 }
