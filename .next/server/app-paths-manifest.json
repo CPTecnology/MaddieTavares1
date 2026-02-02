@@ -1,7 +1,6 @@
 {
-  "/page": "app/page.js",
-  "/login/page": "static/webpack/app/login/page.4e645f057aa7a085.hot-update.js",
-  "/agendar/page": "static/webpack/app/agendar/page.4e645f057aa7a085.hot-update.js",
-  "/perfil/page": "static/webpack/app/perfil/page.4e645f057aa7a085.hot-update.js",
-  "/_not-found/page": "app/_not-found/page.js"
+  "/page": "static/webpack/app/page.43c0640007afd632.hot-update.js",
+  "/agendar/page": "static/webpack/app/agendar/page.43c0640007afd632.hot-update.js",
+  "/perfil/page": "static/webpack/app/perfil/page.43c0640007afd632.hot-update.js",
+  "/login/page": "static/webpack/app/login/page.43c0640007afd632.hot-update.js"
 }
