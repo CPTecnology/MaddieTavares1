@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Gebruiker/Desktop/UTA/4%20ano/TECNOLOGIAS%20WEB/MaddieTavares/app/admin/page.tsx"],"sourcesContent":["import { redirect } from 'next/navigation'\r\n\r\nexport default function Page() {\r\n  // Redireciona /admin para /admin/agendamentos para evitar 404\r\n  redirect('/admin/agendamentos')\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;AAAA;;AAEe,SAAS;IACtB,8DAA8D;IAC9D,IAAA,iMAAQ,EAAC;AACX"}}]
-}
