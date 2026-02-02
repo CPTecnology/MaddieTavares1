@@ -12,7 +12,7 @@ export default function Servicos() {
       nome: 'Sobrancelha',
       preco: '500 Esc',
       descricao: 'Design personalizado que valoriza o formato do rosto, corrige falhas e realça a expressão com naturalidade.',
-      imagem: 'images/WhatsApp Image 2026-02-01 at 21.03.26 (2).jpeg',
+      imagem: 'images/SA.jpeg',
       tag: 'MAIS PROCURADO',
       beneficios: ['Valoriza e harmoniza o formatodo rosto ', 'Corrige falhas e assimetrias', 'Aumenta a autoestima e a confiança'],
       icon: Crown
