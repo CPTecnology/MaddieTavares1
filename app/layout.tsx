@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "Maddie Tavares Beauty Boutique",
     images: [
       {
-        url: "/ohttps://res.cloudinary.com/dzdyokoiv/image/upload/v1769915331/maddie_tavares/w5io81aj7dshw3h0ocfe.png",
+        url: "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915331/maddie_tavares/w5io81aj7dshw3h0ocfe.png",
         width: 1200,
         height: 630,
         alt: "Maddie Tavares Beauty Boutique",
