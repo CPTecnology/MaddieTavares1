@@ -12,7 +12,7 @@ export default function Servicos() {
       nome: 'Sobrancelha',
       preco: '500 Esc',
       descricao: 'Design personalizado que valoriza o formato do rosto, corrige falhas e realça a expressão com naturalidade.',
-      imagem: 'images/SA.jpeg',
+      imagem: '/images/SA.jpeg',
       tag: 'MAIS PROCURADO',
       beneficios: ['Valoriza e harmoniza o formatodo rosto ', 'Corrige falhas e assimetrias', 'Aumenta a autoestima e a confiança'],
       icon: Crown
@@ -21,7 +21,7 @@ export default function Servicos() {
       nome: 'BRINDAL CONCEPT - Express Bridal',
       preco: '10.500 Esc',
       descricao: ' Mais do que maquiagem, um momento exclusivo de cuidado e tranquilidade no dia mais especial da sua vida.',
-      imagem: 'images/WhatsApp Image 2026-02-01 at 21.26.34.jpeg',
+      imagem: '/images/WhatsApp Image 2026-02-01 at 21.26.34.jpeg',
       tag: 'EXPERIÊNCIA ÚNICA',
       beneficios: ['Atendimento personalizado e exclusivo', 'Preparação completa da pele para maior durabilidade', 'Acabamento sofisticado e fotogênico'],
       icon: Heart
@@ -30,7 +30,7 @@ export default function Servicos() {
       nome: 'Depilação a Lazer - Perna e Virilha',
       preco: '10.000 Esc',
       descricao: 'Tratamento moderno e eficaz que reduz progressivamente os pelos, deixando a pele mais lisa, uniforme e confortável.',
-      imagem: 'images/WhatsApp Image 2026-02-01 at 21.38.25.jpeg',
+      imagem: '/images/WhatsApp Image 2026-02-01 at 21.38.25.jpeg',
       tag: 'TECNOLOGIA AVANÇADA',
       beneficios: ['Redução gradual e duradoura dos pelos', 'Diminui pelos encravados e irritações', 'Procedimento rápido e seguro'],
       icon: Zap
