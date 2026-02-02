@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Maddie Tavares Beauty Boutique",
     description:
-      "Espaço premium de estética, beleza e bem-estar. Agende o seu atendimento.",
+      "Espaço premium de estética, Beleza e Bem-estar. Agende o seu servico aqui agora.",
     url: "https://maddietavares.cv",
     siteName: "Maddie Tavares Beauty Boutique",
     images: [
