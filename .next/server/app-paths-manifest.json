@@ -1,11 +1,11 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/perfil/page": "app/perfil/page.js",
-  "/login/page": "app/login/page.js",
-  "/agendar/page": "app/agendar/page.js",
-  "/registrar/page": "app/registrar/page.js",
-  "/sobre/page": "app/sobre/page.js",
   "/contato/page": "app/contato/page.js",
+  "/agendar/page": "app/agendar/page.js",
+  "/sobre/page": "app/sobre/page.js",
+  "/registrar/page": "app/registrar/page.js",
+  "/page": "app/page.js",
+  "/login/page": "app/login/page.js",
   "/servicos/page": "app/servicos/page.js",
-  "/page": "app/page.js"
+  "/perfil/page": "app/perfil/page.js"
 }
