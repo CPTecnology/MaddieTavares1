@@ -45,9 +45,9 @@ export const metadata: Metadata = {
     icon: [
       { url: "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915331/maddie_tavares/w5io81aj7dshw3h0ocfe.png", media: "(prefers-color-scheme: light)" },
       { url: "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915331/maddie_tavares/w5io81aj7dshw3h0ocfe.png", media: "(prefers-color-scheme: dark)" },
-      { url: "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915331/maddie_tavares/w5io81aj7dshw3h0ocfe.png", type: "image/svg+xml" },
+      { url: "log.png", type: "image/svg+xml" },
     ],
-    apple: "https://res.cloudinary.com/dzdyokoiv/image/upload/v1769915331/maddie_tavares/w5io81aj7dshw3h0ocfe.png",
+    apple: "log.png",
   },
 };
 
