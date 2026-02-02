@@ -1,5 +1,5 @@
 'use client'
-
+export const runtime = 'edge';
 import { Navigation } from '@/components/navigation'
 import { HeroSection } from '@/components/hero-section'
 import { FeaturedServices } from '@/components/featured-services'

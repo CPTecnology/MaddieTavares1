@@ -1,5 +1,5 @@
 'use client'
-
+export const runtime = 'edge';
 import { Navigation } from '@/components/navigation'
 import { Footer } from '@/components/footer'
 import Link from 'next/link'

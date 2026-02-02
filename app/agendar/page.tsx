@@ -1,5 +1,5 @@
 "use client";
-
+export const runtime = 'edge';
 import { useState, useEffect } from "react";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";

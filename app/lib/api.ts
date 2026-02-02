@@ -1,5 +1,5 @@
 import axios from 'axios';
-
+export const runtime = 'edge';
 const api = axios.create({
   // Usar 127.0.0.1 evita atrasos de DNS no Windows
   baseURL: 'http://127.0.0.1:3333', 
